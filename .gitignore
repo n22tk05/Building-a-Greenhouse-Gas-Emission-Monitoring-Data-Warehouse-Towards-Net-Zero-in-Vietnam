@@ -1,0 +1,23 @@
+# BMAD (local only) - Commented out for config repo tracking
+# .bmad-core/
+.bmad-*/
+_bmad*
+.agent*
+.claude
+.cursor
+.gemini
+.github
+assets
+plans
+*.md
+
+!README.md
+!PROJECT_BRIEF_NetZero_DWH.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+*.log
