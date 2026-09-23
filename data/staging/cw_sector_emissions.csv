@@ -1,0 +1,511 @@
+﻿Year,Sector_Code,Sector_Name_EN,Sector_Name_VI,Sector_Category,Gas,Source,Emissions_MtCO2e
+1990,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,49.44
+1990,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,11.72
+1990,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,1.97
+1990,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,4.9
+1990,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,4.88
+1990,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,30.88
+1990,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,18.26
+1990,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,5.92
+1990,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,5.66
+1990,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,1.23
+1990,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,1.12
+1990,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,0.09
+1990,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,0.09
+1990,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,83.19
+1990,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,19.38
+1991,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,51.9
+1991,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,12.54
+1991,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,2.56
+1991,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,3.65
+1991,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,3.63
+1991,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,31.98
+1991,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,18.55
+1991,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,6.52
+1991,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,6.25
+1991,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,1.5
+1991,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,1.33
+1991,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,0.1
+1991,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,0.1
+1991,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,87.05
+1991,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,19.89
+1992,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,53.04
+1992,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,12.88
+1992,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,2.68
+1992,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,3.06
+1992,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,3.05
+1992,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,33.23
+1992,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,19.13
+1992,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,7.04
+1992,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,6.77
+1992,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,1.96
+1992,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,1.77
+1992,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,0.11
+1992,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,0.11
+1992,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,90.42
+1992,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,20.9
+1993,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,54.32
+1993,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,13.86
+1993,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,3.15
+1993,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,2.79
+1993,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,2.78
+1993,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,37.62
+1993,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,22.48
+1993,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,7.5
+1993,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,7.21
+1993,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,2.05
+1993,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,1.85
+1993,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,0.15
+1993,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,0.15
+1993,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,96.58
+1993,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,24.33
+1994,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,56.76
+1994,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,13.62
+1994,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,3.57
+1994,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,3.73
+1994,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,3.72
+1994,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,39.13
+1994,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,24.7
+1994,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,7.66
+1994,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,7.39
+1994,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,2.29
+1994,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,2.06
+1994,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,0.16
+1994,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,0.16
+1994,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,101.05
+1994,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,26.76
+1995,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,57.82
+1995,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,14.19
+1995,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,4.19
+1995,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,4.5
+1995,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,4.49
+1995,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,44.67
+1995,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,29.02
+1995,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,10.73
+1995,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,10.44
+1995,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,2.79
+1995,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,2.54
+1995,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,0.28
+1995,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,0.28
+1995,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,109.37
+1995,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,31.56
+1996,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,60.55
+1996,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,15.13
+1996,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,5.12
+1996,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,5.65
+1996,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,5.63
+1996,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,48.78
+1996,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,32.27
+1996,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,11.3
+1996,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,11.0
+1996,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,3.15
+1996,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,2.85
+1996,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,0.36
+1996,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,0.36
+1996,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,117.78
+1996,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,35.12
+1997,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,60.99
+1997,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,15.49
+1997,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,5.14
+1997,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,8.15
+1997,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,8.13
+1997,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,55.15
+1997,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,37.46
+1997,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,13.5
+1997,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,13.18
+1997,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,3.82
+1997,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,3.45
+1997,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,0.3
+1997,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,0.3
+1997,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,126.45
+1997,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,40.91
+1998,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,64.18
+1998,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,16.32
+1998,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,5.64
+1998,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,10.52
+1998,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,10.49
+1998,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,60.31
+1998,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,41.38
+1998,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,14.03
+1998,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,13.7
+1998,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,4.57
+1998,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,4.17
+1998,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,0.42
+1998,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,0.42
+1998,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,136.76
+1998,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,45.54
+1999,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,66.42
+1999,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,16.83
+1999,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,5.9
+1999,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,9.67
+1999,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,9.64
+1999,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,61.32
+1999,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,42.06
+1999,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,14.08
+1999,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,13.75
+1999,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,5.05
+1999,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,4.46
+1999,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,0.62
+1999,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,0.62
+1999,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,141.69
+1999,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,46.52
+2000,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,67.52
+2000,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,17.7
+2000,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,6.6
+2000,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,11.53
+2000,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,11.5
+2000,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,66.02
+2000,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,45.67
+2000,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,14.78
+2000,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,14.44
+2000,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,6.25
+2000,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,5.63
+2000,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,0.77
+2000,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,0.77
+2000,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,149.9
+2000,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,51.29
+2001,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,65.02
+2001,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,18.85
+2001,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,7.57
+2001,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,12.41
+2001,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,12.37
+2001,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,71.69
+2001,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,50.24
+2001,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,16.8
+2001,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,16.44
+2001,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,7.52
+2001,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,6.57
+2001,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,0.96
+2001,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,0.96
+2001,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,155.27
+2001,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,56.81
+2002,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,66.3
+2002,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,19.47
+2002,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,8.15
+2002,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,15.63
+2002,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,15.58
+2002,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,80.9
+2002,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,58.29
+2002,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,18.69
+2002,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,18.33
+2002,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,9.51
+2002,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,8.27
+2002,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,1.09
+2002,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,1.08
+2002,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,168.7
+2002,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,66.56
+2003,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,67.98
+2003,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,19.99
+2003,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,7.86
+2003,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,15.84
+2003,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,15.8
+2003,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,85.57
+2003,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,61.62
+2003,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,19.98
+2003,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,19.64
+2003,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,10.94
+2003,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,9.37
+2003,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,1.19
+2003,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,1.18
+2003,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,177.42
+2003,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,70.98
+2004,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,69.6
+2004,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,21.46
+2004,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,9.5
+2004,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,20.59
+2004,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,20.53
+2004,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,103.29
+2004,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,74.83
+2004,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,23.16
+2004,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,22.79
+2004,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,12.3
+2004,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,10.3
+2004,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,1.65
+2004,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,1.64
+2004,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,199.06
+2004,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,85.13
+2005,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,69.49
+2005,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,22.02
+2005,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,9.88
+2005,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,24.35
+2005,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,24.28
+2005,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,111.47
+2005,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,80.46
+2005,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,24.43
+2005,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,24.06
+2005,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,14.12
+2005,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,11.98
+2005,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,1.65
+2005,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,1.63
+2005,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,209.88
+2005,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,92.44
+2006,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,70.36
+2006,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,21.78
+2006,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,9.8
+2006,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,26.75
+2006,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,26.67
+2006,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,115.02
+2006,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,82.68
+2006,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,24.53
+2006,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,24.15
+2006,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,14.76
+2006,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,12.26
+2006,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,1.72
+2006,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,1.7
+2006,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,215.89
+2006,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,94.94
+2007,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,71.51
+2007,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,22.06
+2007,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,9.96
+2007,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,29.0
+2007,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,28.92
+2007,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,124.58
+2007,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,91.15
+2007,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,27.25
+2007,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,26.86
+2007,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,17.0
+2007,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,14.06
+2007,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,1.8
+2007,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,1.79
+2007,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,229.77
+2007,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,105.21
+2008,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,69.25
+2008,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,22.21
+2008,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,9.96
+2008,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,30.27
+2008,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,30.18
+2008,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,134.96
+2008,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,102.29
+2008,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,35.79
+2008,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,35.35
+2008,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,18.73
+2008,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,15.36
+2008,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,1.97
+2008,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,1.95
+2008,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,240.56
+2008,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,117.65
+2009,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,73.84
+2009,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,22.47
+2009,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,10.09
+2009,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,32.45
+2009,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,32.36
+2009,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,148.25
+2009,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,113.12
+2009,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,39.4
+2009,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,38.95
+2009,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,23.0
+2009,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,19.24
+2009,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,2.12
+2009,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,2.1
+2009,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,263.65
+2009,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,132.36
+2010,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,71.66
+2010,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,23.43
+2010,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,10.88
+2010,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,41.62
+2010,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,41.5
+2010,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,163.21
+2010,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,127.71
+2010,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,42.03
+2010,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,41.57
+2010,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,27.97
+2010,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,23.77
+2010,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,2.55
+2010,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,2.53
+2010,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,282.34
+2010,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,151.48
+2011,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,70.53
+2011,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,23.17
+2011,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,10.62
+2011,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,40.4
+2011,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,40.27
+2011,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,163.88
+2011,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,127.78
+2011,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,43.79
+2011,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,43.31
+2011,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,32.73
+2011,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,28.22
+2011,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,2.03
+2011,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,2.01
+2011,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,287.62
+2011,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,156.0
+2012,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,71.46
+2012,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,22.39
+2012,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,9.84
+2012,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,41.59
+2012,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,41.47
+2012,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,162.53
+2012,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,127.41
+2012,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,43.21
+2012,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,42.73
+2012,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,33.37
+2012,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,28.12
+2012,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,2.09
+2012,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,2.07
+2012,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,288.82
+2012,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,155.53
+2013,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,74.25
+2013,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,23.34
+2013,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,10.73
+2013,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,44.6
+2013,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,44.46
+2013,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,168.81
+2013,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,133.98
+2013,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,46.46
+2013,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,45.94
+2013,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,36.03
+2013,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,30.32
+2013,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,2.27
+2013,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,2.26
+2013,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,301.52
+2013,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,164.3
+2014,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,72.79
+2014,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,23.06
+2014,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,10.46
+2014,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,53.19
+2014,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,53.01
+2014,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,182.69
+2014,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,147.96
+2014,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,51.64
+2014,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,51.08
+2014,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,38.8
+2014,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,32.69
+2014,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,2.26
+2014,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,2.24
+2014,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,317.02
+2014,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,180.65
+2015,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,75.38
+2015,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,14.69
+2015,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,9.33
+2015,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,84.33
+2015,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,84.02
+2015,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,194.78
+2015,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,167.11
+2015,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,33.7
+2015,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,33.24
+2015,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,40.74
+2015,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,34.3
+2015,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,2.77
+2015,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,2.75
+2015,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,333.96
+2015,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,201.41
+2016,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,74.54
+2016,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,13.11
+2016,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,8.36
+2016,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,97.84
+2016,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,97.41
+2016,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,211.94
+2016,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,185.81
+2016,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,36.17
+2016,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,35.68
+2016,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,43.88
+2016,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,36.82
+2016,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,3.02
+2016,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,2.99
+2016,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,353.73
+2016,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,222.63
+2017,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,74.54
+2017,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,12.72
+2017,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,8.44
+2017,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,94.09
+2017,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,93.68
+2017,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,212.89
+2017,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,187.74
+2017,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,37.55
+2017,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,37.04
+2017,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,50.42
+2017,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,42.74
+2017,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,3.45
+2017,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,3.42
+2017,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,361.55
+2017,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,230.48
+2018,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,74.33
+2018,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,11.95
+2018,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,8.1
+2018,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,121.08
+2018,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,120.54
+2018,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,263.48
+2018,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,237.3
+2018,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,59.02
+2018,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,58.38
+2018,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,57.94
+2018,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,49.64
+2018,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,3.99
+2018,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,3.96
+2018,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,419.76
+2018,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,286.94
+2019,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,72.45
+2019,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,10.97
+2019,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,7.74
+2019,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,154.6
+2019,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,153.92
+2019,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,312.34
+2019,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,285.17
+2019,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,71.72
+2019,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,71.02
+2019,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,65.46
+2019,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,56.54
+2019,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,4.98
+2019,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,4.94
+2019,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,474.56
+2019,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,341.71
+2020,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,72.15
+2020,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,9.94
+2020,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,7.53
+2020,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,151.56
+2020,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,150.88
+2020,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,319.67
+2020,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,295.13
+2020,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,92.48
+2020,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,91.74
+2020,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,69.61
+2020,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,60.07
+2020,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,1.5
+2020,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,1.49
+2020,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,486.04
+2020,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,355.2
+2021,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,72.51
+2021,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,9.03
+2021,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,7.1
+2021,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,143.06
+2021,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,142.39
+2021,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,307.22
+2021,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,281.51
+2021,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,92.45
+2021,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,91.57
+2021,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,72.12
+2021,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,62.07
+2021,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,1.92
+2021,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,1.9
+2021,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,476.72
+2021,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,343.58
+2022,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,73.27
+2022,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,8.6
+2022,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,7.03
+2022,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,141.11
+2022,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,140.44
+2022,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,312.72
+2022,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,287.18
+2022,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,88.1
+2022,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,87.26
+2022,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,66.53
+2022,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,55.98
+2022,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,3.11
+2022,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,3.09
+2022,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,477.63
+2022,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,343.16
+2023,AGR,Agriculture,Nông nghiệp & Trồng lúa nước,Agriculture,All GHG,,73.52
+2023,BLD,Building,Tòa nhà & Dân dụng,Building,All GHG,,7.61
+2023,BLD,Building,Tòa nhà & Dân dụng,Building,CO2,,6.32
+2023,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,All GHG,,153.73
+2023,ELE,Electricity/Heat,Sản xuất Điện & Nhiệt,Energy,CO2,,153.01
+2023,ENG,Energy,Năng lượng & Khai khoáng,Energy,All GHG,,318.43
+2023,ENG,Energy,Năng lượng & Khai khoáng,Energy,CO2,,294.23
+2023,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,All GHG,,81.25
+2023,IND,Manufacturing/Construction,Công nghiệp Chế biến & Xây dựng,Industry,CO2,,80.42
+2023,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,All GHG,,55.54
+2023,IPU,Industrial Processes,"Quá trình Công nghiệp (Xi măng, Thép)",Industry,CO2,,44.49
+2023,OTH,Bunker Fuels,Bunker Fuels,Other,All GHG,,5.42
+2023,OTH,Bunker Fuels,Bunker Fuels,Other,CO2,,5.38
+2023,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,All GHG,,472.85
+2023,TOT,Total excluding LULUCF,Tổng phát thải quốc gia (trừ LULUCF),Total,CO2,,338.72

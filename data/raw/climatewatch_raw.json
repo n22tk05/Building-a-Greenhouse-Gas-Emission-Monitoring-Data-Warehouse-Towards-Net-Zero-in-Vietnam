@@ -1,0 +1,7722 @@
+{
+  "data": [
+    {
+      "id": 1296043,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Agriculture",
+      "gas": "All GHG",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 49.44
+        },
+        {
+          "year": 1991,
+          "value": 51.9
+        },
+        {
+          "year": 1992,
+          "value": 53.04
+        },
+        {
+          "year": 1993,
+          "value": 54.32
+        },
+        {
+          "year": 1994,
+          "value": 56.76
+        },
+        {
+          "year": 1995,
+          "value": 57.82
+        },
+        {
+          "year": 1996,
+          "value": 60.55
+        },
+        {
+          "year": 1997,
+          "value": 60.99
+        },
+        {
+          "year": 1998,
+          "value": 64.18
+        },
+        {
+          "year": 1999,
+          "value": 66.42
+        },
+        {
+          "year": 2000,
+          "value": 67.52
+        },
+        {
+          "year": 2001,
+          "value": 65.02
+        },
+        {
+          "year": 2002,
+          "value": 66.3
+        },
+        {
+          "year": 2003,
+          "value": 67.98
+        },
+        {
+          "year": 2004,
+          "value": 69.6
+        },
+        {
+          "year": 2005,
+          "value": 69.49
+        },
+        {
+          "year": 2006,
+          "value": 70.36
+        },
+        {
+          "year": 2007,
+          "value": 71.51
+        },
+        {
+          "year": 2008,
+          "value": 69.25
+        },
+        {
+          "year": 2009,
+          "value": 73.84
+        },
+        {
+          "year": 2010,
+          "value": 71.66
+        },
+        {
+          "year": 2011,
+          "value": 70.53
+        },
+        {
+          "year": 2012,
+          "value": 71.46
+        },
+        {
+          "year": 2013,
+          "value": 74.25
+        },
+        {
+          "year": 2014,
+          "value": 72.79
+        },
+        {
+          "year": 2015,
+          "value": 75.38
+        },
+        {
+          "year": 2016,
+          "value": 74.54
+        },
+        {
+          "year": 2017,
+          "value": 74.54
+        },
+        {
+          "year": 2018,
+          "value": 74.33
+        },
+        {
+          "year": 2019,
+          "value": 72.45
+        },
+        {
+          "year": 2020,
+          "value": 72.15
+        },
+        {
+          "year": 2021,
+          "value": 72.51
+        },
+        {
+          "year": 2022,
+          "value": 73.27
+        },
+        {
+          "year": 2023,
+          "value": 73.52
+        }
+      ]
+    },
+    {
+      "id": 1296044,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Agriculture",
+      "gas": "CH4",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 41.46
+        },
+        {
+          "year": 1991,
+          "value": 42.81
+        },
+        {
+          "year": 1992,
+          "value": 44.08
+        },
+        {
+          "year": 1993,
+          "value": 44.99
+        },
+        {
+          "year": 1994,
+          "value": 45.54
+        },
+        {
+          "year": 1995,
+          "value": 46.73
+        },
+        {
+          "year": 1996,
+          "value": 48.22
+        },
+        {
+          "year": 1997,
+          "value": 48.9
+        },
+        {
+          "year": 1998,
+          "value": 50.41
+        },
+        {
+          "year": 1999,
+          "value": 52.21
+        },
+        {
+          "year": 2000,
+          "value": 52.52
+        },
+        {
+          "year": 2001,
+          "value": 51.5
+        },
+        {
+          "year": 2002,
+          "value": 52.06
+        },
+        {
+          "year": 2003,
+          "value": 52.72
+        },
+        {
+          "year": 2004,
+          "value": 53.72
+        },
+        {
+          "year": 2005,
+          "value": 54.36
+        },
+        {
+          "year": 2006,
+          "value": 55.5
+        },
+        {
+          "year": 2007,
+          "value": 55.47
+        },
+        {
+          "year": 2008,
+          "value": 55.62
+        },
+        {
+          "year": 2009,
+          "value": 55.64
+        },
+        {
+          "year": 2010,
+          "value": 55.48
+        },
+        {
+          "year": 2011,
+          "value": 55.45
+        },
+        {
+          "year": 2012,
+          "value": 55.47
+        },
+        {
+          "year": 2013,
+          "value": 55.97
+        },
+        {
+          "year": 2014,
+          "value": 55.81
+        },
+        {
+          "year": 2015,
+          "value": 56.36
+        },
+        {
+          "year": 2016,
+          "value": 56.27
+        },
+        {
+          "year": 2017,
+          "value": 56.12
+        },
+        {
+          "year": 2018,
+          "value": 55.66
+        },
+        {
+          "year": 2019,
+          "value": 53.86
+        },
+        {
+          "year": 2020,
+          "value": 53.34
+        },
+        {
+          "year": 2021,
+          "value": 53.54
+        },
+        {
+          "year": 2022,
+          "value": 53.18
+        },
+        {
+          "year": 2023,
+          "value": 53.33
+        }
+      ]
+    },
+    {
+      "id": 1296045,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Agriculture",
+      "gas": "N2O",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 7.97
+        },
+        {
+          "year": 1991,
+          "value": 9.09
+        },
+        {
+          "year": 1992,
+          "value": 8.96
+        },
+        {
+          "year": 1993,
+          "value": 9.34
+        },
+        {
+          "year": 1994,
+          "value": 11.22
+        },
+        {
+          "year": 1995,
+          "value": 11.09
+        },
+        {
+          "year": 1996,
+          "value": 12.33
+        },
+        {
+          "year": 1997,
+          "value": 12.09
+        },
+        {
+          "year": 1998,
+          "value": 13.77
+        },
+        {
+          "year": 1999,
+          "value": 14.21
+        },
+        {
+          "year": 2000,
+          "value": 15.0
+        },
+        {
+          "year": 2001,
+          "value": 13.52
+        },
+        {
+          "year": 2002,
+          "value": 14.24
+        },
+        {
+          "year": 2003,
+          "value": 15.26
+        },
+        {
+          "year": 2004,
+          "value": 15.88
+        },
+        {
+          "year": 2005,
+          "value": 15.13
+        },
+        {
+          "year": 2006,
+          "value": 14.85
+        },
+        {
+          "year": 2007,
+          "value": 16.03
+        },
+        {
+          "year": 2008,
+          "value": 13.63
+        },
+        {
+          "year": 2009,
+          "value": 18.2
+        },
+        {
+          "year": 2010,
+          "value": 16.18
+        },
+        {
+          "year": 2011,
+          "value": 15.08
+        },
+        {
+          "year": 2012,
+          "value": 16.0
+        },
+        {
+          "year": 2013,
+          "value": 18.27
+        },
+        {
+          "year": 2014,
+          "value": 16.98
+        },
+        {
+          "year": 2015,
+          "value": 19.02
+        },
+        {
+          "year": 2016,
+          "value": 18.26
+        },
+        {
+          "year": 2017,
+          "value": 18.42
+        },
+        {
+          "year": 2018,
+          "value": 18.67
+        },
+        {
+          "year": 2019,
+          "value": 18.59
+        },
+        {
+          "year": 2020,
+          "value": 18.81
+        },
+        {
+          "year": 2021,
+          "value": 18.97
+        },
+        {
+          "year": 2022,
+          "value": 20.09
+        },
+        {
+          "year": 2023,
+          "value": 20.19
+        }
+      ]
+    },
+    {
+      "id": 1296046,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Building",
+      "gas": "All GHG",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 11.72
+        },
+        {
+          "year": 1991,
+          "value": 12.54
+        },
+        {
+          "year": 1992,
+          "value": 12.88
+        },
+        {
+          "year": 1993,
+          "value": 13.86
+        },
+        {
+          "year": 1994,
+          "value": 13.62
+        },
+        {
+          "year": 1995,
+          "value": 14.19
+        },
+        {
+          "year": 1996,
+          "value": 15.13
+        },
+        {
+          "year": 1997,
+          "value": 15.49
+        },
+        {
+          "year": 1998,
+          "value": 16.32
+        },
+        {
+          "year": 1999,
+          "value": 16.83
+        },
+        {
+          "year": 2000,
+          "value": 17.7
+        },
+        {
+          "year": 2001,
+          "value": 18.85
+        },
+        {
+          "year": 2002,
+          "value": 19.47
+        },
+        {
+          "year": 2003,
+          "value": 19.99
+        },
+        {
+          "year": 2004,
+          "value": 21.46
+        },
+        {
+          "year": 2005,
+          "value": 22.02
+        },
+        {
+          "year": 2006,
+          "value": 21.78
+        },
+        {
+          "year": 2007,
+          "value": 22.06
+        },
+        {
+          "year": 2008,
+          "value": 22.21
+        },
+        {
+          "year": 2009,
+          "value": 22.47
+        },
+        {
+          "year": 2010,
+          "value": 23.43
+        },
+        {
+          "year": 2011,
+          "value": 23.17
+        },
+        {
+          "year": 2012,
+          "value": 22.39
+        },
+        {
+          "year": 2013,
+          "value": 23.34
+        },
+        {
+          "year": 2014,
+          "value": 23.06
+        },
+        {
+          "year": 2015,
+          "value": 14.69
+        },
+        {
+          "year": 2016,
+          "value": 13.11
+        },
+        {
+          "year": 2017,
+          "value": 12.72
+        },
+        {
+          "year": 2018,
+          "value": 11.95
+        },
+        {
+          "year": 2019,
+          "value": 10.97
+        },
+        {
+          "year": 2020,
+          "value": 9.94
+        },
+        {
+          "year": 2021,
+          "value": 9.03
+        },
+        {
+          "year": 2022,
+          "value": 8.6
+        },
+        {
+          "year": 2023,
+          "value": 7.61
+        }
+      ]
+    },
+    {
+      "id": 1296047,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Building",
+      "gas": "CH4",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 9.35
+        },
+        {
+          "year": 1991,
+          "value": 9.57
+        },
+        {
+          "year": 1992,
+          "value": 9.78
+        },
+        {
+          "year": 1993,
+          "value": 10.28
+        },
+        {
+          "year": 1994,
+          "value": 9.64
+        },
+        {
+          "year": 1995,
+          "value": 9.59
+        },
+        {
+          "year": 1996,
+          "value": 9.6
+        },
+        {
+          "year": 1997,
+          "value": 9.93
+        },
+        {
+          "year": 1998,
+          "value": 10.24
+        },
+        {
+          "year": 1999,
+          "value": 10.48
+        },
+        {
+          "year": 2000,
+          "value": 10.65
+        },
+        {
+          "year": 2001,
+          "value": 10.81
+        },
+        {
+          "year": 2002,
+          "value": 10.85
+        },
+        {
+          "year": 2003,
+          "value": 11.63
+        },
+        {
+          "year": 2004,
+          "value": 11.47
+        },
+        {
+          "year": 2005,
+          "value": 11.64
+        },
+        {
+          "year": 2006,
+          "value": 11.49
+        },
+        {
+          "year": 2007,
+          "value": 11.6
+        },
+        {
+          "year": 2008,
+          "value": 11.74
+        },
+        {
+          "year": 2009,
+          "value": 11.87
+        },
+        {
+          "year": 2010,
+          "value": 12.04
+        },
+        {
+          "year": 2011,
+          "value": 12.03
+        },
+        {
+          "year": 2012,
+          "value": 12.03
+        },
+        {
+          "year": 2013,
+          "value": 12.08
+        },
+        {
+          "year": 2014,
+          "value": 12.07
+        },
+        {
+          "year": 2015,
+          "value": 5.13
+        },
+        {
+          "year": 2016,
+          "value": 4.56
+        },
+        {
+          "year": 2017,
+          "value": 4.1
+        },
+        {
+          "year": 2018,
+          "value": 3.69
+        },
+        {
+          "year": 2019,
+          "value": 3.09
+        },
+        {
+          "year": 2020,
+          "value": 2.31
+        },
+        {
+          "year": 2021,
+          "value": 1.85
+        },
+        {
+          "year": 2022,
+          "value": 1.5
+        },
+        {
+          "year": 2023,
+          "value": 1.24
+        }
+      ]
+    },
+    {
+      "id": 1296048,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Building",
+      "gas": "CO2",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 1.97
+        },
+        {
+          "year": 1991,
+          "value": 2.56
+        },
+        {
+          "year": 1992,
+          "value": 2.68
+        },
+        {
+          "year": 1993,
+          "value": 3.15
+        },
+        {
+          "year": 1994,
+          "value": 3.57
+        },
+        {
+          "year": 1995,
+          "value": 4.19
+        },
+        {
+          "year": 1996,
+          "value": 5.12
+        },
+        {
+          "year": 1997,
+          "value": 5.14
+        },
+        {
+          "year": 1998,
+          "value": 5.64
+        },
+        {
+          "year": 1999,
+          "value": 5.9
+        },
+        {
+          "year": 2000,
+          "value": 6.6
+        },
+        {
+          "year": 2001,
+          "value": 7.57
+        },
+        {
+          "year": 2002,
+          "value": 8.15
+        },
+        {
+          "year": 2003,
+          "value": 7.86
+        },
+        {
+          "year": 2004,
+          "value": 9.5
+        },
+        {
+          "year": 2005,
+          "value": 9.88
+        },
+        {
+          "year": 2006,
+          "value": 9.8
+        },
+        {
+          "year": 2007,
+          "value": 9.96
+        },
+        {
+          "year": 2008,
+          "value": 9.96
+        },
+        {
+          "year": 2009,
+          "value": 10.09
+        },
+        {
+          "year": 2010,
+          "value": 10.88
+        },
+        {
+          "year": 2011,
+          "value": 10.62
+        },
+        {
+          "year": 2012,
+          "value": 9.84
+        },
+        {
+          "year": 2013,
+          "value": 10.73
+        },
+        {
+          "year": 2014,
+          "value": 10.46
+        },
+        {
+          "year": 2015,
+          "value": 9.33
+        },
+        {
+          "year": 2016,
+          "value": 8.36
+        },
+        {
+          "year": 2017,
+          "value": 8.44
+        },
+        {
+          "year": 2018,
+          "value": 8.1
+        },
+        {
+          "year": 2019,
+          "value": 7.74
+        },
+        {
+          "year": 2020,
+          "value": 7.53
+        },
+        {
+          "year": 2021,
+          "value": 7.1
+        },
+        {
+          "year": 2022,
+          "value": 7.03
+        },
+        {
+          "year": 2023,
+          "value": 6.32
+        }
+      ]
+    },
+    {
+      "id": 1296049,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Building",
+      "gas": "N2O",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.4
+        },
+        {
+          "year": 1991,
+          "value": 0.41
+        },
+        {
+          "year": 1992,
+          "value": 0.41
+        },
+        {
+          "year": 1993,
+          "value": 0.44
+        },
+        {
+          "year": 1994,
+          "value": 0.41
+        },
+        {
+          "year": 1995,
+          "value": 0.41
+        },
+        {
+          "year": 1996,
+          "value": 0.41
+        },
+        {
+          "year": 1997,
+          "value": 0.43
+        },
+        {
+          "year": 1998,
+          "value": 0.44
+        },
+        {
+          "year": 1999,
+          "value": 0.45
+        },
+        {
+          "year": 2000,
+          "value": 0.46
+        },
+        {
+          "year": 2001,
+          "value": 0.47
+        },
+        {
+          "year": 2002,
+          "value": 0.47
+        },
+        {
+          "year": 2003,
+          "value": 0.5
+        },
+        {
+          "year": 2004,
+          "value": 0.5
+        },
+        {
+          "year": 2005,
+          "value": 0.5
+        },
+        {
+          "year": 2006,
+          "value": 0.5
+        },
+        {
+          "year": 2007,
+          "value": 0.5
+        },
+        {
+          "year": 2008,
+          "value": 0.51
+        },
+        {
+          "year": 2009,
+          "value": 0.51
+        },
+        {
+          "year": 2010,
+          "value": 0.52
+        },
+        {
+          "year": 2011,
+          "value": 0.52
+        },
+        {
+          "year": 2012,
+          "value": 0.52
+        },
+        {
+          "year": 2013,
+          "value": 0.52
+        },
+        {
+          "year": 2014,
+          "value": 0.52
+        },
+        {
+          "year": 2015,
+          "value": 0.22
+        },
+        {
+          "year": 2016,
+          "value": 0.2
+        },
+        {
+          "year": 2017,
+          "value": 0.18
+        },
+        {
+          "year": 2018,
+          "value": 0.16
+        },
+        {
+          "year": 2019,
+          "value": 0.13
+        },
+        {
+          "year": 2020,
+          "value": 0.1
+        },
+        {
+          "year": 2021,
+          "value": 0.08
+        },
+        {
+          "year": 2022,
+          "value": 0.07
+        },
+        {
+          "year": 2023,
+          "value": 0.05
+        }
+      ]
+    },
+    {
+      "id": 1296050,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Bunker Fuels",
+      "gas": "All GHG",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.09
+        },
+        {
+          "year": 1991,
+          "value": 0.1
+        },
+        {
+          "year": 1992,
+          "value": 0.11
+        },
+        {
+          "year": 1993,
+          "value": 0.15
+        },
+        {
+          "year": 1994,
+          "value": 0.16
+        },
+        {
+          "year": 1995,
+          "value": 0.28
+        },
+        {
+          "year": 1996,
+          "value": 0.36
+        },
+        {
+          "year": 1997,
+          "value": 0.3
+        },
+        {
+          "year": 1998,
+          "value": 0.42
+        },
+        {
+          "year": 1999,
+          "value": 0.62
+        },
+        {
+          "year": 2000,
+          "value": 0.77
+        },
+        {
+          "year": 2001,
+          "value": 0.96
+        },
+        {
+          "year": 2002,
+          "value": 1.09
+        },
+        {
+          "year": 2003,
+          "value": 1.19
+        },
+        {
+          "year": 2004,
+          "value": 1.65
+        },
+        {
+          "year": 2005,
+          "value": 1.65
+        },
+        {
+          "year": 2006,
+          "value": 1.72
+        },
+        {
+          "year": 2007,
+          "value": 1.8
+        },
+        {
+          "year": 2008,
+          "value": 1.97
+        },
+        {
+          "year": 2009,
+          "value": 2.12
+        },
+        {
+          "year": 2010,
+          "value": 2.55
+        },
+        {
+          "year": 2011,
+          "value": 2.03
+        },
+        {
+          "year": 2012,
+          "value": 2.09
+        },
+        {
+          "year": 2013,
+          "value": 2.27
+        },
+        {
+          "year": 2014,
+          "value": 2.26
+        },
+        {
+          "year": 2015,
+          "value": 2.77
+        },
+        {
+          "year": 2016,
+          "value": 3.02
+        },
+        {
+          "year": 2017,
+          "value": 3.45
+        },
+        {
+          "year": 2018,
+          "value": 3.99
+        },
+        {
+          "year": 2019,
+          "value": 4.98
+        },
+        {
+          "year": 2020,
+          "value": 1.5
+        },
+        {
+          "year": 2021,
+          "value": 1.92
+        },
+        {
+          "year": 2022,
+          "value": 3.11
+        },
+        {
+          "year": 2023,
+          "value": 5.42
+        }
+      ]
+    },
+    {
+      "id": 1296051,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Bunker Fuels",
+      "gas": "CH4",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.0
+        },
+        {
+          "year": 1991,
+          "value": 0.0
+        },
+        {
+          "year": 1992,
+          "value": 0.0
+        },
+        {
+          "year": 1993,
+          "value": 0.0
+        },
+        {
+          "year": 1994,
+          "value": 0.0
+        },
+        {
+          "year": 1995,
+          "value": 0.0
+        },
+        {
+          "year": 1996,
+          "value": 0.0
+        },
+        {
+          "year": 1997,
+          "value": 0.0
+        },
+        {
+          "year": 1998,
+          "value": 0.0
+        },
+        {
+          "year": 1999,
+          "value": 0.0
+        },
+        {
+          "year": 2000,
+          "value": 0.0
+        },
+        {
+          "year": 2001,
+          "value": 0.0
+        },
+        {
+          "year": 2002,
+          "value": 0.0
+        },
+        {
+          "year": 2003,
+          "value": 0.0
+        },
+        {
+          "year": 2004,
+          "value": 0.0
+        },
+        {
+          "year": 2005,
+          "value": 0.0
+        },
+        {
+          "year": 2006,
+          "value": 0.0
+        },
+        {
+          "year": 2007,
+          "value": 0.0
+        },
+        {
+          "year": 2008,
+          "value": 0.0
+        },
+        {
+          "year": 2009,
+          "value": 0.0
+        },
+        {
+          "year": 2010,
+          "value": 0.0
+        },
+        {
+          "year": 2011,
+          "value": 0.0
+        },
+        {
+          "year": 2012,
+          "value": 0.0
+        },
+        {
+          "year": 2013,
+          "value": 0.0
+        },
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        },
+        {
+          "year": 2020,
+          "value": 0.0
+        },
+        {
+          "year": 2021,
+          "value": 0.0
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "id": 1296052,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Bunker Fuels",
+      "gas": "CO2",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.09
+        },
+        {
+          "year": 1991,
+          "value": 0.1
+        },
+        {
+          "year": 1992,
+          "value": 0.11
+        },
+        {
+          "year": 1993,
+          "value": 0.15
+        },
+        {
+          "year": 1994,
+          "value": 0.16
+        },
+        {
+          "year": 1995,
+          "value": 0.28
+        },
+        {
+          "year": 1996,
+          "value": 0.36
+        },
+        {
+          "year": 1997,
+          "value": 0.3
+        },
+        {
+          "year": 1998,
+          "value": 0.42
+        },
+        {
+          "year": 1999,
+          "value": 0.62
+        },
+        {
+          "year": 2000,
+          "value": 0.77
+        },
+        {
+          "year": 2001,
+          "value": 0.96
+        },
+        {
+          "year": 2002,
+          "value": 1.08
+        },
+        {
+          "year": 2003,
+          "value": 1.18
+        },
+        {
+          "year": 2004,
+          "value": 1.64
+        },
+        {
+          "year": 2005,
+          "value": 1.63
+        },
+        {
+          "year": 2006,
+          "value": 1.7
+        },
+        {
+          "year": 2007,
+          "value": 1.79
+        },
+        {
+          "year": 2008,
+          "value": 1.95
+        },
+        {
+          "year": 2009,
+          "value": 2.1
+        },
+        {
+          "year": 2010,
+          "value": 2.53
+        },
+        {
+          "year": 2011,
+          "value": 2.01
+        },
+        {
+          "year": 2012,
+          "value": 2.07
+        },
+        {
+          "year": 2013,
+          "value": 2.26
+        },
+        {
+          "year": 2014,
+          "value": 2.24
+        },
+        {
+          "year": 2015,
+          "value": 2.75
+        },
+        {
+          "year": 2016,
+          "value": 2.99
+        },
+        {
+          "year": 2017,
+          "value": 3.42
+        },
+        {
+          "year": 2018,
+          "value": 3.96
+        },
+        {
+          "year": 2019,
+          "value": 4.94
+        },
+        {
+          "year": 2020,
+          "value": 1.49
+        },
+        {
+          "year": 2021,
+          "value": 1.9
+        },
+        {
+          "year": 2022,
+          "value": 3.09
+        },
+        {
+          "year": 2023,
+          "value": 5.38
+        }
+      ]
+    },
+    {
+      "id": 1296053,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Bunker Fuels",
+      "gas": "N2O",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.0
+        },
+        {
+          "year": 1991,
+          "value": 0.0
+        },
+        {
+          "year": 1992,
+          "value": 0.0
+        },
+        {
+          "year": 1993,
+          "value": 0.0
+        },
+        {
+          "year": 1994,
+          "value": 0.0
+        },
+        {
+          "year": 1995,
+          "value": 0.0
+        },
+        {
+          "year": 1996,
+          "value": 0.0
+        },
+        {
+          "year": 1997,
+          "value": 0.0
+        },
+        {
+          "year": 1998,
+          "value": 0.0
+        },
+        {
+          "year": 1999,
+          "value": 0.0
+        },
+        {
+          "year": 2000,
+          "value": 0.01
+        },
+        {
+          "year": 2001,
+          "value": 0.01
+        },
+        {
+          "year": 2002,
+          "value": 0.01
+        },
+        {
+          "year": 2003,
+          "value": 0.01
+        },
+        {
+          "year": 2004,
+          "value": 0.01
+        },
+        {
+          "year": 2005,
+          "value": 0.01
+        },
+        {
+          "year": 2006,
+          "value": 0.01
+        },
+        {
+          "year": 2007,
+          "value": 0.01
+        },
+        {
+          "year": 2008,
+          "value": 0.01
+        },
+        {
+          "year": 2009,
+          "value": 0.02
+        },
+        {
+          "year": 2010,
+          "value": 0.02
+        },
+        {
+          "year": 2011,
+          "value": 0.01
+        },
+        {
+          "year": 2012,
+          "value": 0.02
+        },
+        {
+          "year": 2013,
+          "value": 0.02
+        },
+        {
+          "year": 2014,
+          "value": 0.02
+        },
+        {
+          "year": 2015,
+          "value": 0.02
+        },
+        {
+          "year": 2016,
+          "value": 0.02
+        },
+        {
+          "year": 2017,
+          "value": 0.03
+        },
+        {
+          "year": 2018,
+          "value": 0.03
+        },
+        {
+          "year": 2019,
+          "value": 0.04
+        },
+        {
+          "year": 2020,
+          "value": 0.01
+        },
+        {
+          "year": 2021,
+          "value": 0.01
+        },
+        {
+          "year": 2022,
+          "value": 0.02
+        },
+        {
+          "year": 2023,
+          "value": 0.04
+        }
+      ]
+    },
+    {
+      "id": 1296054,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Electricity/Heat",
+      "gas": "All GHG",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 4.9
+        },
+        {
+          "year": 1991,
+          "value": 3.65
+        },
+        {
+          "year": 1992,
+          "value": 3.06
+        },
+        {
+          "year": 1993,
+          "value": 2.79
+        },
+        {
+          "year": 1994,
+          "value": 3.73
+        },
+        {
+          "year": 1995,
+          "value": 4.5
+        },
+        {
+          "year": 1996,
+          "value": 5.65
+        },
+        {
+          "year": 1997,
+          "value": 8.15
+        },
+        {
+          "year": 1998,
+          "value": 10.52
+        },
+        {
+          "year": 1999,
+          "value": 9.67
+        },
+        {
+          "year": 2000,
+          "value": 11.53
+        },
+        {
+          "year": 2001,
+          "value": 12.41
+        },
+        {
+          "year": 2002,
+          "value": 15.63
+        },
+        {
+          "year": 2003,
+          "value": 15.84
+        },
+        {
+          "year": 2004,
+          "value": 20.59
+        },
+        {
+          "year": 2005,
+          "value": 24.35
+        },
+        {
+          "year": 2006,
+          "value": 26.75
+        },
+        {
+          "year": 2007,
+          "value": 29.0
+        },
+        {
+          "year": 2008,
+          "value": 30.27
+        },
+        {
+          "year": 2009,
+          "value": 32.45
+        },
+        {
+          "year": 2010,
+          "value": 41.62
+        },
+        {
+          "year": 2011,
+          "value": 40.4
+        },
+        {
+          "year": 2012,
+          "value": 41.59
+        },
+        {
+          "year": 2013,
+          "value": 44.6
+        },
+        {
+          "year": 2014,
+          "value": 53.19
+        },
+        {
+          "year": 2015,
+          "value": 84.33
+        },
+        {
+          "year": 2016,
+          "value": 97.84
+        },
+        {
+          "year": 2017,
+          "value": 94.09
+        },
+        {
+          "year": 2018,
+          "value": 121.08
+        },
+        {
+          "year": 2019,
+          "value": 154.6
+        },
+        {
+          "year": 2020,
+          "value": 151.56
+        },
+        {
+          "year": 2021,
+          "value": 143.06
+        },
+        {
+          "year": 2022,
+          "value": 141.11
+        },
+        {
+          "year": 2023,
+          "value": 153.73
+        }
+      ]
+    },
+    {
+      "id": 1296055,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Electricity/Heat",
+      "gas": "CH4",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.0
+        },
+        {
+          "year": 1991,
+          "value": 0.0
+        },
+        {
+          "year": 1992,
+          "value": 0.0
+        },
+        {
+          "year": 1993,
+          "value": 0.0
+        },
+        {
+          "year": 1994,
+          "value": 0.0
+        },
+        {
+          "year": 1995,
+          "value": 0.0
+        },
+        {
+          "year": 1996,
+          "value": 0.0
+        },
+        {
+          "year": 1997,
+          "value": 0.0
+        },
+        {
+          "year": 1998,
+          "value": 0.01
+        },
+        {
+          "year": 1999,
+          "value": 0.01
+        },
+        {
+          "year": 2000,
+          "value": 0.01
+        },
+        {
+          "year": 2001,
+          "value": 0.01
+        },
+        {
+          "year": 2002,
+          "value": 0.01
+        },
+        {
+          "year": 2003,
+          "value": 0.01
+        },
+        {
+          "year": 2004,
+          "value": 0.01
+        },
+        {
+          "year": 2005,
+          "value": 0.01
+        },
+        {
+          "year": 2006,
+          "value": 0.01
+        },
+        {
+          "year": 2007,
+          "value": 0.01
+        },
+        {
+          "year": 2008,
+          "value": 0.01
+        },
+        {
+          "year": 2009,
+          "value": 0.01
+        },
+        {
+          "year": 2010,
+          "value": 0.02
+        },
+        {
+          "year": 2011,
+          "value": 0.02
+        },
+        {
+          "year": 2012,
+          "value": 0.02
+        },
+        {
+          "year": 2013,
+          "value": 0.02
+        },
+        {
+          "year": 2014,
+          "value": 0.02
+        },
+        {
+          "year": 2015,
+          "value": 0.03
+        },
+        {
+          "year": 2016,
+          "value": 0.06
+        },
+        {
+          "year": 2017,
+          "value": 0.06
+        },
+        {
+          "year": 2018,
+          "value": 0.07
+        },
+        {
+          "year": 2019,
+          "value": 0.08
+        },
+        {
+          "year": 2020,
+          "value": 0.08
+        },
+        {
+          "year": 2021,
+          "value": 0.08
+        },
+        {
+          "year": 2022,
+          "value": 0.09
+        },
+        {
+          "year": 2023,
+          "value": 0.09
+        }
+      ]
+    },
+    {
+      "id": 1296056,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Electricity/Heat",
+      "gas": "CO2",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 4.88
+        },
+        {
+          "year": 1991,
+          "value": 3.63
+        },
+        {
+          "year": 1992,
+          "value": 3.05
+        },
+        {
+          "year": 1993,
+          "value": 2.78
+        },
+        {
+          "year": 1994,
+          "value": 3.72
+        },
+        {
+          "year": 1995,
+          "value": 4.49
+        },
+        {
+          "year": 1996,
+          "value": 5.63
+        },
+        {
+          "year": 1997,
+          "value": 8.13
+        },
+        {
+          "year": 1998,
+          "value": 10.49
+        },
+        {
+          "year": 1999,
+          "value": 9.64
+        },
+        {
+          "year": 2000,
+          "value": 11.5
+        },
+        {
+          "year": 2001,
+          "value": 12.37
+        },
+        {
+          "year": 2002,
+          "value": 15.58
+        },
+        {
+          "year": 2003,
+          "value": 15.8
+        },
+        {
+          "year": 2004,
+          "value": 20.53
+        },
+        {
+          "year": 2005,
+          "value": 24.28
+        },
+        {
+          "year": 2006,
+          "value": 26.67
+        },
+        {
+          "year": 2007,
+          "value": 28.92
+        },
+        {
+          "year": 2008,
+          "value": 30.18
+        },
+        {
+          "year": 2009,
+          "value": 32.36
+        },
+        {
+          "year": 2010,
+          "value": 41.5
+        },
+        {
+          "year": 2011,
+          "value": 40.27
+        },
+        {
+          "year": 2012,
+          "value": 41.47
+        },
+        {
+          "year": 2013,
+          "value": 44.46
+        },
+        {
+          "year": 2014,
+          "value": 53.01
+        },
+        {
+          "year": 2015,
+          "value": 84.02
+        },
+        {
+          "year": 2016,
+          "value": 97.41
+        },
+        {
+          "year": 2017,
+          "value": 93.68
+        },
+        {
+          "year": 2018,
+          "value": 120.54
+        },
+        {
+          "year": 2019,
+          "value": 153.92
+        },
+        {
+          "year": 2020,
+          "value": 150.88
+        },
+        {
+          "year": 2021,
+          "value": 142.39
+        },
+        {
+          "year": 2022,
+          "value": 140.44
+        },
+        {
+          "year": 2023,
+          "value": 153.01
+        }
+      ]
+    },
+    {
+      "id": 1296057,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Electricity/Heat",
+      "gas": "N2O",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.02
+        },
+        {
+          "year": 1991,
+          "value": 0.01
+        },
+        {
+          "year": 1992,
+          "value": 0.01
+        },
+        {
+          "year": 1993,
+          "value": 0.01
+        },
+        {
+          "year": 1994,
+          "value": 0.01
+        },
+        {
+          "year": 1995,
+          "value": 0.01
+        },
+        {
+          "year": 1996,
+          "value": 0.02
+        },
+        {
+          "year": 1997,
+          "value": 0.02
+        },
+        {
+          "year": 1998,
+          "value": 0.03
+        },
+        {
+          "year": 1999,
+          "value": 0.03
+        },
+        {
+          "year": 2000,
+          "value": 0.03
+        },
+        {
+          "year": 2001,
+          "value": 0.03
+        },
+        {
+          "year": 2002,
+          "value": 0.04
+        },
+        {
+          "year": 2003,
+          "value": 0.04
+        },
+        {
+          "year": 2004,
+          "value": 0.05
+        },
+        {
+          "year": 2005,
+          "value": 0.06
+        },
+        {
+          "year": 2006,
+          "value": 0.07
+        },
+        {
+          "year": 2007,
+          "value": 0.07
+        },
+        {
+          "year": 2008,
+          "value": 0.07
+        },
+        {
+          "year": 2009,
+          "value": 0.07
+        },
+        {
+          "year": 2010,
+          "value": 0.1
+        },
+        {
+          "year": 2011,
+          "value": 0.1
+        },
+        {
+          "year": 2012,
+          "value": 0.11
+        },
+        {
+          "year": 2013,
+          "value": 0.12
+        },
+        {
+          "year": 2014,
+          "value": 0.15
+        },
+        {
+          "year": 2015,
+          "value": 0.28
+        },
+        {
+          "year": 2016,
+          "value": 0.36
+        },
+        {
+          "year": 2017,
+          "value": 0.36
+        },
+        {
+          "year": 2018,
+          "value": 0.47
+        },
+        {
+          "year": 2019,
+          "value": 0.6
+        },
+        {
+          "year": 2020,
+          "value": 0.6
+        },
+        {
+          "year": 2021,
+          "value": 0.59
+        },
+        {
+          "year": 2022,
+          "value": 0.58
+        },
+        {
+          "year": 2023,
+          "value": 0.63
+        }
+      ]
+    },
+    {
+      "id": 1296058,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Energy",
+      "gas": "All GHG",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 30.88
+        },
+        {
+          "year": 1991,
+          "value": 31.98
+        },
+        {
+          "year": 1992,
+          "value": 33.23
+        },
+        {
+          "year": 1993,
+          "value": 37.62
+        },
+        {
+          "year": 1994,
+          "value": 39.13
+        },
+        {
+          "year": 1995,
+          "value": 44.67
+        },
+        {
+          "year": 1996,
+          "value": 48.78
+        },
+        {
+          "year": 1997,
+          "value": 55.15
+        },
+        {
+          "year": 1998,
+          "value": 60.31
+        },
+        {
+          "year": 1999,
+          "value": 61.32
+        },
+        {
+          "year": 2000,
+          "value": 66.02
+        },
+        {
+          "year": 2001,
+          "value": 71.69
+        },
+        {
+          "year": 2002,
+          "value": 80.9
+        },
+        {
+          "year": 2003,
+          "value": 85.57
+        },
+        {
+          "year": 2004,
+          "value": 103.29
+        },
+        {
+          "year": 2005,
+          "value": 111.47
+        },
+        {
+          "year": 2006,
+          "value": 115.02
+        },
+        {
+          "year": 2007,
+          "value": 124.58
+        },
+        {
+          "year": 2008,
+          "value": 134.96
+        },
+        {
+          "year": 2009,
+          "value": 148.25
+        },
+        {
+          "year": 2010,
+          "value": 163.21
+        },
+        {
+          "year": 2011,
+          "value": 163.88
+        },
+        {
+          "year": 2012,
+          "value": 162.53
+        },
+        {
+          "year": 2013,
+          "value": 168.81
+        },
+        {
+          "year": 2014,
+          "value": 182.69
+        },
+        {
+          "year": 2015,
+          "value": 194.78
+        },
+        {
+          "year": 2016,
+          "value": 211.94
+        },
+        {
+          "year": 2017,
+          "value": 212.89
+        },
+        {
+          "year": 2018,
+          "value": 263.48
+        },
+        {
+          "year": 2019,
+          "value": 312.34
+        },
+        {
+          "year": 2020,
+          "value": 319.67
+        },
+        {
+          "year": 2021,
+          "value": 307.22
+        },
+        {
+          "year": 2022,
+          "value": 312.72
+        },
+        {
+          "year": 2023,
+          "value": 318.43
+        }
+      ]
+    },
+    {
+      "id": 1296059,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Energy",
+      "gas": "CH4",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 11.98
+        },
+        {
+          "year": 1991,
+          "value": 12.8
+        },
+        {
+          "year": 1992,
+          "value": 13.44
+        },
+        {
+          "year": 1993,
+          "value": 14.42
+        },
+        {
+          "year": 1994,
+          "value": 13.72
+        },
+        {
+          "year": 1995,
+          "value": 14.94
+        },
+        {
+          "year": 1996,
+          "value": 15.78
+        },
+        {
+          "year": 1997,
+          "value": 16.91
+        },
+        {
+          "year": 1998,
+          "value": 18.13
+        },
+        {
+          "year": 1999,
+          "value": 18.44
+        },
+        {
+          "year": 2000,
+          "value": 19.5
+        },
+        {
+          "year": 2001,
+          "value": 20.56
+        },
+        {
+          "year": 2002,
+          "value": 21.66
+        },
+        {
+          "year": 2003,
+          "value": 22.95
+        },
+        {
+          "year": 2004,
+          "value": 27.38
+        },
+        {
+          "year": 2005,
+          "value": 29.9
+        },
+        {
+          "year": 2006,
+          "value": 31.23
+        },
+        {
+          "year": 2007,
+          "value": 32.25
+        },
+        {
+          "year": 2008,
+          "value": 31.43
+        },
+        {
+          "year": 2009,
+          "value": 33.79
+        },
+        {
+          "year": 2010,
+          "value": 34.09
+        },
+        {
+          "year": 2011,
+          "value": 34.67
+        },
+        {
+          "year": 2012,
+          "value": 33.7
+        },
+        {
+          "year": 2013,
+          "value": 33.38
+        },
+        {
+          "year": 2014,
+          "value": 33.23
+        },
+        {
+          "year": 2015,
+          "value": 26.32
+        },
+        {
+          "year": 2016,
+          "value": 24.65
+        },
+        {
+          "year": 2017,
+          "value": 23.62
+        },
+        {
+          "year": 2018,
+          "value": 24.44
+        },
+        {
+          "year": 2019,
+          "value": 25.26
+        },
+        {
+          "year": 2020,
+          "value": 22.76
+        },
+        {
+          "year": 2021,
+          "value": 23.95
+        },
+        {
+          "year": 2022,
+          "value": 23.63
+        },
+        {
+          "year": 2023,
+          "value": 22.24
+        }
+      ]
+    },
+    {
+      "id": 1296060,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Energy",
+      "gas": "CO2",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 18.26
+        },
+        {
+          "year": 1991,
+          "value": 18.55
+        },
+        {
+          "year": 1992,
+          "value": 19.13
+        },
+        {
+          "year": 1993,
+          "value": 22.48
+        },
+        {
+          "year": 1994,
+          "value": 24.7
+        },
+        {
+          "year": 1995,
+          "value": 29.02
+        },
+        {
+          "year": 1996,
+          "value": 32.27
+        },
+        {
+          "year": 1997,
+          "value": 37.46
+        },
+        {
+          "year": 1998,
+          "value": 41.38
+        },
+        {
+          "year": 1999,
+          "value": 42.06
+        },
+        {
+          "year": 2000,
+          "value": 45.67
+        },
+        {
+          "year": 2001,
+          "value": 50.24
+        },
+        {
+          "year": 2002,
+          "value": 58.29
+        },
+        {
+          "year": 2003,
+          "value": 61.62
+        },
+        {
+          "year": 2004,
+          "value": 74.83
+        },
+        {
+          "year": 2005,
+          "value": 80.46
+        },
+        {
+          "year": 2006,
+          "value": 82.68
+        },
+        {
+          "year": 2007,
+          "value": 91.15
+        },
+        {
+          "year": 2008,
+          "value": 102.29
+        },
+        {
+          "year": 2009,
+          "value": 113.12
+        },
+        {
+          "year": 2010,
+          "value": 127.71
+        },
+        {
+          "year": 2011,
+          "value": 127.78
+        },
+        {
+          "year": 2012,
+          "value": 127.41
+        },
+        {
+          "year": 2013,
+          "value": 133.98
+        },
+        {
+          "year": 2014,
+          "value": 147.96
+        },
+        {
+          "year": 2015,
+          "value": 167.11
+        },
+        {
+          "year": 2016,
+          "value": 185.81
+        },
+        {
+          "year": 2017,
+          "value": 187.74
+        },
+        {
+          "year": 2018,
+          "value": 237.3
+        },
+        {
+          "year": 2019,
+          "value": 285.17
+        },
+        {
+          "year": 2020,
+          "value": 295.13
+        },
+        {
+          "year": 2021,
+          "value": 281.51
+        },
+        {
+          "year": 2022,
+          "value": 287.18
+        },
+        {
+          "year": 2023,
+          "value": 294.23
+        }
+      ]
+    },
+    {
+      "id": 1296061,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Energy",
+      "gas": "N2O",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.63
+        },
+        {
+          "year": 1991,
+          "value": 0.64
+        },
+        {
+          "year": 1992,
+          "value": 0.65
+        },
+        {
+          "year": 1993,
+          "value": 0.72
+        },
+        {
+          "year": 1994,
+          "value": 0.71
+        },
+        {
+          "year": 1995,
+          "value": 0.71
+        },
+        {
+          "year": 1996,
+          "value": 0.73
+        },
+        {
+          "year": 1997,
+          "value": 0.78
+        },
+        {
+          "year": 1998,
+          "value": 0.81
+        },
+        {
+          "year": 1999,
+          "value": 0.83
+        },
+        {
+          "year": 2000,
+          "value": 0.86
+        },
+        {
+          "year": 2001,
+          "value": 0.9
+        },
+        {
+          "year": 2002,
+          "value": 0.95
+        },
+        {
+          "year": 2003,
+          "value": 1.0
+        },
+        {
+          "year": 2004,
+          "value": 1.08
+        },
+        {
+          "year": 2005,
+          "value": 1.1
+        },
+        {
+          "year": 2006,
+          "value": 1.11
+        },
+        {
+          "year": 2007,
+          "value": 1.18
+        },
+        {
+          "year": 2008,
+          "value": 1.24
+        },
+        {
+          "year": 2009,
+          "value": 1.34
+        },
+        {
+          "year": 2010,
+          "value": 1.41
+        },
+        {
+          "year": 2011,
+          "value": 1.42
+        },
+        {
+          "year": 2012,
+          "value": 1.42
+        },
+        {
+          "year": 2013,
+          "value": 1.44
+        },
+        {
+          "year": 2014,
+          "value": 1.51
+        },
+        {
+          "year": 2015,
+          "value": 1.35
+        },
+        {
+          "year": 2016,
+          "value": 1.48
+        },
+        {
+          "year": 2017,
+          "value": 1.53
+        },
+        {
+          "year": 2018,
+          "value": 1.74
+        },
+        {
+          "year": 2019,
+          "value": 1.9
+        },
+        {
+          "year": 2020,
+          "value": 1.78
+        },
+        {
+          "year": 2021,
+          "value": 1.77
+        },
+        {
+          "year": 2022,
+          "value": 1.9
+        },
+        {
+          "year": 2023,
+          "value": 1.96
+        }
+      ]
+    },
+    {
+      "id": 1296062,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Fugitive Emissions",
+      "gas": "All GHG",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 3.35
+        },
+        {
+          "year": 1991,
+          "value": 4.53
+        },
+        {
+          "year": 1992,
+          "value": 4.93
+        },
+        {
+          "year": 1993,
+          "value": 5.31
+        },
+        {
+          "year": 1994,
+          "value": 5.16
+        },
+        {
+          "year": 1995,
+          "value": 6.65
+        },
+        {
+          "year": 1996,
+          "value": 7.36
+        },
+        {
+          "year": 1997,
+          "value": 7.84
+        },
+        {
+          "year": 1998,
+          "value": 8.83
+        },
+        {
+          "year": 1999,
+          "value": 9.53
+        },
+        {
+          "year": 2000,
+          "value": 10.06
+        },
+        {
+          "year": 2001,
+          "value": 10.94
+        },
+        {
+          "year": 2002,
+          "value": 11.65
+        },
+        {
+          "year": 2003,
+          "value": 12.37
+        },
+        {
+          "year": 2004,
+          "value": 16.91
+        },
+        {
+          "year": 2005,
+          "value": 19.21
+        },
+        {
+          "year": 2006,
+          "value": 20.55
+        },
+        {
+          "year": 2007,
+          "value": 21.47
+        },
+        {
+          "year": 2008,
+          "value": 20.38
+        },
+        {
+          "year": 2009,
+          "value": 22.66
+        },
+        {
+          "year": 2010,
+          "value": 22.7
+        },
+        {
+          "year": 2011,
+          "value": 23.65
+        },
+        {
+          "year": 2012,
+          "value": 23.06
+        },
+        {
+          "year": 2013,
+          "value": 22.96
+        },
+        {
+          "year": 2014,
+          "value": 22.75
+        },
+        {
+          "year": 2015,
+          "value": 22.38
+        },
+        {
+          "year": 2016,
+          "value": 20.93
+        },
+        {
+          "year": 2017,
+          "value": 20.47
+        },
+        {
+          "year": 2018,
+          "value": 21.22
+        },
+        {
+          "year": 2019,
+          "value": 22.66
+        },
+        {
+          "year": 2020,
+          "value": 20.79
+        },
+        {
+          "year": 2021,
+          "value": 21.99
+        },
+        {
+          "year": 2022,
+          "value": 22.09
+        },
+        {
+          "year": 2023,
+          "value": 21.09
+        }
+      ]
+    },
+    {
+      "id": 1296063,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Fugitive Emissions",
+      "gas": "CH4",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 2.47
+        },
+        {
+          "year": 1991,
+          "value": 3.06
+        },
+        {
+          "year": 1992,
+          "value": 3.48
+        },
+        {
+          "year": 1993,
+          "value": 3.94
+        },
+        {
+          "year": 1994,
+          "value": 3.88
+        },
+        {
+          "year": 1995,
+          "value": 5.15
+        },
+        {
+          "year": 1996,
+          "value": 5.99
+        },
+        {
+          "year": 1997,
+          "value": 6.78
+        },
+        {
+          "year": 1998,
+          "value": 7.68
+        },
+        {
+          "year": 1999,
+          "value": 7.75
+        },
+        {
+          "year": 2000,
+          "value": 8.63
+        },
+        {
+          "year": 2001,
+          "value": 9.51
+        },
+        {
+          "year": 2002,
+          "value": 10.55
+        },
+        {
+          "year": 2003,
+          "value": 11.06
+        },
+        {
+          "year": 2004,
+          "value": 15.63
+        },
+        {
+          "year": 2005,
+          "value": 17.97
+        },
+        {
+          "year": 2006,
+          "value": 19.45
+        },
+        {
+          "year": 2007,
+          "value": 20.33
+        },
+        {
+          "year": 2008,
+          "value": 19.33
+        },
+        {
+          "year": 2009,
+          "value": 21.54
+        },
+        {
+          "year": 2010,
+          "value": 21.64
+        },
+        {
+          "year": 2011,
+          "value": 22.22
+        },
+        {
+          "year": 2012,
+          "value": 21.25
+        },
+        {
+          "year": 2013,
+          "value": 20.87
+        },
+        {
+          "year": 2014,
+          "value": 20.7
+        },
+        {
+          "year": 2015,
+          "value": 20.43
+        },
+        {
+          "year": 2016,
+          "value": 19.25
+        },
+        {
+          "year": 2017,
+          "value": 18.61
+        },
+        {
+          "year": 2018,
+          "value": 19.75
+        },
+        {
+          "year": 2019,
+          "value": 21.1
+        },
+        {
+          "year": 2020,
+          "value": 19.44
+        },
+        {
+          "year": 2021,
+          "value": 20.92
+        },
+        {
+          "year": 2022,
+          "value": 20.9
+        },
+        {
+          "year": 2023,
+          "value": 19.74
+        }
+      ]
+    },
+    {
+      "id": 1296064,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Fugitive Emissions",
+      "gas": "CO2",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.88
+        },
+        {
+          "year": 1991,
+          "value": 1.47
+        },
+        {
+          "year": 1992,
+          "value": 1.44
+        },
+        {
+          "year": 1993,
+          "value": 1.36
+        },
+        {
+          "year": 1994,
+          "value": 1.28
+        },
+        {
+          "year": 1995,
+          "value": 1.49
+        },
+        {
+          "year": 1996,
+          "value": 1.36
+        },
+        {
+          "year": 1997,
+          "value": 1.05
+        },
+        {
+          "year": 1998,
+          "value": 1.15
+        },
+        {
+          "year": 1999,
+          "value": 1.78
+        },
+        {
+          "year": 2000,
+          "value": 1.43
+        },
+        {
+          "year": 2001,
+          "value": 1.42
+        },
+        {
+          "year": 2002,
+          "value": 1.1
+        },
+        {
+          "year": 2003,
+          "value": 1.3
+        },
+        {
+          "year": 2004,
+          "value": 1.28
+        },
+        {
+          "year": 2005,
+          "value": 1.23
+        },
+        {
+          "year": 2006,
+          "value": 1.1
+        },
+        {
+          "year": 2007,
+          "value": 1.14
+        },
+        {
+          "year": 2008,
+          "value": 1.05
+        },
+        {
+          "year": 2009,
+          "value": 1.13
+        },
+        {
+          "year": 2010,
+          "value": 1.05
+        },
+        {
+          "year": 2011,
+          "value": 1.43
+        },
+        {
+          "year": 2012,
+          "value": 1.81
+        },
+        {
+          "year": 2013,
+          "value": 2.09
+        },
+        {
+          "year": 2014,
+          "value": 2.04
+        },
+        {
+          "year": 2015,
+          "value": 1.95
+        },
+        {
+          "year": 2016,
+          "value": 1.68
+        },
+        {
+          "year": 2017,
+          "value": 1.86
+        },
+        {
+          "year": 2018,
+          "value": 1.47
+        },
+        {
+          "year": 2019,
+          "value": 1.56
+        },
+        {
+          "year": 2020,
+          "value": 1.35
+        },
+        {
+          "year": 2021,
+          "value": 1.07
+        },
+        {
+          "year": 2022,
+          "value": 1.19
+        },
+        {
+          "year": 2023,
+          "value": 1.35
+        }
+      ]
+    },
+    {
+      "id": 1296065,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Fugitive Emissions",
+      "gas": "N2O",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.0
+        },
+        {
+          "year": 1991,
+          "value": 0.0
+        },
+        {
+          "year": 1992,
+          "value": 0.0
+        },
+        {
+          "year": 1993,
+          "value": 0.0
+        },
+        {
+          "year": 1994,
+          "value": 0.0
+        },
+        {
+          "year": 1995,
+          "value": 0.0
+        },
+        {
+          "year": 1996,
+          "value": 0.0
+        },
+        {
+          "year": 1997,
+          "value": 0.0
+        },
+        {
+          "year": 1998,
+          "value": 0.0
+        },
+        {
+          "year": 1999,
+          "value": 0.0
+        },
+        {
+          "year": 2000,
+          "value": 0.0
+        },
+        {
+          "year": 2001,
+          "value": 0.0
+        },
+        {
+          "year": 2002,
+          "value": 0.0
+        },
+        {
+          "year": 2003,
+          "value": 0.0
+        },
+        {
+          "year": 2004,
+          "value": 0.0
+        },
+        {
+          "year": 2005,
+          "value": 0.0
+        },
+        {
+          "year": 2006,
+          "value": 0.0
+        },
+        {
+          "year": 2007,
+          "value": 0.0
+        },
+        {
+          "year": 2008,
+          "value": 0.0
+        },
+        {
+          "year": 2009,
+          "value": 0.0
+        },
+        {
+          "year": 2010,
+          "value": 0.0
+        },
+        {
+          "year": 2011,
+          "value": 0.0
+        },
+        {
+          "year": 2012,
+          "value": 0.0
+        },
+        {
+          "year": 2013,
+          "value": 0.0
+        },
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        },
+        {
+          "year": 2020,
+          "value": 0.0
+        },
+        {
+          "year": 2021,
+          "value": 0.0
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "id": 1296066,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Industrial Processes",
+      "gas": "All GHG",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 1.23
+        },
+        {
+          "year": 1991,
+          "value": 1.5
+        },
+        {
+          "year": 1992,
+          "value": 1.96
+        },
+        {
+          "year": 1993,
+          "value": 2.05
+        },
+        {
+          "year": 1994,
+          "value": 2.29
+        },
+        {
+          "year": 1995,
+          "value": 2.79
+        },
+        {
+          "year": 1996,
+          "value": 3.15
+        },
+        {
+          "year": 1997,
+          "value": 3.82
+        },
+        {
+          "year": 1998,
+          "value": 4.57
+        },
+        {
+          "year": 1999,
+          "value": 5.05
+        },
+        {
+          "year": 2000,
+          "value": 6.25
+        },
+        {
+          "year": 2001,
+          "value": 7.52
+        },
+        {
+          "year": 2002,
+          "value": 9.51
+        },
+        {
+          "year": 2003,
+          "value": 10.94
+        },
+        {
+          "year": 2004,
+          "value": 12.3
+        },
+        {
+          "year": 2005,
+          "value": 14.12
+        },
+        {
+          "year": 2006,
+          "value": 14.76
+        },
+        {
+          "year": 2007,
+          "value": 17.0
+        },
+        {
+          "year": 2008,
+          "value": 18.73
+        },
+        {
+          "year": 2009,
+          "value": 23.0
+        },
+        {
+          "year": 2010,
+          "value": 27.97
+        },
+        {
+          "year": 2011,
+          "value": 32.73
+        },
+        {
+          "year": 2012,
+          "value": 33.37
+        },
+        {
+          "year": 2013,
+          "value": 36.03
+        },
+        {
+          "year": 2014,
+          "value": 38.8
+        },
+        {
+          "year": 2015,
+          "value": 40.74
+        },
+        {
+          "year": 2016,
+          "value": 43.88
+        },
+        {
+          "year": 2017,
+          "value": 50.42
+        },
+        {
+          "year": 2018,
+          "value": 57.94
+        },
+        {
+          "year": 2019,
+          "value": 65.46
+        },
+        {
+          "year": 2020,
+          "value": 69.61
+        },
+        {
+          "year": 2021,
+          "value": 72.12
+        },
+        {
+          "year": 2022,
+          "value": 66.53
+        },
+        {
+          "year": 2023,
+          "value": 55.54
+        }
+      ]
+    },
+    {
+      "id": 1296067,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Industrial Processes",
+      "gas": "CH4",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.0
+        },
+        {
+          "year": 1991,
+          "value": 0.0
+        },
+        {
+          "year": 1992,
+          "value": 0.0
+        },
+        {
+          "year": 1993,
+          "value": 0.0
+        },
+        {
+          "year": 1994,
+          "value": 0.0
+        },
+        {
+          "year": 1995,
+          "value": 0.0
+        },
+        {
+          "year": 1996,
+          "value": 0.0
+        },
+        {
+          "year": 1997,
+          "value": 0.0
+        },
+        {
+          "year": 1998,
+          "value": 0.0
+        },
+        {
+          "year": 1999,
+          "value": 0.0
+        },
+        {
+          "year": 2000,
+          "value": 0.0
+        },
+        {
+          "year": 2001,
+          "value": 0.0
+        },
+        {
+          "year": 2002,
+          "value": 0.0
+        },
+        {
+          "year": 2003,
+          "value": 0.0
+        },
+        {
+          "year": 2004,
+          "value": 0.0
+        },
+        {
+          "year": 2005,
+          "value": 0.0
+        },
+        {
+          "year": 2006,
+          "value": 0.0
+        },
+        {
+          "year": 2007,
+          "value": 0.0
+        },
+        {
+          "year": 2008,
+          "value": 0.0
+        },
+        {
+          "year": 2009,
+          "value": 0.0
+        },
+        {
+          "year": 2010,
+          "value": 0.0
+        },
+        {
+          "year": 2011,
+          "value": 0.0
+        },
+        {
+          "year": 2012,
+          "value": 0.0
+        },
+        {
+          "year": 2013,
+          "value": 0.0
+        },
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 0.0
+        },
+        {
+          "year": 2016,
+          "value": 0.0
+        },
+        {
+          "year": 2017,
+          "value": 0.0
+        },
+        {
+          "year": 2018,
+          "value": 0.0
+        },
+        {
+          "year": 2019,
+          "value": 0.0
+        },
+        {
+          "year": 2020,
+          "value": 0.0
+        },
+        {
+          "year": 2021,
+          "value": 0.0
+        },
+        {
+          "year": 2022,
+          "value": 0.0
+        },
+        {
+          "year": 2023,
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "id": 1296068,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Industrial Processes",
+      "gas": "CO2",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 1.12
+        },
+        {
+          "year": 1991,
+          "value": 1.33
+        },
+        {
+          "year": 1992,
+          "value": 1.77
+        },
+        {
+          "year": 1993,
+          "value": 1.85
+        },
+        {
+          "year": 1994,
+          "value": 2.06
+        },
+        {
+          "year": 1995,
+          "value": 2.54
+        },
+        {
+          "year": 1996,
+          "value": 2.85
+        },
+        {
+          "year": 1997,
+          "value": 3.45
+        },
+        {
+          "year": 1998,
+          "value": 4.17
+        },
+        {
+          "year": 1999,
+          "value": 4.46
+        },
+        {
+          "year": 2000,
+          "value": 5.63
+        },
+        {
+          "year": 2001,
+          "value": 6.57
+        },
+        {
+          "year": 2002,
+          "value": 8.27
+        },
+        {
+          "year": 2003,
+          "value": 9.37
+        },
+        {
+          "year": 2004,
+          "value": 10.3
+        },
+        {
+          "year": 2005,
+          "value": 11.98
+        },
+        {
+          "year": 2006,
+          "value": 12.26
+        },
+        {
+          "year": 2007,
+          "value": 14.06
+        },
+        {
+          "year": 2008,
+          "value": 15.36
+        },
+        {
+          "year": 2009,
+          "value": 19.24
+        },
+        {
+          "year": 2010,
+          "value": 23.77
+        },
+        {
+          "year": 2011,
+          "value": 28.22
+        },
+        {
+          "year": 2012,
+          "value": 28.12
+        },
+        {
+          "year": 2013,
+          "value": 30.32
+        },
+        {
+          "year": 2014,
+          "value": 32.69
+        },
+        {
+          "year": 2015,
+          "value": 34.3
+        },
+        {
+          "year": 2016,
+          "value": 36.82
+        },
+        {
+          "year": 2017,
+          "value": 42.74
+        },
+        {
+          "year": 2018,
+          "value": 49.64
+        },
+        {
+          "year": 2019,
+          "value": 56.54
+        },
+        {
+          "year": 2020,
+          "value": 60.07
+        },
+        {
+          "year": 2021,
+          "value": 62.07
+        },
+        {
+          "year": 2022,
+          "value": 55.98
+        },
+        {
+          "year": 2023,
+          "value": 44.49
+        }
+      ]
+    },
+    {
+      "id": 1296069,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Industrial Processes",
+      "gas": "F-Gas",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.08
+        },
+        {
+          "year": 1991,
+          "value": 0.1
+        },
+        {
+          "year": 1992,
+          "value": 0.11
+        },
+        {
+          "year": 1993,
+          "value": 0.12
+        },
+        {
+          "year": 1994,
+          "value": 0.13
+        },
+        {
+          "year": 1995,
+          "value": 0.14
+        },
+        {
+          "year": 1996,
+          "value": 0.18
+        },
+        {
+          "year": 1997,
+          "value": 0.22
+        },
+        {
+          "year": 1998,
+          "value": 0.25
+        },
+        {
+          "year": 1999,
+          "value": 0.29
+        },
+        {
+          "year": 2000,
+          "value": 0.33
+        },
+        {
+          "year": 2001,
+          "value": 0.6
+        },
+        {
+          "year": 2002,
+          "value": 0.87
+        },
+        {
+          "year": 2003,
+          "value": 1.13
+        },
+        {
+          "year": 2004,
+          "value": 1.4
+        },
+        {
+          "year": 2005,
+          "value": 1.67
+        },
+        {
+          "year": 2006,
+          "value": 2.06
+        },
+        {
+          "year": 2007,
+          "value": 2.45
+        },
+        {
+          "year": 2008,
+          "value": 2.84
+        },
+        {
+          "year": 2009,
+          "value": 3.22
+        },
+        {
+          "year": 2010,
+          "value": 3.61
+        },
+        {
+          "year": 2011,
+          "value": 3.89
+        },
+        {
+          "year": 2012,
+          "value": 4.18
+        },
+        {
+          "year": 2013,
+          "value": 4.46
+        },
+        {
+          "year": 2014,
+          "value": 4.74
+        },
+        {
+          "year": 2015,
+          "value": 5.03
+        },
+        {
+          "year": 2016,
+          "value": 5.63
+        },
+        {
+          "year": 2017,
+          "value": 6.24
+        },
+        {
+          "year": 2018,
+          "value": 6.84
+        },
+        {
+          "year": 2019,
+          "value": 7.45
+        },
+        {
+          "year": 2020,
+          "value": 8.05
+        },
+        {
+          "year": 2021,
+          "value": 8.54
+        },
+        {
+          "year": 2022,
+          "value": 9.02
+        },
+        {
+          "year": 2023,
+          "value": 9.51
+        }
+      ]
+    },
+    {
+      "id": 1296070,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Industrial Processes",
+      "gas": "N2O",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.03
+        },
+        {
+          "year": 1991,
+          "value": 0.07
+        },
+        {
+          "year": 1992,
+          "value": 0.08
+        },
+        {
+          "year": 1993,
+          "value": 0.09
+        },
+        {
+          "year": 1994,
+          "value": 0.1
+        },
+        {
+          "year": 1995,
+          "value": 0.11
+        },
+        {
+          "year": 1996,
+          "value": 0.12
+        },
+        {
+          "year": 1997,
+          "value": 0.15
+        },
+        {
+          "year": 1998,
+          "value": 0.14
+        },
+        {
+          "year": 1999,
+          "value": 0.3
+        },
+        {
+          "year": 2000,
+          "value": 0.3
+        },
+        {
+          "year": 2001,
+          "value": 0.35
+        },
+        {
+          "year": 2002,
+          "value": 0.37
+        },
+        {
+          "year": 2003,
+          "value": 0.44
+        },
+        {
+          "year": 2004,
+          "value": 0.6
+        },
+        {
+          "year": 2005,
+          "value": 0.46
+        },
+        {
+          "year": 2006,
+          "value": 0.44
+        },
+        {
+          "year": 2007,
+          "value": 0.5
+        },
+        {
+          "year": 2008,
+          "value": 0.53
+        },
+        {
+          "year": 2009,
+          "value": 0.53
+        },
+        {
+          "year": 2010,
+          "value": 0.59
+        },
+        {
+          "year": 2011,
+          "value": 0.62
+        },
+        {
+          "year": 2012,
+          "value": 1.07
+        },
+        {
+          "year": 2013,
+          "value": 1.25
+        },
+        {
+          "year": 2014,
+          "value": 1.36
+        },
+        {
+          "year": 2015,
+          "value": 1.41
+        },
+        {
+          "year": 2016,
+          "value": 1.43
+        },
+        {
+          "year": 2017,
+          "value": 1.45
+        },
+        {
+          "year": 2018,
+          "value": 1.46
+        },
+        {
+          "year": 2019,
+          "value": 1.48
+        },
+        {
+          "year": 2020,
+          "value": 1.49
+        },
+        {
+          "year": 2021,
+          "value": 1.51
+        },
+        {
+          "year": 2022,
+          "value": 1.52
+        },
+        {
+          "year": 2023,
+          "value": 1.54
+        }
+      ]
+    },
+    {
+      "id": 1296071,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Land Use, Land-Use Change and Forestry",
+      "gas": "All GHG",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": -72.7
+        },
+        {
+          "year": 1991,
+          "value": -72.7
+        },
+        {
+          "year": 1992,
+          "value": -72.7
+        },
+        {
+          "year": 1993,
+          "value": -72.7
+        },
+        {
+          "year": 1994,
+          "value": -72.7
+        },
+        {
+          "year": 1995,
+          "value": -72.68
+        },
+        {
+          "year": 1996,
+          "value": -72.9
+        },
+        {
+          "year": 1997,
+          "value": -73.16
+        },
+        {
+          "year": 1998,
+          "value": -71.58
+        },
+        {
+          "year": 1999,
+          "value": -72.52
+        },
+        {
+          "year": 2000,
+          "value": -72.52
+        },
+        {
+          "year": 2001,
+          "value": 17.19
+        },
+        {
+          "year": 2002,
+          "value": 20.72
+        },
+        {
+          "year": 2003,
+          "value": 18.23
+        },
+        {
+          "year": 2004,
+          "value": 18.9
+        },
+        {
+          "year": 2005,
+          "value": 18.77
+        },
+        {
+          "year": 2006,
+          "value": 17.54
+        },
+        {
+          "year": 2007,
+          "value": 18.6
+        },
+        {
+          "year": 2008,
+          "value": 17.44
+        },
+        {
+          "year": 2009,
+          "value": 17.62
+        },
+        {
+          "year": 2010,
+          "value": 18.23
+        },
+        {
+          "year": 2011,
+          "value": -23.07
+        },
+        {
+          "year": 2012,
+          "value": -22.99
+        },
+        {
+          "year": 2013,
+          "value": -20.65
+        },
+        {
+          "year": 2014,
+          "value": -22.2
+        },
+        {
+          "year": 2015,
+          "value": -23.17
+        },
+        {
+          "year": 2016,
+          "value": -176.57
+        },
+        {
+          "year": 2017,
+          "value": -177.04
+        },
+        {
+          "year": 2018,
+          "value": -176.98
+        },
+        {
+          "year": 2019,
+          "value": -176.85
+        },
+        {
+          "year": 2020,
+          "value": -176.3
+        },
+        {
+          "year": 2021,
+          "value": -1.09
+        },
+        {
+          "year": 2022,
+          "value": -1.25
+        },
+        {
+          "year": 2023,
+          "value": -1.06
+        }
+      ]
+    },
+    {
+      "id": 1296072,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Land Use, Land-Use Change and Forestry",
+      "gas": "CH4",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.56
+        },
+        {
+          "year": 1991,
+          "value": 0.56
+        },
+        {
+          "year": 1992,
+          "value": 0.56
+        },
+        {
+          "year": 1993,
+          "value": 0.56
+        },
+        {
+          "year": 1994,
+          "value": 0.56
+        },
+        {
+          "year": 1995,
+          "value": 0.56
+        },
+        {
+          "year": 1996,
+          "value": 0.57
+        },
+        {
+          "year": 1997,
+          "value": 0.42
+        },
+        {
+          "year": 1998,
+          "value": 1.53
+        },
+        {
+          "year": 1999,
+          "value": 0.82
+        },
+        {
+          "year": 2000,
+          "value": 0.86
+        },
+        {
+          "year": 2001,
+          "value": 0.17
+        },
+        {
+          "year": 2002,
+          "value": 1.19
+        },
+        {
+          "year": 2003,
+          "value": 0.72
+        },
+        {
+          "year": 2004,
+          "value": 0.89
+        },
+        {
+          "year": 2005,
+          "value": 0.85
+        },
+        {
+          "year": 2006,
+          "value": 0.36
+        },
+        {
+          "year": 2007,
+          "value": 0.91
+        },
+        {
+          "year": 2008,
+          "value": 0.31
+        },
+        {
+          "year": 2009,
+          "value": 0.39
+        },
+        {
+          "year": 2010,
+          "value": 0.65
+        },
+        {
+          "year": 2011,
+          "value": 0.38
+        },
+        {
+          "year": 2012,
+          "value": 0.44
+        },
+        {
+          "year": 2013,
+          "value": 0.93
+        },
+        {
+          "year": 2014,
+          "value": 0.63
+        },
+        {
+          "year": 2015,
+          "value": 0.34
+        },
+        {
+          "year": 2016,
+          "value": 0.42
+        },
+        {
+          "year": 2017,
+          "value": 0.21
+        },
+        {
+          "year": 2018,
+          "value": 0.23
+        },
+        {
+          "year": 2019,
+          "value": 0.29
+        },
+        {
+          "year": 2020,
+          "value": 0.44
+        },
+        {
+          "year": 2021,
+          "value": 0.26
+        },
+        {
+          "year": 2022,
+          "value": 0.18
+        },
+        {
+          "year": 2023,
+          "value": 0.28
+        }
+      ]
+    },
+    {
+      "id": 1296073,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Land Use, Land-Use Change and Forestry",
+      "gas": "CO2",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": -73.57
+        },
+        {
+          "year": 1991,
+          "value": -73.57
+        },
+        {
+          "year": 1992,
+          "value": -73.57
+        },
+        {
+          "year": 1993,
+          "value": -73.57
+        },
+        {
+          "year": 1994,
+          "value": -73.57
+        },
+        {
+          "year": 1995,
+          "value": -73.55
+        },
+        {
+          "year": 1996,
+          "value": -73.6
+        },
+        {
+          "year": 1997,
+          "value": -73.67
+        },
+        {
+          "year": 1998,
+          "value": -73.5
+        },
+        {
+          "year": 1999,
+          "value": -73.55
+        },
+        {
+          "year": 2000,
+          "value": -73.61
+        },
+        {
+          "year": 2001,
+          "value": 16.87
+        },
+        {
+          "year": 2002,
+          "value": 19.19
+        },
+        {
+          "year": 2003,
+          "value": 16.88
+        },
+        {
+          "year": 2004,
+          "value": 17.39
+        },
+        {
+          "year": 2005,
+          "value": 17.32
+        },
+        {
+          "year": 2006,
+          "value": 16.87
+        },
+        {
+          "year": 2007,
+          "value": 16.91
+        },
+        {
+          "year": 2008,
+          "value": 16.87
+        },
+        {
+          "year": 2009,
+          "value": 16.91
+        },
+        {
+          "year": 2010,
+          "value": 17.1
+        },
+        {
+          "year": 2011,
+          "value": -23.78
+        },
+        {
+          "year": 2012,
+          "value": -23.81
+        },
+        {
+          "year": 2013,
+          "value": -21.77
+        },
+        {
+          "year": 2014,
+          "value": -23.18
+        },
+        {
+          "year": 2015,
+          "value": -23.81
+        },
+        {
+          "year": 2016,
+          "value": -177.36
+        },
+        {
+          "year": 2017,
+          "value": -177.42
+        },
+        {
+          "year": 2018,
+          "value": -177.41
+        },
+        {
+          "year": 2019,
+          "value": -177.4
+        },
+        {
+          "year": 2020,
+          "value": -177.0
+        },
+        {
+          "year": 2021,
+          "value": -1.56
+        },
+        {
+          "year": 2022,
+          "value": -1.59
+        },
+        {
+          "year": 2023,
+          "value": -1.59
+        }
+      ]
+    },
+    {
+      "id": 1296074,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Land Use, Land-Use Change and Forestry",
+      "gas": "N2O",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.32
+        },
+        {
+          "year": 1991,
+          "value": 0.32
+        },
+        {
+          "year": 1992,
+          "value": 0.32
+        },
+        {
+          "year": 1993,
+          "value": 0.32
+        },
+        {
+          "year": 1994,
+          "value": 0.32
+        },
+        {
+          "year": 1995,
+          "value": 0.32
+        },
+        {
+          "year": 1996,
+          "value": 0.13
+        },
+        {
+          "year": 1997,
+          "value": 0.1
+        },
+        {
+          "year": 1998,
+          "value": 0.39
+        },
+        {
+          "year": 1999,
+          "value": 0.2
+        },
+        {
+          "year": 2000,
+          "value": 0.22
+        },
+        {
+          "year": 2001,
+          "value": 0.15
+        },
+        {
+          "year": 2002,
+          "value": 0.34
+        },
+        {
+          "year": 2003,
+          "value": 0.62
+        },
+        {
+          "year": 2004,
+          "value": 0.62
+        },
+        {
+          "year": 2005,
+          "value": 0.6
+        },
+        {
+          "year": 2006,
+          "value": 0.31
+        },
+        {
+          "year": 2007,
+          "value": 0.77
+        },
+        {
+          "year": 2008,
+          "value": 0.26
+        },
+        {
+          "year": 2009,
+          "value": 0.32
+        },
+        {
+          "year": 2010,
+          "value": 0.49
+        },
+        {
+          "year": 2011,
+          "value": 0.32
+        },
+        {
+          "year": 2012,
+          "value": 0.38
+        },
+        {
+          "year": 2013,
+          "value": 0.2
+        },
+        {
+          "year": 2014,
+          "value": 0.36
+        },
+        {
+          "year": 2015,
+          "value": 0.3
+        },
+        {
+          "year": 2016,
+          "value": 0.36
+        },
+        {
+          "year": 2017,
+          "value": 0.18
+        },
+        {
+          "year": 2018,
+          "value": 0.19
+        },
+        {
+          "year": 2019,
+          "value": 0.25
+        },
+        {
+          "year": 2020,
+          "value": 0.26
+        },
+        {
+          "year": 2021,
+          "value": 0.22
+        },
+        {
+          "year": 2022,
+          "value": 0.16
+        },
+        {
+          "year": 2023,
+          "value": 0.25
+        }
+      ]
+    },
+    {
+      "id": 1296075,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Manufacturing/Construction",
+      "gas": "All GHG",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 5.92
+        },
+        {
+          "year": 1991,
+          "value": 6.52
+        },
+        {
+          "year": 1992,
+          "value": 7.04
+        },
+        {
+          "year": 1993,
+          "value": 7.5
+        },
+        {
+          "year": 1994,
+          "value": 7.66
+        },
+        {
+          "year": 1995,
+          "value": 10.73
+        },
+        {
+          "year": 1996,
+          "value": 11.3
+        },
+        {
+          "year": 1997,
+          "value": 13.5
+        },
+        {
+          "year": 1998,
+          "value": 14.03
+        },
+        {
+          "year": 1999,
+          "value": 14.08
+        },
+        {
+          "year": 2000,
+          "value": 14.78
+        },
+        {
+          "year": 2001,
+          "value": 16.8
+        },
+        {
+          "year": 2002,
+          "value": 18.69
+        },
+        {
+          "year": 2003,
+          "value": 19.98
+        },
+        {
+          "year": 2004,
+          "value": 23.16
+        },
+        {
+          "year": 2005,
+          "value": 24.43
+        },
+        {
+          "year": 2006,
+          "value": 24.53
+        },
+        {
+          "year": 2007,
+          "value": 27.25
+        },
+        {
+          "year": 2008,
+          "value": 35.79
+        },
+        {
+          "year": 2009,
+          "value": 39.4
+        },
+        {
+          "year": 2010,
+          "value": 42.03
+        },
+        {
+          "year": 2011,
+          "value": 43.79
+        },
+        {
+          "year": 2012,
+          "value": 43.21
+        },
+        {
+          "year": 2013,
+          "value": 46.46
+        },
+        {
+          "year": 2014,
+          "value": 51.64
+        },
+        {
+          "year": 2015,
+          "value": 33.7
+        },
+        {
+          "year": 2016,
+          "value": 36.17
+        },
+        {
+          "year": 2017,
+          "value": 37.55
+        },
+        {
+          "year": 2018,
+          "value": 59.02
+        },
+        {
+          "year": 2019,
+          "value": 71.72
+        },
+        {
+          "year": 2020,
+          "value": 92.48
+        },
+        {
+          "year": 2021,
+          "value": 92.45
+        },
+        {
+          "year": 2022,
+          "value": 88.1
+        },
+        {
+          "year": 2023,
+          "value": 81.25
+        }
+      ]
+    },
+    {
+      "id": 1296076,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Manufacturing/Construction",
+      "gas": "CH4",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.11
+        },
+        {
+          "year": 1991,
+          "value": 0.12
+        },
+        {
+          "year": 1992,
+          "value": 0.12
+        },
+        {
+          "year": 1993,
+          "value": 0.13
+        },
+        {
+          "year": 1994,
+          "value": 0.12
+        },
+        {
+          "year": 1995,
+          "value": 0.13
+        },
+        {
+          "year": 1996,
+          "value": 0.13
+        },
+        {
+          "year": 1997,
+          "value": 0.14
+        },
+        {
+          "year": 1998,
+          "value": 0.14
+        },
+        {
+          "year": 1999,
+          "value": 0.14
+        },
+        {
+          "year": 2000,
+          "value": 0.15
+        },
+        {
+          "year": 2001,
+          "value": 0.15
+        },
+        {
+          "year": 2002,
+          "value": 0.16
+        },
+        {
+          "year": 2003,
+          "value": 0.15
+        },
+        {
+          "year": 2004,
+          "value": 0.16
+        },
+        {
+          "year": 2005,
+          "value": 0.16
+        },
+        {
+          "year": 2006,
+          "value": 0.16
+        },
+        {
+          "year": 2007,
+          "value": 0.17
+        },
+        {
+          "year": 2008,
+          "value": 0.19
+        },
+        {
+          "year": 2009,
+          "value": 0.19
+        },
+        {
+          "year": 2010,
+          "value": 0.19
+        },
+        {
+          "year": 2011,
+          "value": 0.2
+        },
+        {
+          "year": 2012,
+          "value": 0.21
+        },
+        {
+          "year": 2013,
+          "value": 0.22
+        },
+        {
+          "year": 2014,
+          "value": 0.24
+        },
+        {
+          "year": 2015,
+          "value": 0.2
+        },
+        {
+          "year": 2016,
+          "value": 0.21
+        },
+        {
+          "year": 2017,
+          "value": 0.22
+        },
+        {
+          "year": 2018,
+          "value": 0.27
+        },
+        {
+          "year": 2019,
+          "value": 0.29
+        },
+        {
+          "year": 2020,
+          "value": 0.31
+        },
+        {
+          "year": 2021,
+          "value": 0.38
+        },
+        {
+          "year": 2022,
+          "value": 0.36
+        },
+        {
+          "year": 2023,
+          "value": 0.35
+        }
+      ]
+    },
+    {
+      "id": 1296077,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Manufacturing/Construction",
+      "gas": "CO2",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 5.66
+        },
+        {
+          "year": 1991,
+          "value": 6.25
+        },
+        {
+          "year": 1992,
+          "value": 6.77
+        },
+        {
+          "year": 1993,
+          "value": 7.21
+        },
+        {
+          "year": 1994,
+          "value": 7.39
+        },
+        {
+          "year": 1995,
+          "value": 10.44
+        },
+        {
+          "year": 1996,
+          "value": 11.0
+        },
+        {
+          "year": 1997,
+          "value": 13.18
+        },
+        {
+          "year": 1998,
+          "value": 13.7
+        },
+        {
+          "year": 1999,
+          "value": 13.75
+        },
+        {
+          "year": 2000,
+          "value": 14.44
+        },
+        {
+          "year": 2001,
+          "value": 16.44
+        },
+        {
+          "year": 2002,
+          "value": 18.33
+        },
+        {
+          "year": 2003,
+          "value": 19.64
+        },
+        {
+          "year": 2004,
+          "value": 22.79
+        },
+        {
+          "year": 2005,
+          "value": 24.06
+        },
+        {
+          "year": 2006,
+          "value": 24.15
+        },
+        {
+          "year": 2007,
+          "value": 26.86
+        },
+        {
+          "year": 2008,
+          "value": 35.35
+        },
+        {
+          "year": 2009,
+          "value": 38.95
+        },
+        {
+          "year": 2010,
+          "value": 41.57
+        },
+        {
+          "year": 2011,
+          "value": 43.31
+        },
+        {
+          "year": 2012,
+          "value": 42.73
+        },
+        {
+          "year": 2013,
+          "value": 45.94
+        },
+        {
+          "year": 2014,
+          "value": 51.08
+        },
+        {
+          "year": 2015,
+          "value": 33.24
+        },
+        {
+          "year": 2016,
+          "value": 35.68
+        },
+        {
+          "year": 2017,
+          "value": 37.04
+        },
+        {
+          "year": 2018,
+          "value": 58.38
+        },
+        {
+          "year": 2019,
+          "value": 71.02
+        },
+        {
+          "year": 2020,
+          "value": 91.74
+        },
+        {
+          "year": 2021,
+          "value": 91.57
+        },
+        {
+          "year": 2022,
+          "value": 87.26
+        },
+        {
+          "year": 2023,
+          "value": 80.42
+        }
+      ]
+    },
+    {
+      "id": 1296078,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Manufacturing/Construction",
+      "gas": "N2O",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.15
+        },
+        {
+          "year": 1991,
+          "value": 0.15
+        },
+        {
+          "year": 1992,
+          "value": 0.15
+        },
+        {
+          "year": 1993,
+          "value": 0.16
+        },
+        {
+          "year": 1994,
+          "value": 0.15
+        },
+        {
+          "year": 1995,
+          "value": 0.17
+        },
+        {
+          "year": 1996,
+          "value": 0.17
+        },
+        {
+          "year": 1997,
+          "value": 0.18
+        },
+        {
+          "year": 1998,
+          "value": 0.19
+        },
+        {
+          "year": 1999,
+          "value": 0.19
+        },
+        {
+          "year": 2000,
+          "value": 0.19
+        },
+        {
+          "year": 2001,
+          "value": 0.2
+        },
+        {
+          "year": 2002,
+          "value": 0.21
+        },
+        {
+          "year": 2003,
+          "value": 0.2
+        },
+        {
+          "year": 2004,
+          "value": 0.21
+        },
+        {
+          "year": 2005,
+          "value": 0.21
+        },
+        {
+          "year": 2006,
+          "value": 0.22
+        },
+        {
+          "year": 2007,
+          "value": 0.22
+        },
+        {
+          "year": 2008,
+          "value": 0.25
+        },
+        {
+          "year": 2009,
+          "value": 0.26
+        },
+        {
+          "year": 2010,
+          "value": 0.27
+        },
+        {
+          "year": 2011,
+          "value": 0.28
+        },
+        {
+          "year": 2012,
+          "value": 0.28
+        },
+        {
+          "year": 2013,
+          "value": 0.29
+        },
+        {
+          "year": 2014,
+          "value": 0.32
+        },
+        {
+          "year": 2015,
+          "value": 0.26
+        },
+        {
+          "year": 2016,
+          "value": 0.28
+        },
+        {
+          "year": 2017,
+          "value": 0.29
+        },
+        {
+          "year": 2018,
+          "value": 0.36
+        },
+        {
+          "year": 2019,
+          "value": 0.4
+        },
+        {
+          "year": 2020,
+          "value": 0.42
+        },
+        {
+          "year": 2021,
+          "value": 0.51
+        },
+        {
+          "year": 2022,
+          "value": 0.48
+        },
+        {
+          "year": 2023,
+          "value": 0.47
+        }
+      ]
+    },
+    {
+      "id": 1296079,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Other Fuel Combustion",
+      "gas": "All GHG",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.73
+        },
+        {
+          "year": 1991,
+          "value": 0.73
+        },
+        {
+          "year": 1992,
+          "value": 0.81
+        },
+        {
+          "year": 1993,
+          "value": 1.11
+        },
+        {
+          "year": 1994,
+          "value": 1.18
+        },
+        {
+          "year": 1995,
+          "value": 1.11
+        },
+        {
+          "year": 1996,
+          "value": 1.19
+        },
+        {
+          "year": 1997,
+          "value": 1.23
+        },
+        {
+          "year": 1998,
+          "value": 1.22
+        },
+        {
+          "year": 1999,
+          "value": 1.18
+        },
+        {
+          "year": 2000,
+          "value": 1.15
+        },
+        {
+          "year": 2001,
+          "value": 1.15
+        },
+        {
+          "year": 2002,
+          "value": 1.3
+        },
+        {
+          "year": 2003,
+          "value": 1.39
+        },
+        {
+          "year": 2004,
+          "value": 1.58
+        },
+        {
+          "year": 2005,
+          "value": 1.66
+        },
+        {
+          "year": 2006,
+          "value": 1.64
+        },
+        {
+          "year": 2007,
+          "value": 1.65
+        },
+        {
+          "year": 2008,
+          "value": 1.66
+        },
+        {
+          "year": 2009,
+          "value": 1.68
+        },
+        {
+          "year": 2010,
+          "value": 1.66
+        },
+        {
+          "year": 2011,
+          "value": 1.65
+        },
+        {
+          "year": 2012,
+          "value": 1.52
+        },
+        {
+          "year": 2013,
+          "value": 1.47
+        },
+        {
+          "year": 2014,
+          "value": 1.41
+        },
+        {
+          "year": 2015,
+          "value": 5.74
+        },
+        {
+          "year": 2016,
+          "value": 6.26
+        },
+        {
+          "year": 2017,
+          "value": 7.08
+        },
+        {
+          "year": 2018,
+          "value": 7.39
+        },
+        {
+          "year": 2019,
+          "value": 7.82
+        },
+        {
+          "year": 2020,
+          "value": 7.42
+        },
+        {
+          "year": 2021,
+          "value": 7.8
+        },
+        {
+          "year": 2022,
+          "value": 7.98
+        },
+        {
+          "year": 2023,
+          "value": 8.34
+        }
+      ]
+    },
+    {
+      "id": 1296080,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Other Fuel Combustion",
+      "gas": "CH4",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.02
+        },
+        {
+          "year": 1991,
+          "value": 0.03
+        },
+        {
+          "year": 1992,
+          "value": 0.03
+        },
+        {
+          "year": 1993,
+          "value": 0.03
+        },
+        {
+          "year": 1994,
+          "value": 0.03
+        },
+        {
+          "year": 1995,
+          "value": 0.03
+        },
+        {
+          "year": 1996,
+          "value": 0.03
+        },
+        {
+          "year": 1997,
+          "value": 0.02
+        },
+        {
+          "year": 1998,
+          "value": 0.02
+        },
+        {
+          "year": 1999,
+          "value": 0.01
+        },
+        {
+          "year": 2000,
+          "value": 0.01
+        },
+        {
+          "year": 2001,
+          "value": 0.01
+        },
+        {
+          "year": 2002,
+          "value": 0.01
+        },
+        {
+          "year": 2003,
+          "value": 0.02
+        },
+        {
+          "year": 2004,
+          "value": 0.01
+        },
+        {
+          "year": 2005,
+          "value": 0.01
+        },
+        {
+          "year": 2006,
+          "value": 0.01
+        },
+        {
+          "year": 2007,
+          "value": 0.01
+        },
+        {
+          "year": 2008,
+          "value": 0.01
+        },
+        {
+          "year": 2009,
+          "value": 0.01
+        },
+        {
+          "year": 2010,
+          "value": 0.01
+        },
+        {
+          "year": 2011,
+          "value": 0.01
+        },
+        {
+          "year": 2012,
+          "value": 0.01
+        },
+        {
+          "year": 2013,
+          "value": 0.01
+        },
+        {
+          "year": 2014,
+          "value": 0.01
+        },
+        {
+          "year": 2015,
+          "value": 0.32
+        },
+        {
+          "year": 2016,
+          "value": 0.34
+        },
+        {
+          "year": 2017,
+          "value": 0.37
+        },
+        {
+          "year": 2018,
+          "value": 0.4
+        },
+        {
+          "year": 2019,
+          "value": 0.43
+        },
+        {
+          "year": 2020,
+          "value": 0.39
+        },
+        {
+          "year": 2021,
+          "value": 0.49
+        },
+        {
+          "year": 2022,
+          "value": 0.51
+        },
+        {
+          "year": 2023,
+          "value": 0.53
+        }
+      ]
+    },
+    {
+      "id": 1296081,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Other Fuel Combustion",
+      "gas": "CO2",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.71
+        },
+        {
+          "year": 1991,
+          "value": 0.7
+        },
+        {
+          "year": 1992,
+          "value": 0.77
+        },
+        {
+          "year": 1993,
+          "value": 1.08
+        },
+        {
+          "year": 1994,
+          "value": 1.14
+        },
+        {
+          "year": 1995,
+          "value": 1.07
+        },
+        {
+          "year": 1996,
+          "value": 1.16
+        },
+        {
+          "year": 1997,
+          "value": 1.21
+        },
+        {
+          "year": 1998,
+          "value": 1.2
+        },
+        {
+          "year": 1999,
+          "value": 1.17
+        },
+        {
+          "year": 2000,
+          "value": 1.14
+        },
+        {
+          "year": 2001,
+          "value": 1.13
+        },
+        {
+          "year": 2002,
+          "value": 1.29
+        },
+        {
+          "year": 2003,
+          "value": 1.38
+        },
+        {
+          "year": 2004,
+          "value": 1.57
+        },
+        {
+          "year": 2005,
+          "value": 1.64
+        },
+        {
+          "year": 2006,
+          "value": 1.62
+        },
+        {
+          "year": 2007,
+          "value": 1.64
+        },
+        {
+          "year": 2008,
+          "value": 1.65
+        },
+        {
+          "year": 2009,
+          "value": 1.67
+        },
+        {
+          "year": 2010,
+          "value": 1.64
+        },
+        {
+          "year": 2011,
+          "value": 1.64
+        },
+        {
+          "year": 2012,
+          "value": 1.51
+        },
+        {
+          "year": 2013,
+          "value": 1.45
+        },
+        {
+          "year": 2014,
+          "value": 1.39
+        },
+        {
+          "year": 2015,
+          "value": 5.39
+        },
+        {
+          "year": 2016,
+          "value": 5.89
+        },
+        {
+          "year": 2017,
+          "value": 6.69
+        },
+        {
+          "year": 2018,
+          "value": 6.96
+        },
+        {
+          "year": 2019,
+          "value": 7.36
+        },
+        {
+          "year": 2020,
+          "value": 7.01
+        },
+        {
+          "year": 2021,
+          "value": 7.27
+        },
+        {
+          "year": 2022,
+          "value": 7.43
+        },
+        {
+          "year": 2023,
+          "value": 7.77
+        }
+      ]
+    },
+    {
+      "id": 1296082,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Other Fuel Combustion",
+      "gas": "N2O",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.0
+        },
+        {
+          "year": 1991,
+          "value": 0.0
+        },
+        {
+          "year": 1992,
+          "value": 0.0
+        },
+        {
+          "year": 1993,
+          "value": 0.0
+        },
+        {
+          "year": 1994,
+          "value": 0.0
+        },
+        {
+          "year": 1995,
+          "value": 0.0
+        },
+        {
+          "year": 1996,
+          "value": 0.0
+        },
+        {
+          "year": 1997,
+          "value": 0.0
+        },
+        {
+          "year": 1998,
+          "value": 0.0
+        },
+        {
+          "year": 1999,
+          "value": 0.0
+        },
+        {
+          "year": 2000,
+          "value": 0.0
+        },
+        {
+          "year": 2001,
+          "value": 0.0
+        },
+        {
+          "year": 2002,
+          "value": 0.0
+        },
+        {
+          "year": 2003,
+          "value": 0.0
+        },
+        {
+          "year": 2004,
+          "value": 0.0
+        },
+        {
+          "year": 2005,
+          "value": 0.0
+        },
+        {
+          "year": 2006,
+          "value": 0.0
+        },
+        {
+          "year": 2007,
+          "value": 0.0
+        },
+        {
+          "year": 2008,
+          "value": 0.0
+        },
+        {
+          "year": 2009,
+          "value": 0.0
+        },
+        {
+          "year": 2010,
+          "value": 0.0
+        },
+        {
+          "year": 2011,
+          "value": 0.0
+        },
+        {
+          "year": 2012,
+          "value": 0.0
+        },
+        {
+          "year": 2013,
+          "value": 0.0
+        },
+        {
+          "year": 2014,
+          "value": 0.0
+        },
+        {
+          "year": 2015,
+          "value": 0.02
+        },
+        {
+          "year": 2016,
+          "value": 0.03
+        },
+        {
+          "year": 2017,
+          "value": 0.03
+        },
+        {
+          "year": 2018,
+          "value": 0.03
+        },
+        {
+          "year": 2019,
+          "value": 0.03
+        },
+        {
+          "year": 2020,
+          "value": 0.03
+        },
+        {
+          "year": 2021,
+          "value": 0.04
+        },
+        {
+          "year": 2022,
+          "value": 0.04
+        },
+        {
+          "year": 2023,
+          "value": 0.04
+        }
+      ]
+    },
+    {
+      "id": 1296083,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Total excluding LULUCF",
+      "gas": "All GHG",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 83.19
+        },
+        {
+          "year": 1991,
+          "value": 87.05
+        },
+        {
+          "year": 1992,
+          "value": 90.42
+        },
+        {
+          "year": 1993,
+          "value": 96.58
+        },
+        {
+          "year": 1994,
+          "value": 101.05
+        },
+        {
+          "year": 1995,
+          "value": 109.37
+        },
+        {
+          "year": 1996,
+          "value": 117.78
+        },
+        {
+          "year": 1997,
+          "value": 126.45
+        },
+        {
+          "year": 1998,
+          "value": 136.76
+        },
+        {
+          "year": 1999,
+          "value": 141.69
+        },
+        {
+          "year": 2000,
+          "value": 149.9
+        },
+        {
+          "year": 2001,
+          "value": 155.27
+        },
+        {
+          "year": 2002,
+          "value": 168.7
+        },
+        {
+          "year": 2003,
+          "value": 177.42
+        },
+        {
+          "year": 2004,
+          "value": 199.06
+        },
+        {
+          "year": 2005,
+          "value": 209.88
+        },
+        {
+          "year": 2006,
+          "value": 215.89
+        },
+        {
+          "year": 2007,
+          "value": 229.77
+        },
+        {
+          "year": 2008,
+          "value": 240.56
+        },
+        {
+          "year": 2009,
+          "value": 263.65
+        },
+        {
+          "year": 2010,
+          "value": 282.34
+        },
+        {
+          "year": 2011,
+          "value": 287.62
+        },
+        {
+          "year": 2012,
+          "value": 288.82
+        },
+        {
+          "year": 2013,
+          "value": 301.52
+        },
+        {
+          "year": 2014,
+          "value": 317.02
+        },
+        {
+          "year": 2015,
+          "value": 333.96
+        },
+        {
+          "year": 2016,
+          "value": 353.73
+        },
+        {
+          "year": 2017,
+          "value": 361.55
+        },
+        {
+          "year": 2018,
+          "value": 419.76
+        },
+        {
+          "year": 2019,
+          "value": 474.56
+        },
+        {
+          "year": 2020,
+          "value": 486.04
+        },
+        {
+          "year": 2021,
+          "value": 476.72
+        },
+        {
+          "year": 2022,
+          "value": 477.63
+        },
+        {
+          "year": 2023,
+          "value": 472.85
+        }
+      ]
+    },
+    {
+      "id": 1296084,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Total excluding LULUCF",
+      "gas": "CH4",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 54.2
+        },
+        {
+          "year": 1991,
+          "value": 56.36
+        },
+        {
+          "year": 1992,
+          "value": 58.78
+        },
+        {
+          "year": 1993,
+          "value": 61.03
+        },
+        {
+          "year": 1994,
+          "value": 61.16
+        },
+        {
+          "year": 1995,
+          "value": 64.81
+        },
+        {
+          "year": 1996,
+          "value": 68.37
+        },
+        {
+          "year": 1997,
+          "value": 71.41
+        },
+        {
+          "year": 1998,
+          "value": 75.36
+        },
+        {
+          "year": 1999,
+          "value": 78.7
+        },
+        {
+          "year": 2000,
+          "value": 81.3
+        },
+        {
+          "year": 2001,
+          "value": 82.21
+        },
+        {
+          "year": 2002,
+          "value": 84.73
+        },
+        {
+          "year": 2003,
+          "value": 87.55
+        },
+        {
+          "year": 2004,
+          "value": 93.84
+        },
+        {
+          "year": 2005,
+          "value": 97.86
+        },
+        {
+          "year": 2006,
+          "value": 101.21
+        },
+        {
+          "year": 2007,
+          "value": 103.06
+        },
+        {
+          "year": 2008,
+          "value": 103.25
+        },
+        {
+          "year": 2009,
+          "value": 106.5
+        },
+        {
+          "year": 2010,
+          "value": 107.5
+        },
+        {
+          "year": 2011,
+          "value": 108.98
+        },
+        {
+          "year": 2012,
+          "value": 108.95
+        },
+        {
+          "year": 2013,
+          "value": 110.07
+        },
+        {
+          "year": 2014,
+          "value": 110.03
+        },
+        {
+          "year": 2015,
+          "value": 103.94
+        },
+        {
+          "year": 2016,
+          "value": 102.44
+        },
+        {
+          "year": 2017,
+          "value": 101.52
+        },
+        {
+          "year": 2018,
+          "value": 102.14
+        },
+        {
+          "year": 2019,
+          "value": 101.41
+        },
+        {
+          "year": 2020,
+          "value": 98.63
+        },
+        {
+          "year": 2021,
+          "value": 100.27
+        },
+        {
+          "year": 2022,
+          "value": 99.82
+        },
+        {
+          "year": 2023,
+          "value": 98.8
+        }
+      ]
+    },
+    {
+      "id": 1296085,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Total excluding LULUCF",
+      "gas": "CO2",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 19.38
+        },
+        {
+          "year": 1991,
+          "value": 19.89
+        },
+        {
+          "year": 1992,
+          "value": 20.9
+        },
+        {
+          "year": 1993,
+          "value": 24.33
+        },
+        {
+          "year": 1994,
+          "value": 26.76
+        },
+        {
+          "year": 1995,
+          "value": 31.56
+        },
+        {
+          "year": 1996,
+          "value": 35.12
+        },
+        {
+          "year": 1997,
+          "value": 40.91
+        },
+        {
+          "year": 1998,
+          "value": 45.54
+        },
+        {
+          "year": 1999,
+          "value": 46.52
+        },
+        {
+          "year": 2000,
+          "value": 51.29
+        },
+        {
+          "year": 2001,
+          "value": 56.81
+        },
+        {
+          "year": 2002,
+          "value": 66.56
+        },
+        {
+          "year": 2003,
+          "value": 70.98
+        },
+        {
+          "year": 2004,
+          "value": 85.13
+        },
+        {
+          "year": 2005,
+          "value": 92.44
+        },
+        {
+          "year": 2006,
+          "value": 94.94
+        },
+        {
+          "year": 2007,
+          "value": 105.21
+        },
+        {
+          "year": 2008,
+          "value": 117.65
+        },
+        {
+          "year": 2009,
+          "value": 132.36
+        },
+        {
+          "year": 2010,
+          "value": 151.48
+        },
+        {
+          "year": 2011,
+          "value": 156.0
+        },
+        {
+          "year": 2012,
+          "value": 155.53
+        },
+        {
+          "year": 2013,
+          "value": 164.3
+        },
+        {
+          "year": 2014,
+          "value": 180.65
+        },
+        {
+          "year": 2015,
+          "value": 201.41
+        },
+        {
+          "year": 2016,
+          "value": 222.63
+        },
+        {
+          "year": 2017,
+          "value": 230.48
+        },
+        {
+          "year": 2018,
+          "value": 286.94
+        },
+        {
+          "year": 2019,
+          "value": 341.71
+        },
+        {
+          "year": 2020,
+          "value": 355.2
+        },
+        {
+          "year": 2021,
+          "value": 343.58
+        },
+        {
+          "year": 2022,
+          "value": 343.16
+        },
+        {
+          "year": 2023,
+          "value": 338.72
+        }
+      ]
+    },
+    {
+      "id": 1296086,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Total excluding LULUCF",
+      "gas": "F-Gas",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.08
+        },
+        {
+          "year": 1991,
+          "value": 0.1
+        },
+        {
+          "year": 1992,
+          "value": 0.11
+        },
+        {
+          "year": 1993,
+          "value": 0.12
+        },
+        {
+          "year": 1994,
+          "value": 0.13
+        },
+        {
+          "year": 1995,
+          "value": 0.14
+        },
+        {
+          "year": 1996,
+          "value": 0.18
+        },
+        {
+          "year": 1997,
+          "value": 0.22
+        },
+        {
+          "year": 1998,
+          "value": 0.25
+        },
+        {
+          "year": 1999,
+          "value": 0.29
+        },
+        {
+          "year": 2000,
+          "value": 0.33
+        },
+        {
+          "year": 2001,
+          "value": 0.6
+        },
+        {
+          "year": 2002,
+          "value": 0.87
+        },
+        {
+          "year": 2003,
+          "value": 1.13
+        },
+        {
+          "year": 2004,
+          "value": 1.4
+        },
+        {
+          "year": 2005,
+          "value": 1.67
+        },
+        {
+          "year": 2006,
+          "value": 2.06
+        },
+        {
+          "year": 2007,
+          "value": 2.45
+        },
+        {
+          "year": 2008,
+          "value": 2.84
+        },
+        {
+          "year": 2009,
+          "value": 3.22
+        },
+        {
+          "year": 2010,
+          "value": 3.61
+        },
+        {
+          "year": 2011,
+          "value": 3.89
+        },
+        {
+          "year": 2012,
+          "value": 4.18
+        },
+        {
+          "year": 2013,
+          "value": 4.46
+        },
+        {
+          "year": 2014,
+          "value": 4.74
+        },
+        {
+          "year": 2015,
+          "value": 5.03
+        },
+        {
+          "year": 2016,
+          "value": 5.63
+        },
+        {
+          "year": 2017,
+          "value": 6.24
+        },
+        {
+          "year": 2018,
+          "value": 6.84
+        },
+        {
+          "year": 2019,
+          "value": 7.45
+        },
+        {
+          "year": 2020,
+          "value": 8.05
+        },
+        {
+          "year": 2021,
+          "value": 8.54
+        },
+        {
+          "year": 2022,
+          "value": 9.02
+        },
+        {
+          "year": 2023,
+          "value": 9.51
+        }
+      ]
+    },
+    {
+      "id": 1296087,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Total excluding LULUCF",
+      "gas": "N2O",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 9.53
+        },
+        {
+          "year": 1991,
+          "value": 10.71
+        },
+        {
+          "year": 1992,
+          "value": 10.63
+        },
+        {
+          "year": 1993,
+          "value": 11.1
+        },
+        {
+          "year": 1994,
+          "value": 13.0
+        },
+        {
+          "year": 1995,
+          "value": 12.86
+        },
+        {
+          "year": 1996,
+          "value": 14.11
+        },
+        {
+          "year": 1997,
+          "value": 13.91
+        },
+        {
+          "year": 1998,
+          "value": 15.6
+        },
+        {
+          "year": 1999,
+          "value": 16.18
+        },
+        {
+          "year": 2000,
+          "value": 16.98
+        },
+        {
+          "year": 2001,
+          "value": 15.66
+        },
+        {
+          "year": 2002,
+          "value": 16.54
+        },
+        {
+          "year": 2003,
+          "value": 17.75
+        },
+        {
+          "year": 2004,
+          "value": 18.68
+        },
+        {
+          "year": 2005,
+          "value": 17.89
+        },
+        {
+          "year": 2006,
+          "value": 17.68
+        },
+        {
+          "year": 2007,
+          "value": 19.06
+        },
+        {
+          "year": 2008,
+          "value": 16.83
+        },
+        {
+          "year": 2009,
+          "value": 21.57
+        },
+        {
+          "year": 2010,
+          "value": 19.75
+        },
+        {
+          "year": 2011,
+          "value": 18.74
+        },
+        {
+          "year": 2012,
+          "value": 20.17
+        },
+        {
+          "year": 2013,
+          "value": 22.69
+        },
+        {
+          "year": 2014,
+          "value": 21.6
+        },
+        {
+          "year": 2015,
+          "value": 23.59
+        },
+        {
+          "year": 2016,
+          "value": 23.03
+        },
+        {
+          "year": 2017,
+          "value": 23.31
+        },
+        {
+          "year": 2018,
+          "value": 23.83
+        },
+        {
+          "year": 2019,
+          "value": 23.99
+        },
+        {
+          "year": 2020,
+          "value": 24.16
+        },
+        {
+          "year": 2021,
+          "value": 24.33
+        },
+        {
+          "year": 2022,
+          "value": 25.62
+        },
+        {
+          "year": 2023,
+          "value": 25.81
+        }
+      ]
+    },
+    {
+      "id": 1296088,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Total including LULUCF",
+      "gas": "All GHG",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 10.49
+        },
+        {
+          "year": 1991,
+          "value": 14.35
+        },
+        {
+          "year": 1992,
+          "value": 17.72
+        },
+        {
+          "year": 1993,
+          "value": 23.88
+        },
+        {
+          "year": 1994,
+          "value": 28.35
+        },
+        {
+          "year": 1995,
+          "value": 36.69
+        },
+        {
+          "year": 1996,
+          "value": 44.87
+        },
+        {
+          "year": 1997,
+          "value": 53.29
+        },
+        {
+          "year": 1998,
+          "value": 65.18
+        },
+        {
+          "year": 1999,
+          "value": 69.17
+        },
+        {
+          "year": 2000,
+          "value": 77.38
+        },
+        {
+          "year": 2001,
+          "value": 172.46
+        },
+        {
+          "year": 2002,
+          "value": 189.42
+        },
+        {
+          "year": 2003,
+          "value": 195.65
+        },
+        {
+          "year": 2004,
+          "value": 217.96
+        },
+        {
+          "year": 2005,
+          "value": 228.65
+        },
+        {
+          "year": 2006,
+          "value": 233.43
+        },
+        {
+          "year": 2007,
+          "value": 248.37
+        },
+        {
+          "year": 2008,
+          "value": 258.0
+        },
+        {
+          "year": 2009,
+          "value": 281.26
+        },
+        {
+          "year": 2010,
+          "value": 300.58
+        },
+        {
+          "year": 2011,
+          "value": 264.55
+        },
+        {
+          "year": 2012,
+          "value": 265.83
+        },
+        {
+          "year": 2013,
+          "value": 280.88
+        },
+        {
+          "year": 2014,
+          "value": 294.82
+        },
+        {
+          "year": 2015,
+          "value": 310.79
+        },
+        {
+          "year": 2016,
+          "value": 177.16
+        },
+        {
+          "year": 2017,
+          "value": 184.51
+        },
+        {
+          "year": 2018,
+          "value": 242.77
+        },
+        {
+          "year": 2019,
+          "value": 297.7
+        },
+        {
+          "year": 2020,
+          "value": 309.74
+        },
+        {
+          "year": 2021,
+          "value": 475.63
+        },
+        {
+          "year": 2022,
+          "value": 476.37
+        },
+        {
+          "year": 2023,
+          "value": 471.78
+        }
+      ]
+    },
+    {
+      "id": 1296089,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Total including LULUCF",
+      "gas": "CH4",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 54.75
+        },
+        {
+          "year": 1991,
+          "value": 56.91
+        },
+        {
+          "year": 1992,
+          "value": 59.34
+        },
+        {
+          "year": 1993,
+          "value": 61.59
+        },
+        {
+          "year": 1994,
+          "value": 61.71
+        },
+        {
+          "year": 1995,
+          "value": 65.36
+        },
+        {
+          "year": 1996,
+          "value": 68.93
+        },
+        {
+          "year": 1997,
+          "value": 71.83
+        },
+        {
+          "year": 1998,
+          "value": 76.89
+        },
+        {
+          "year": 1999,
+          "value": 79.52
+        },
+        {
+          "year": 2000,
+          "value": 82.16
+        },
+        {
+          "year": 2001,
+          "value": 82.38
+        },
+        {
+          "year": 2002,
+          "value": 85.92
+        },
+        {
+          "year": 2003,
+          "value": 88.27
+        },
+        {
+          "year": 2004,
+          "value": 94.74
+        },
+        {
+          "year": 2005,
+          "value": 98.71
+        },
+        {
+          "year": 2006,
+          "value": 101.57
+        },
+        {
+          "year": 2007,
+          "value": 103.97
+        },
+        {
+          "year": 2008,
+          "value": 103.55
+        },
+        {
+          "year": 2009,
+          "value": 106.89
+        },
+        {
+          "year": 2010,
+          "value": 108.15
+        },
+        {
+          "year": 2011,
+          "value": 109.36
+        },
+        {
+          "year": 2012,
+          "value": 109.39
+        },
+        {
+          "year": 2013,
+          "value": 111.0
+        },
+        {
+          "year": 2014,
+          "value": 110.66
+        },
+        {
+          "year": 2015,
+          "value": 104.29
+        },
+        {
+          "year": 2016,
+          "value": 102.86
+        },
+        {
+          "year": 2017,
+          "value": 101.72
+        },
+        {
+          "year": 2018,
+          "value": 102.37
+        },
+        {
+          "year": 2019,
+          "value": 101.7
+        },
+        {
+          "year": 2020,
+          "value": 99.07
+        },
+        {
+          "year": 2021,
+          "value": 100.53
+        },
+        {
+          "year": 2022,
+          "value": 100.0
+        },
+        {
+          "year": 2023,
+          "value": 99.09
+        }
+      ]
+    },
+    {
+      "id": 1296090,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Total including LULUCF",
+      "gas": "CO2",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": -54.19
+        },
+        {
+          "year": 1991,
+          "value": -53.69
+        },
+        {
+          "year": 1992,
+          "value": -52.67
+        },
+        {
+          "year": 1993,
+          "value": -49.24
+        },
+        {
+          "year": 1994,
+          "value": -46.81
+        },
+        {
+          "year": 1995,
+          "value": -42.0
+        },
+        {
+          "year": 1996,
+          "value": -38.49
+        },
+        {
+          "year": 1997,
+          "value": -32.76
+        },
+        {
+          "year": 1998,
+          "value": -27.96
+        },
+        {
+          "year": 1999,
+          "value": -27.02
+        },
+        {
+          "year": 2000,
+          "value": -22.31
+        },
+        {
+          "year": 2001,
+          "value": 73.68
+        },
+        {
+          "year": 2002,
+          "value": 85.76
+        },
+        {
+          "year": 2003,
+          "value": 87.87
+        },
+        {
+          "year": 2004,
+          "value": 102.52
+        },
+        {
+          "year": 2005,
+          "value": 109.77
+        },
+        {
+          "year": 2006,
+          "value": 111.81
+        },
+        {
+          "year": 2007,
+          "value": 122.12
+        },
+        {
+          "year": 2008,
+          "value": 134.52
+        },
+        {
+          "year": 2009,
+          "value": 149.27
+        },
+        {
+          "year": 2010,
+          "value": 168.57
+        },
+        {
+          "year": 2011,
+          "value": 132.23
+        },
+        {
+          "year": 2012,
+          "value": 131.72
+        },
+        {
+          "year": 2013,
+          "value": 142.53
+        },
+        {
+          "year": 2014,
+          "value": 157.46
+        },
+        {
+          "year": 2015,
+          "value": 177.6
+        },
+        {
+          "year": 2016,
+          "value": 45.27
+        },
+        {
+          "year": 2017,
+          "value": 53.05
+        },
+        {
+          "year": 2018,
+          "value": 109.53
+        },
+        {
+          "year": 2019,
+          "value": 164.32
+        },
+        {
+          "year": 2020,
+          "value": 178.2
+        },
+        {
+          "year": 2021,
+          "value": 342.02
+        },
+        {
+          "year": 2022,
+          "value": 341.57
+        },
+        {
+          "year": 2023,
+          "value": 337.13
+        }
+      ]
+    },
+    {
+      "id": 1296091,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Total including LULUCF",
+      "gas": "F-Gas",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 0.08
+        },
+        {
+          "year": 1991,
+          "value": 0.1
+        },
+        {
+          "year": 1992,
+          "value": 0.11
+        },
+        {
+          "year": 1993,
+          "value": 0.12
+        },
+        {
+          "year": 1994,
+          "value": 0.13
+        },
+        {
+          "year": 1995,
+          "value": 0.14
+        },
+        {
+          "year": 1996,
+          "value": 0.18
+        },
+        {
+          "year": 1997,
+          "value": 0.22
+        },
+        {
+          "year": 1998,
+          "value": 0.25
+        },
+        {
+          "year": 1999,
+          "value": 0.29
+        },
+        {
+          "year": 2000,
+          "value": 0.33
+        },
+        {
+          "year": 2001,
+          "value": 0.6
+        },
+        {
+          "year": 2002,
+          "value": 0.87
+        },
+        {
+          "year": 2003,
+          "value": 1.13
+        },
+        {
+          "year": 2004,
+          "value": 1.4
+        },
+        {
+          "year": 2005,
+          "value": 1.67
+        },
+        {
+          "year": 2006,
+          "value": 2.06
+        },
+        {
+          "year": 2007,
+          "value": 2.45
+        },
+        {
+          "year": 2008,
+          "value": 2.84
+        },
+        {
+          "year": 2009,
+          "value": 3.22
+        },
+        {
+          "year": 2010,
+          "value": 3.61
+        },
+        {
+          "year": 2011,
+          "value": 3.89
+        },
+        {
+          "year": 2012,
+          "value": 4.18
+        },
+        {
+          "year": 2013,
+          "value": 4.46
+        },
+        {
+          "year": 2014,
+          "value": 4.74
+        },
+        {
+          "year": 2015,
+          "value": 5.03
+        },
+        {
+          "year": 2016,
+          "value": 5.63
+        },
+        {
+          "year": 2017,
+          "value": 6.24
+        },
+        {
+          "year": 2018,
+          "value": 6.84
+        },
+        {
+          "year": 2019,
+          "value": 7.45
+        },
+        {
+          "year": 2020,
+          "value": 8.05
+        },
+        {
+          "year": 2021,
+          "value": 8.54
+        },
+        {
+          "year": 2022,
+          "value": 9.02
+        },
+        {
+          "year": 2023,
+          "value": 9.51
+        }
+      ]
+    },
+    {
+      "id": 1296092,
+      "iso_code3": "VNM",
+      "country": "Vietnam",
+      "data_source": "Climate Watch",
+      "sector": "Total including LULUCF",
+      "gas": "N2O",
+      "unit": "MtCO₂e",
+      "emissions": [
+        {
+          "year": 1990,
+          "value": 9.85
+        },
+        {
+          "year": 1991,
+          "value": 11.03
+        },
+        {
+          "year": 1992,
+          "value": 10.94
+        },
+        {
+          "year": 1993,
+          "value": 11.42
+        },
+        {
+          "year": 1994,
+          "value": 13.32
+        },
+        {
+          "year": 1995,
+          "value": 13.18
+        },
+        {
+          "year": 1996,
+          "value": 14.24
+        },
+        {
+          "year": 1997,
+          "value": 14.01
+        },
+        {
+          "year": 1998,
+          "value": 15.99
+        },
+        {
+          "year": 1999,
+          "value": 16.39
+        },
+        {
+          "year": 2000,
+          "value": 17.2
+        },
+        {
+          "year": 2001,
+          "value": 15.81
+        },
+        {
+          "year": 2002,
+          "value": 16.88
+        },
+        {
+          "year": 2003,
+          "value": 18.37
+        },
+        {
+          "year": 2004,
+          "value": 19.3
+        },
+        {
+          "year": 2005,
+          "value": 18.49
+        },
+        {
+          "year": 2006,
+          "value": 17.99
+        },
+        {
+          "year": 2007,
+          "value": 19.83
+        },
+        {
+          "year": 2008,
+          "value": 17.09
+        },
+        {
+          "year": 2009,
+          "value": 21.89
+        },
+        {
+          "year": 2010,
+          "value": 20.25
+        },
+        {
+          "year": 2011,
+          "value": 19.06
+        },
+        {
+          "year": 2012,
+          "value": 20.55
+        },
+        {
+          "year": 2013,
+          "value": 22.89
+        },
+        {
+          "year": 2014,
+          "value": 21.96
+        },
+        {
+          "year": 2015,
+          "value": 23.88
+        },
+        {
+          "year": 2016,
+          "value": 23.4
+        },
+        {
+          "year": 2017,
+          "value": 23.49
+        },
+        {
+          "year": 2018,
+          "value": 24.02
+        },
+        {
+          "year": 2019,
+          "value": 24.24
+        },
+        {
+          "year": 2020,
+          "value": 24.42
+        },
+        {
+          "year": 2021,
+          "value": 24.55
+        },
+        {
+          "year": 2022,
+          "value": 25.78
+        },
+        {
+          "year": 2023,
+          "value": 26.06
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "years": [
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003,
+      2002,
+      2001,
+      2000,
+      1999,
+      1998,
+      1997,
+      1996,
+      1995,
+      1994,
+      1993,
+      1992,
+      1991,
+      1990,
+      1989,
+      1988,
+      1987,
+      1986,
+      1985,
+      1984,
+      1983,
+      1982,
+      1981,
+      1980,
+      1979,
+      1978,
+      1977,
+      1976,
+      1975,
+      1974,
+      1973,
+      1972,
+      1971,
+      1970,
+      1969,
+      1968,
+      1967,
+      1966,
+      1965,
+      1964,
+      1963,
+      1962,
+      1961,
+      1960,
+      1959,
+      1958,
+      1957,
+      1956,
+      1955,
+      1954,
+      1953,
+      1952,
+      1951,
+      1950,
+      1949,
+      1948,
+      1947,
+      1946,
+      1945,
+      1944,
+      1943,
+      1942,
+      1941,
+      1940,
+      1939,
+      1938,
+      1937,
+      1936,
+      1935,
+      1934,
+      1933,
+      1932,
+      1931,
+      1930,
+      1929,
+      1928,
+      1927,
+      1926,
+      1925,
+      1924,
+      1923,
+      1922,
+      1921,
+      1920,
+      1919,
+      1918,
+      1917,
+      1916,
+      1915,
+      1914,
+      1913,
+      1912,
+      1911,
+      1910,
+      1909,
+      1908,
+      1907,
+      1906,
+      1905,
+      1904,
+      1903,
+      1902,
+      1901,
+      1900,
+      1899,
+      1898,
+      1897,
+      1896,
+      1895,
+      1894,
+      1893,
+      1892,
+      1891,
+      1890,
+      1889,
+      1888,
+      1887,
+      1886,
+      1885,
+      1884,
+      1883,
+      1882,
+      1881,
+      1880,
+      1879,
+      1878,
+      1877,
+      1876,
+      1875,
+      1874,
+      1873,
+      1872,
+      1871,
+      1870,
+      1869,
+      1868,
+      1867,
+      1866,
+      1865,
+      1864,
+      1863,
+      1862,
+      1861,
+      1860,
+      1859,
+      1858,
+      1857,
+      1856,
+      1855,
+      1854,
+      1853,
+      1852,
+      1851,
+      1850
+    ],
+    "header_years": [
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003,
+      2002,
+      2001,
+      2000,
+      1999,
+      1998,
+      1997,
+      1996,
+      1995,
+      1994,
+      1993,
+      1992,
+      1991,
+      1990,
+      1989,
+      1988,
+      1987,
+      1986,
+      1985,
+      1984,
+      1983,
+      1982,
+      1981,
+      1980,
+      1979,
+      1978,
+      1977,
+      1976,
+      1975,
+      1974,
+      1973,
+      1972,
+      1971,
+      1970,
+      1969,
+      1968,
+      1967,
+      1966,
+      1965,
+      1964,
+      1963,
+      1962,
+      1961,
+      1960,
+      1959,
+      1958,
+      1957,
+      1956,
+      1955,
+      1954,
+      1953,
+      1952,
+      1951,
+      1950,
+      1949,
+      1948,
+      1947,
+      1946,
+      1945,
+      1944,
+      1943,
+      1942,
+      1941,
+      1940,
+      1939,
+      1938,
+      1937,
+      1936,
+      1935,
+      1934,
+      1933,
+      1932,
+      1931,
+      1930,
+      1929,
+      1928,
+      1927,
+      1926,
+      1925,
+      1924,
+      1923,
+      1922,
+      1921,
+      1920,
+      1919,
+      1918,
+      1917,
+      1916,
+      1915,
+      1914,
+      1913,
+      1912,
+      1911,
+      1910,
+      1909,
+      1908,
+      1907,
+      1906,
+      1905,
+      1904,
+      1903,
+      1902,
+      1901,
+      1900,
+      1899,
+      1898,
+      1897,
+      1896,
+      1895,
+      1894,
+      1893,
+      1892,
+      1891,
+      1890,
+      1889,
+      1888,
+      1887,
+      1886,
+      1885,
+      1884,
+      1883,
+      1882,
+      1881,
+      1880,
+      1879,
+      1878,
+      1877,
+      1876,
+      1875,
+      1874,
+      1873,
+      1872,
+      1871,
+      1870,
+      1869,
+      1868,
+      1867,
+      1866,
+      1865,
+      1864,
+      1863,
+      1862,
+      1861,
+      1860,
+      1859,
+      1858,
+      1857,
+      1856,
+      1855,
+      1854,
+      1853,
+      1852,
+      1851,
+      1850
+    ],
+    "sorting": {
+      "sort_col": "iso_code3",
+      "sort_dir": "ASC"
+    },
+    "columns": [
+      "id",
+      "iso_code3",
+      "country",
+      "data_source",
+      "sector",
+      "gas"
+    ]
+  }
+}
