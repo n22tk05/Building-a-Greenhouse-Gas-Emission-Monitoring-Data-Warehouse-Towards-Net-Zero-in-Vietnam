@@ -1,0 +1,64 @@
+﻿Province_Code,Province_Name,Province_Name_Ascii,Region,Economic_Zone,Area_Km2,Is_Industrial_Hub
+01,Hà Nội,Ha Noi,Đồng bằng sông Hồng,KTTĐ Bắc Bộ,3359.8,1
+26,Vĩnh Phúc,Vinh Phuc,Đồng bằng sông Hồng,KTTĐ Bắc Bộ,1236.0,1
+27,Bắc Ninh,Bac Ninh,Đồng bằng sông Hồng,KTTĐ Bắc Bộ,822.7,1
+22,Quảng Ninh,Quang Ninh,Đồng bằng sông Hồng,KTTĐ Bắc Bộ,6207.9,1
+30,Hải Dương,Hai Duong,Đồng bằng sông Hồng,KTTĐ Bắc Bộ,1668.2,1
+31,Hải Phòng,Hai Phong,Đồng bằng sông Hồng,KTTĐ Bắc Bộ,1561.8,1
+33,Hưng Yên,Hung Yen,Đồng bằng sông Hồng,KTTĐ Bắc Bộ,930.2,1
+34,Thái Bình,Thai Binh,Đồng bằng sông Hồng,Khác,1586.4,0
+35,Hà Nam,Ha Nam,Đồng bằng sông Hồng,Khác,861.9,1
+36,Nam Định,Nam Dinh,Đồng bằng sông Hồng,Khác,1668.8,0
+37,Ninh Bình,Ninh Binh,Đồng bằng sông Hồng,Khác,1411.8,1
+02,Hà Giang,Ha Giang,Trung du & Miền núi phía Bắc,Khác,7927.5,0
+04,Cao Bằng,Cao Bang,Trung du & Miền núi phía Bắc,Khác,6700.3,0
+06,Bắc Kạn,Bac Kan,Trung du & Miền núi phía Bắc,Khác,4859.9,0
+08,Tuyên Quang,Tuyen Quang,Trung du & Miền núi phía Bắc,Khác,5867.9,0
+10,Lào Cai,Lao Cai,Trung du & Miền núi phía Bắc,Khác,6364.0,0
+11,Điện Biên,Dien Bien,Trung du & Miền núi phía Bắc,Khác,9541.2,0
+12,Lai Châu,Lai Chau,Trung du & Miền núi phía Bắc,Khác,9068.8,0
+14,Sơn La,Son La,Trung du & Miền núi phía Bắc,Khác,14123.6,0
+15,Yên Bái,Yen Bai,Trung du & Miền núi phía Bắc,Khác,6887.6,0
+17,Hoà Bình,Hoa Binh,Trung du & Miền núi phía Bắc,Khác,4590.6,0
+19,Thái Nguyên,Thai Nguyen,Trung du & Miền núi phía Bắc,Khác,3526.6,1
+20,Lạng Sơn,Lang Son,Trung du & Miền núi phía Bắc,Khác,8310.2,0
+24,Bắc Giang,Bac Giang,Trung du & Miền núi phía Bắc,Khác,3895.9,1
+25,Phú Thọ,Phu Tho,Trung du & Miền núi phía Bắc,Khác,3534.6,1
+38,Thanh Hóa,Thanh Hoa,Bắc Trung Bộ & Duyên hải miền Trung,Khác,11114.7,1
+40,Nghệ An,Nghe An,Bắc Trung Bộ & Duyên hải miền Trung,Khác,16493.7,0
+42,Hà Tĩnh,Ha Tinh,Bắc Trung Bộ & Duyên hải miền Trung,Khác,5997.8,1
+44,Quảng Bình,Quang Binh,Bắc Trung Bộ & Duyên hải miền Trung,Khác,8065.3,0
+45,Quảng Trị,Quang Tri,Bắc Trung Bộ & Duyên hải miền Trung,Khác,4739.8,0
+46,Thừa Thiên Huế,Thua Thien Hue,Bắc Trung Bộ & Duyên hải miền Trung,KTTĐ Miền Trung,5048.2,0
+48,Đà Nẵng,Da Nang,Bắc Trung Bộ & Duyên hải miền Trung,KTTĐ Miền Trung,1284.9,1
+49,Quảng Nam,Quang Nam,Bắc Trung Bộ & Duyên hải miền Trung,KTTĐ Miền Trung,10574.7,1
+51,Quảng Ngãi,Quang Ngai,Bắc Trung Bộ & Duyên hải miền Trung,KTTĐ Miền Trung,5155.8,1
+52,Bình Định,Binh Dinh,Bắc Trung Bộ & Duyên hải miền Trung,KTTĐ Miền Trung,6066.2,0
+54,Phú Yên,Phu Yen,Bắc Trung Bộ & Duyên hải miền Trung,Khác,5023.4,0
+56,Khánh Hòa,Khanh Hoa,Bắc Trung Bộ & Duyên hải miền Trung,Khác,5137.8,1
+58,Ninh Thuận,Ninh Thuan,Bắc Trung Bộ & Duyên hải miền Trung,Khác,3355.3,1
+60,Bình Thuận,Binh Thuan,Bắc Trung Bộ & Duyên hải miền Trung,Khác,7812.9,1
+62,Kon Tum,Kon Tum,Tây Nguyên,Khác,9674.2,0
+64,Gia Lai,Gia Lai,Tây Nguyên,Khác,15511.0,0
+66,Đắk Lắk,Dak Lak,Tây Nguyên,Khác,13030.5,0
+67,Đắk Nông,Dak Nong,Tây Nguyên,Khác,6509.3,0
+68,Lâm Đồng,Lam Dong,Tây Nguyên,Khác,9783.3,0
+70,Bình Phước,Binh Phuoc,Đông Nam Bộ,KTTĐ Phía Nam,6871.8,1
+72,Tây Ninh,Tay Ninh,Đông Nam Bộ,KTTĐ Phía Nam,4041.3,1
+74,Bình Dương,Binh Duong,Đông Nam Bộ,KTTĐ Phía Nam,2694.4,1
+75,Đồng Nai,Dong Nai,Đông Nam Bộ,KTTĐ Phía Nam,5907.2,1
+77,Bà Rịa - Vũng Tàu,Ba Ria - Vung Tau,Đông Nam Bộ,KTTĐ Phía Nam,1980.8,1
+79,Hồ Chí Minh,Ho Chi Minh,Đông Nam Bộ,KTTĐ Phía Nam,2061.0,1
+80,Long An,Long An,Đồng bằng sông Cửu Long,KTTĐ Phía Nam,4495.0,1
+82,Tiền Giang,Tien Giang,Đồng bằng sông Cửu Long,KTTĐ ĐBSCL,2510.5,0
+83,Bến Tre,Ben Tre,Đồng bằng sông Cửu Long,KTTĐ ĐBSCL,2394.6,0
+84,Trà Vinh,Tra Vinh,Đồng bằng sông Cửu Long,KTTĐ ĐBSCL,2358.2,1
+86,Vĩnh Long,Vinh Long,Đồng bằng sông Cửu Long,KTTĐ ĐBSCL,1525.6,0
+87,Đồng Tháp,Dong Thap,Đồng bằng sông Cửu Long,KTTĐ ĐBSCL,3383.8,0
+89,An Giang,An Giang,Đồng bằng sông Cửu Long,KTTĐ ĐBSCL,3536.7,0
+91,Kiên Giang,Kien Giang,Đồng bằng sông Cửu Long,KTTĐ ĐBSCL,6348.8,1
+92,Cần Thơ,Can Tho,Đồng bằng sông Cửu Long,KTTĐ ĐBSCL,1439.2,1
+93,Hậu Giang,Hau Giang,Đồng bằng sông Cửu Long,KTTĐ ĐBSCL,1621.8,0
+94,Sóc Trăng,Soc Trang,Đồng bằng sông Cửu Long,KTTĐ ĐBSCL,3311.6,0
+95,Bạc Liêu,Bac Lieu,Đồng bằng sông Cửu Long,KTTĐ ĐBSCL,2669.0,1
+96,Cà Mau,Ca Mau,Đồng bằng sông Cửu Long,KTTĐ ĐBSCL,5221.2,1
