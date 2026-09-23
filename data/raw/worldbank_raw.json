@@ -1,0 +1,6350 @@
+{
+  "EN.GHG.ALL.MT.CE.AR5": [
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2025",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2024",
+      "value": 584.2576,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2023",
+      "value": 542.9235,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2022",
+      "value": 494.4744,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2021",
+      "value": 486.7794,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2020",
+      "value": 492.9551,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2019",
+      "value": 484.71,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2018",
+      "value": 427.7399,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2017",
+      "value": 370.3905,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2016",
+      "value": 364.3785,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2015",
+      "value": 343.6263,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2014",
+      "value": 320.0895,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2013",
+      "value": 304.038,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2012",
+      "value": 295.4604,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2011",
+      "value": 295.6414,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2010",
+      "value": 292.7404,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2009",
+      "value": 275.6843,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2008",
+      "value": 256.1988,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2007",
+      "value": 245.1668,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2006",
+      "value": 231.4367,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2005",
+      "value": 225.2049,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2004",
+      "value": 213.4154,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2003",
+      "value": 191.0392,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2002",
+      "value": 182.8945,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2001",
+      "value": 168.1308,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2000",
+      "value": 163.6424,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1999",
+      "value": 156.1279,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1998",
+      "value": 149.6713,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1997",
+      "value": 139.3721,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1996",
+      "value": 132.2994,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1995",
+      "value": 123.7955,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1994",
+      "value": 115.2483,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1993",
+      "value": 107.6963,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1992",
+      "value": 100.5193,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1991",
+      "value": 96.0461,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1990",
+      "value": 91.8952,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1989",
+      "value": 90.417,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1988",
+      "value": 90.7812,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1987",
+      "value": 87.5807,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1986",
+      "value": 85.6204,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1985",
+      "value": 82.3025,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1984",
+      "value": 80.5132,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1983",
+      "value": 79.3449,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1982",
+      "value": 76.5242,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1981",
+      "value": 71.6138,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1980",
+      "value": 68.7097,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1979",
+      "value": 67.3763,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1978",
+      "value": 65.0917,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1977",
+      "value": 66.2761,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1976",
+      "value": 64.4774,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1975",
+      "value": 66.2226,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1974",
+      "value": 64.7548,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1973",
+      "value": 66.8564,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1972",
+      "value": 62.9603,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1971",
+      "value": 63.0921,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1970",
+      "value": 62.6817,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1969",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1968",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1967",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1966",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1965",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1964",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1963",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1962",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1961",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.ALL.MT.CE.AR5",
+        "value": "Total greenhouse gas emissions excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1960",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ],
+  "EN.GHG.CO2.MT.CE.AR5": [
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2025",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2024",
+      "value": 430.8192,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2023",
+      "value": 390.7253,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2022",
+      "value": 343.9999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2021",
+      "value": 336.1703,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2020",
+      "value": 348.3315,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2019",
+      "value": 336.5288,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2018",
+      "value": 282.0973,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2017",
+      "value": 229.2539,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2016",
+      "value": 223.8051,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2015",
+      "value": 200.8183,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2014",
+      "value": 178.9422,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2013",
+      "value": 163.1599,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2012",
+      "value": 156.2243,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2011",
+      "value": 156.7664,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2010",
+      "value": 156.7839,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2009",
+      "value": 140.8243,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2008",
+      "value": 125.7916,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2007",
+      "value": 114.314,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2006",
+      "value": 103.16,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2005",
+      "value": 100.5495,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2004",
+      "value": 91.9274,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2003",
+      "value": 77.6463,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2002",
+      "value": 73.0818,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2001",
+      "value": 62.0917,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2000",
+      "value": 56.5356,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1999",
+      "value": 51.1038,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1998",
+      "value": 49.8923,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1997",
+      "value": 44.644,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1996",
+      "value": 38.7066,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1995",
+      "value": 34.3721,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1994",
+      "value": 29.8814,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1993",
+      "value": 25.415,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1992",
+      "value": 21.7025,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1991",
+      "value": 20.7206,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1990",
+      "value": 20.5778,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1989",
+      "value": 20.3305,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1988",
+      "value": 23.6751,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1987",
+      "value": 24.1185,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1986",
+      "value": 21.6848,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1985",
+      "value": 19.7578,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1984",
+      "value": 19.5969,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1983",
+      "value": 19.5437,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1982",
+      "value": 18.1238,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1981",
+      "value": 16.7397,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1980",
+      "value": 16.2712,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1979",
+      "value": 15.5796,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1978",
+      "value": 14.9363,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1977",
+      "value": 14.7525,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1976",
+      "value": 13.5594,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1975",
+      "value": 18.5593,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1974",
+      "value": 15.7784,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1973",
+      "value": 18.9263,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1972",
+      "value": 16.9843,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1971",
+      "value": 17.5233,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1970",
+      "value": 17.5073,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1969",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1968",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1967",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1966",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1965",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1964",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1963",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1962",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1961",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.MT.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1960",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ],
+  "EN.GHG.CH4.MT.CE.AR5": [
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2025",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2024",
+      "value": 116.4747,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2023",
+      "value": 117.0515,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2022",
+      "value": 117.2854,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2021",
+      "value": 116.9739,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2020",
+      "value": 113.4124,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2019",
+      "value": 115.5605,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2018",
+      "value": 115.3305,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2017",
+      "value": 112.9801,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2016",
+      "value": 113.3726,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2015",
+      "value": 115.1232,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2014",
+      "value": 117.5029,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2013",
+      "value": 116.8223,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2012",
+      "value": 116.1271,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2011",
+      "value": 116.6569,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2010",
+      "value": 114.5221,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2009",
+      "value": 113.8412,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2008",
+      "value": 110.9614,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2007",
+      "value": 110.7624,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2006",
+      "value": 108.5512,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2005",
+      "value": 105.3782,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2004",
+      "value": 101.5402,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2003",
+      "value": 94.6699,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2002",
+      "value": 92.2803,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2001",
+      "value": 90.106,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2000",
+      "value": 90.433,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1999",
+      "value": 89.5671,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1998",
+      "value": 84.8454,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1997",
+      "value": 81.6304,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1996",
+      "value": 80.3405,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1995",
+      "value": 77.5679,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1994",
+      "value": 73.3916,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1993",
+      "value": 72.1058,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1992",
+      "value": 69.2046,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1991",
+      "value": 65.5508,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1990",
+      "value": 62.6927,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1989",
+      "value": 61.4925,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1988",
+      "value": 58.6705,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1987",
+      "value": 55.8097,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1986",
+      "value": 56.0596,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1985",
+      "value": 55.1312,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1984",
+      "value": 53.875,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1983",
+      "value": 52.8688,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1982",
+      "value": 52.238,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1981",
+      "value": 49.3325,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1980",
+      "value": 47.328,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1979",
+      "value": 46.9173,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1978",
+      "value": 44.8858,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1977",
+      "value": 45.8578,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1976",
+      "value": 45.6367,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1975",
+      "value": 42.6865,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1974",
+      "value": 44.2325,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1973",
+      "value": 43.1957,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1972",
+      "value": 41.3689,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1971",
+      "value": 40.983,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1970",
+      "value": 40.5772,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1969",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1968",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1967",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1966",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1965",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1964",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1963",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1962",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1961",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CH4.MT.CE.AR5",
+        "value": "Methane (CH4) emissions (total) excluding LULUCF (Mt CO2e)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1960",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ],
+  "EN.GHG.CO2.PC.CE.AR5": [
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2025",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2024",
+      "value": 4.26605675468195,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2023",
+      "value": 3.89354026267807,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2022",
+      "value": 3.45101965872917,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2021",
+      "value": 3.39788716841419,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2020",
+      "value": 3.5515331687432,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2019",
+      "value": 3.46316479458409,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2018",
+      "value": 2.93126723532271,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2017",
+      "value": 2.40871172027244,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2016",
+      "value": 2.38090235568537,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2015",
+      "value": 2.16344818077591,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2014",
+      "value": 1.95182181139621,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2013",
+      "value": 1.80141667663283,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2012",
+      "value": 1.74532095481779,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2011",
+      "value": 1.77200618969635,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2010",
+      "value": 1.79273486369334,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2009",
+      "value": 1.62877944346484,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2008",
+      "value": 1.47684691804671,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2007",
+      "value": 1.36684666856981,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2006",
+      "value": 1.25547815833719,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2005",
+      "value": 1.23999989986226,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2004",
+      "value": 1.14424418007545,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2003",
+      "value": 0.975900126008347,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2002",
+      "value": 0.927761034143203,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2001",
+      "value": 0.796360252330399,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2000",
+      "value": 0.732762940866418,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1999",
+      "value": 0.66988474067793,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1998",
+      "value": 0.662583337029676,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1997",
+      "value": 0.60145320114386,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1996",
+      "value": 0.529093491924232,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1995",
+      "value": 0.477059384088314,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1994",
+      "value": 0.421729685038151,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1993",
+      "value": 0.365229496621063,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1992",
+      "value": 0.317937193893432,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1991",
+      "value": 0.309763046353606,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1990",
+      "value": 0.314143053752967,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1989",
+      "value": 0.316934380514063,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1988",
+      "value": 0.376732716530729,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1987",
+      "value": 0.391631674587228,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1986",
+      "value": 0.359334892404348,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1985",
+      "value": 0.334534235010258,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1984",
+      "value": 0.339598607543294,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1983",
+      "value": 0.346901334893064,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1982",
+      "value": 0.329456014019232,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1981",
+      "value": 0.311505007216383,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1980",
+      "value": 0.309986067658738,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1979",
+      "value": 0.303233602275486,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1978",
+      "value": 0.297242451037175,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1977",
+      "value": 0.301348964818047,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1976",
+      "value": 0.284353981764176,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1975",
+      "value": 0.399271534310153,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1974",
+      "value": 0.347438253928559,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1973",
+      "value": 0.426173367216799,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1972",
+      "value": 0.391080483052312,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1971",
+      "value": 0.412805627120708,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1970",
+      "value": 0.422114597073964,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1969",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1968",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1967",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1966",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1965",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1964",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1963",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1962",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1961",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "EN.GHG.CO2.PC.CE.AR5",
+        "value": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1960",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ],
+  "EG.FEC.RNEW.ZS": [
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2025",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2024",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2022",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2021",
+      "value": 24.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2020",
+      "value": 18.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2019",
+      "value": 20.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2018",
+      "value": 24.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2017",
+      "value": 28.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2016",
+      "value": 26.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2015",
+      "value": 27.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2014",
+      "value": 36.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2013",
+      "value": 37.4,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2012",
+      "value": 37.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2011",
+      "value": 36.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2010",
+      "value": 34.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2009",
+      "value": 37,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2008",
+      "value": 39.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2007",
+      "value": 41.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2006",
+      "value": 44.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2005",
+      "value": 44.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2004",
+      "value": 45.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2003",
+      "value": 50.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2002",
+      "value": 52.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2001",
+      "value": 56.1,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2000",
+      "value": 57.7,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1999",
+      "value": 59.3,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1998",
+      "value": 59.2,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1997",
+      "value": 60.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1996",
+      "value": 62.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1995",
+      "value": 64.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1994",
+      "value": 67.8,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1993",
+      "value": 70.6,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1992",
+      "value": 74.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1991",
+      "value": 75.5,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1990",
+      "value": 75.9,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1989",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1988",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1987",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1986",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1985",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1984",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1983",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1982",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1981",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1980",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1979",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1978",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1977",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1976",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1975",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1974",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1973",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1972",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1971",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1970",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1969",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1968",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1967",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1966",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1965",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1964",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1963",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1962",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1961",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "EG.FEC.RNEW.ZS",
+        "value": "Renewable energy consumption (% of total final energy consumption)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1960",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    }
+  ],
+  "NY.GDP.MKTP.CD": [
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2025",
+      "value": 514697215165.065,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2024",
+      "value": 476324572783.807,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2023",
+      "value": 433805036898.465,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2022",
+      "value": 413445230668.578,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2021",
+      "value": 366474752771.009,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2020",
+      "value": 346615738537.796,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2019",
+      "value": 334365270496.667,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2018",
+      "value": 310106478394.659,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2017",
+      "value": 281353605986.903,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2016",
+      "value": 257096001177.982,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2015",
+      "value": 239258328381.741,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2014",
+      "value": 233451469642.519,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2013",
+      "value": 213708811665.34,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2012",
+      "value": 195590661129.249,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2011",
+      "value": 172595049183.925,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2010",
+      "value": 147201173196.979,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2009",
+      "value": 106014659565.214,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2008",
+      "value": 99130304099.1274,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2007",
+      "value": 77414425532.2452,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2006",
+      "value": 66371664817.0436,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2005",
+      "value": 57633255738.1992,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2004",
+      "value": 45427854693.2554,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2003",
+      "value": 39552513231.9169,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2002",
+      "value": 35064105500.8344,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2001",
+      "value": 32685198808.5549,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "2000",
+      "value": 31172518403.3162,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1999",
+      "value": 28683659006.7752,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1998",
+      "value": 27209602050.0452,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1997",
+      "value": 26843700441.5482,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1996",
+      "value": 24657470574.7501,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1995",
+      "value": 20736164458.9505,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1994",
+      "value": 16286433533.3228,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1993",
+      "value": 13180953598.1716,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1992",
+      "value": 9866990236.43587,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1991",
+      "value": 9613369520.41885,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1990",
+      "value": 6471740805.56984,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1989",
+      "value": 6293304974.59403,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1988",
+      "value": 25423812648.5941,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1987",
+      "value": 36658108850.3148,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1986",
+      "value": 26336616250.4397,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1985",
+      "value": 14094687820.7445,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1984",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1983",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1982",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1981",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1980",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1979",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1978",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1977",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1976",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1975",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1974",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1973",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1972",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1971",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1970",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1969",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1968",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1967",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1966",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1965",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1964",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1963",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1962",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1961",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.CD",
+        "value": "GDP (current US$)"
+      },
+      "country": {
+        "id": "VN",
+        "value": "Viet Nam"
+      },
+      "countryiso3code": "VNM",
+      "date": "1960",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    }
+  ]
+}
