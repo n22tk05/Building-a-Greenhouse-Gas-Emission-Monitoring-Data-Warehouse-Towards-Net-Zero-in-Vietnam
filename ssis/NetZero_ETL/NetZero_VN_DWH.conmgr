@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="NetZero_VN_DWH"
+  DTS:DTSID="{87E8D95B-BC9C-4662-BDA0-5FDEFF73B725}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression DTS:Name="ServerName">@[$Project::DatabaseServer]</DTS:PropertyExpression>
+  <DTS:PropertyExpression DTS:Name="InitialCatalog">@[$Project::DatabaseName]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=NetZero_VN_DWH;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

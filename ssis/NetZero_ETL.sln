@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "NetZero_ETL", "NetZero_ETL\NetZero_ETL.dtproj", "{E74A6A81-9964-42DE-8C37-F76C48BBE7D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E74A6A81-9964-42DE-8C37-F76C48BBE7D1}.Development|Default.ActiveCfg = Development
+		{E74A6A81-9964-42DE-8C37-F76C48BBE7D1}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A94A1F6E-5C18-4721-BC20-043B068F17A2}
+	EndGlobalSection
+EndGlobal

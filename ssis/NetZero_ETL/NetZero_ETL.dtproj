@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductVersion>15.0.2000.180</ProductVersion>
+  <SchemaVersion>9.0.1.0</SchemaVersion>
+  <Database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Name>NetZero_ETL.database</Name>
+    <AppendedDataCategory>Data</AppendedDataCategory>
+    <Configurations>
+      <Configuration>
+        <Name>Development</Name>
+        <Options>
+          <OutputPath>bin\Development</OutputPath>
+          <ConnectionMappings />
+          <ConnectionProviderMappings />
+          <ConnectionPropertiesMappings />
+          <TargetServerVersion>Server2019</TargetServerVersion>
+        </Options>
+      </Configuration>
+    </Configurations>
+  </Database>
+  <ProjectConnectionIDs>
+    <ProjectConnectionID>NetZero_VN_DWH.conmgr</ProjectConnectionID>
+    <ProjectConnectionID>Conn_CSV_WB_Emissions.conmgr</ProjectConnectionID>
+    <ProjectConnectionID>Conn_CSV_CW_Sectors.conmgr</ProjectConnectionID>
+    <ProjectConnectionID>Conn_CSV_GSO_Economy.conmgr</ProjectConnectionID>
+    <ProjectConnectionID>Conn_CSV_Dim_Provinces.conmgr</ProjectConnectionID>
+  </ProjectConnectionIDs>
+  <ProjectPackageIDs>
+    <ProjectPackageID>00_Master_ETL.dtsx</ProjectPackageID>
+    <ProjectPackageID>01_Staging_Load.dtsx</ProjectPackageID>
+    <ProjectPackageID>02_Dimension_Load.dtsx</ProjectPackageID>
+    <ProjectPackageID>03_Fact_Load.dtsx</ProjectPackageID>
+  </ProjectPackageIDs>
+  <ProjectParamIDs>
+    <ProjectParamID>Project.params</ProjectParamID>
+  </ProjectParamIDs>
+  <ProjectPartIDs />
+</Project>
