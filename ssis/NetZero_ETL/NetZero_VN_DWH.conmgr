@@ -5,6 +5,7 @@
   DTS:CreationName="OLEDB">
   <DTS:PropertyExpression DTS:Name="ServerName">@[$Project::DatabaseServer]</DTS:PropertyExpression>
   <DTS:PropertyExpression DTS:Name="InitialCatalog">@[$Project::DatabaseName]</DTS:PropertyExpression>
+  <DTS:PropertyExpression DTS:Name="ConnectionString">"Data Source=" + @[$Project::DatabaseServer] + ";Initial Catalog=" + @[$Project::DatabaseName] + ";Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;"</DTS:PropertyExpression>
   <DTS:ObjectData>
     <DTS:ConnectionManager
       DTS:ConnectRetryCount="1"

@@ -1,0 +1,624 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="2026-09-30T21:30:00"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="NETZERO-DEV"
+  DTS:CreatorName="NetZero_DWH_Team"
+  DTS:DTSID="{99C6E771-2186-4FE2-8B6F-38456FA709FD}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.180"
+  DTS:LocaleID="1066"
+  DTS:ObjectName="01_Staging_Load"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{FB13DAB4-DA75-4DD9-995B-752629BB9755}">
+  <DTS:Property DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[NetZero_VN_DWH]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{87E8D95B-BC9C-4662-BDA0-5FDEFF73B725}"
+      DTS:ObjectName="NetZero_VN_DWH">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=NetZero_VN_DWH;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Conn_CSV_WB_Emissions]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{3CAED0C2-023D-4667-93A6-3DA7C03098DA}"
+      DTS:ObjectName="Conn_CSV_WB_Emissions">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1066"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\ADMIN\Desktop\DWH\data\staging\wb_national_emissions.csv" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Conn_CSV_CW_Sectors]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{CE150A6A-AAC1-4365-907F-746D63626B65}"
+      DTS:ObjectName="Conn_CSV_CW_Sectors">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1066"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\ADMIN\Desktop\DWH\data\staging\cw_sector_emissions.csv" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Conn_CSV_GSO_Economy]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{99D4744F-76BE-4F2B-A08F-20E09F0410A6}"
+      DTS:ObjectName="Conn_CSV_GSO_Economy">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1066"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\ADMIN\Desktop\DWH\data\staging\gso_provincial_economy.csv" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Conn_CSV_Dim_Provinces]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{0A64AC91-57ED-42A8-8511-1FE29EE6DF09}"
+      DTS:ObjectName="Conn_CSV_Dim_Provinces">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1066"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\ADMIN\Desktop\DWH\data\reference\dim_provinces_master.csv" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <!-- Task 1: Truncate Staging Tables -->
+    <DTS:Executable
+      DTS:refId="Package\SQL_Truncate_Staging"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Dọn dẹp sạch sẽ 4 bảng Staging bằng SP staging.sp_Truncate_Staging trước khi nạp lượt mới"
+      DTS:DTSID="{00121A6D-620E-4119-BB26-7E1047F5A60E}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="SQL_Truncate_Staging"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{87E8D95B-BC9C-4662-BDA0-5FDEFF73B725}"
+          SQLTask:SqlStatementSource="EXEC [staging].[sp_Truncate_Staging];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+
+    <!-- Task 2: Sequence Container chứa 4 Data Flow Tasks -->
+    <DTS:Executable
+      DTS:refId="Package\Seq_Load_Staging_Tables"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Sequence Container điều phối luồng nạp 4 tập CSV vào 4 bảng Staging"
+      DTS:DTSID="{16D8E885-6E8A-4F4C-8405-AA9E616EB376}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Seq_Load_Staging_Tables">
+      <DTS:Variables />
+      <DTS:Executables>
+        <!-- Data Flow 1: WB National Emissions -->
+        <DTS:Executable
+          DTS:refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Nạp file wb_national_emissions.csv vào staging.stg_wb_national_emissions"
+          DTS:DTSID="{33272E1D-6F9B-462C-B92B-49E804662CC4}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="DFT_Load_Stg_WB_Emissions"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <!-- Flat File Source -->
+                <component
+                  refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions"
+                  name="Src_CSV_WB_Emissions"
+                  componentClassID="Microsoft.FlatFileSource"
+                  description="Flat File Source đọc file wb_national_emissions.csv">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Connections[FlatFileConnection]"
+                      connectionManagerID="Package.ConnectionManagers[Conn_CSV_WB_Emissions]"
+                      connectionManagerRefId="Package.ConnectionManagers[Conn_CSV_WB_Emissions]"
+                      name="FlatFileConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output]"
+                      name="Flat File Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output].Columns[Year]"
+                          name="Year"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output].Columns[Year]"
+                          dataType="i4" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output].Columns[CO2_MtCO2e]"
+                          name="CO2_MtCO2e"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output].Columns[CO2_MtCO2e]"
+                          dataType="numeric"
+                          precision="18"
+                          scale="4" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output].Columns[CO2_Per_Capita_Tonnes]"
+                          name="CO2_Per_Capita_Tonnes"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output].Columns[CO2_Per_Capita_Tonnes]"
+                          dataType="numeric"
+                          precision="18"
+                          scale="6" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output].Columns[GDP_USD]"
+                          name="GDP_USD"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output].Columns[GDP_USD]"
+                          dataType="numeric"
+                          precision="18"
+                          scale="2" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output].Columns[Methane_MtCO2e]"
+                          name="Methane_MtCO2e"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output].Columns[Methane_MtCO2e]"
+                          dataType="numeric"
+                          precision="18"
+                          scale="4" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output].Columns[Renewable_Energy_Pct]"
+                          name="Renewable_Energy_Pct"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output].Columns[Renewable_Energy_Pct]"
+                          dataType="numeric"
+                          precision="5"
+                          scale="2" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output].Columns[Total_GHG_MtCO2e]"
+                          name="Total_GHG_MtCO2e"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Src_CSV_WB_Emissions.Outputs[Flat File Source Output].Columns[Total_GHG_MtCO2e]"
+                          dataType="numeric"
+                          precision="18"
+                          scale="4" />
+                      </outputColumns>
+                    </output>
+                  </outputs>
+                </component>
+
+                <!-- OLE DB Destination Fast Load -->
+                <component
+                  refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Dst_OLEDB_Stg_WB"
+                  name="Dst_OLEDB_Stg_WB"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  description="Nạp dữ liệu vào bảng staging.stg_wb_national_emissions">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions\Dst_OLEDB_Stg_WB.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      connectionManagerRefId="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      name="OleDbConnection" />
+                  </connections>
+                  <properties>
+                    <property name="AccessMode" typeConverter="AccessMode">3</property>
+                    <property name="OpenRowset">[staging].[stg_wb_national_emissions]</property>
+                    <property name="FastLoadKeepIdentity">false</property>
+                    <property name="FastLoadKeepNulls">true</property>
+                    <property name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                  </properties>
+                </component>
+              </components>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+
+        <!-- Data Flow 2: ClimateWatch Sector Emissions -->
+        <DTS:Executable
+          DTS:refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Nạp file cw_sector_emissions.csv vào staging.stg_cw_sector_emissions"
+          DTS:DTSID="{3BB1786D-9EC8-4506-972D-B545ADDE80DB}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="DFT_Load_Stg_CW_Sectors"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <!-- Flat File Source -->
+                <component
+                  refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors"
+                  name="Src_CSV_CW_Sectors"
+                  componentClassID="Microsoft.FlatFileSource"
+                  description="Flat File Source đọc file cw_sector_emissions.csv">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Connections[FlatFileConnection]"
+                      connectionManagerID="Package.ConnectionManagers[Conn_CSV_CW_Sectors]"
+                      connectionManagerRefId="Package.ConnectionManagers[Conn_CSV_CW_Sectors]"
+                      name="FlatFileConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output]"
+                      name="Flat File Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Year]"
+                          name="Year"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Year]"
+                          dataType="i4" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Sector_Code]"
+                          name="Sector_Code"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Sector_Code]"
+                          dataType="str"
+                          length="20"
+                          codePage="65001" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Sector_Name_EN]"
+                          name="Sector_Name_EN"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Sector_Name_EN]"
+                          dataType="str"
+                          length="100"
+                          codePage="65001" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Sector_Name_VI]"
+                          name="Sector_Name_VI"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Sector_Name_VI]"
+                          dataType="wstr"
+                          length="150" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Sector_Category]"
+                          name="Sector_Category"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Sector_Category]"
+                          dataType="wstr"
+                          length="50" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Gas]"
+                          name="Gas"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Gas]"
+                          dataType="str"
+                          length="20"
+                          codePage="65001" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Source]"
+                          name="Source"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Source]"
+                          dataType="str"
+                          length="50"
+                          codePage="65001" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Emissions_MtCO2e]"
+                          name="Emissions_MtCO2e"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Src_CSV_CW_Sectors.Outputs[Flat File Source Output].Columns[Emissions_MtCO2e]"
+                          dataType="numeric"
+                          precision="18"
+                          scale="4" />
+                      </outputColumns>
+                    </output>
+                  </outputs>
+                </component>
+
+                <!-- OLE DB Destination Fast Load -->
+                <component
+                  refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Dst_OLEDB_Stg_CW"
+                  name="Dst_OLEDB_Stg_CW"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  description="Nạp dữ liệu vào bảng staging.stg_cw_sector_emissions">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors\Dst_OLEDB_Stg_CW.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      connectionManagerRefId="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      name="OleDbConnection" />
+                  </connections>
+                  <properties>
+                    <property name="AccessMode" typeConverter="AccessMode">3</property>
+                    <property name="OpenRowset">[staging].[stg_cw_sector_emissions]</property>
+                    <property name="FastLoadKeepIdentity">false</property>
+                    <property name="FastLoadKeepNulls">true</property>
+                    <property name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                  </properties>
+                </component>
+              </components>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+
+        <!-- Data Flow 3: GSO Provincial Economy -->
+        <DTS:Executable
+          DTS:refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Nạp file gso_provincial_economy.csv vào staging.stg_gso_provincial_economy"
+          DTS:DTSID="{9C687FC2-1457-4259-A8B2-6170AC923F4D}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="DFT_Load_Stg_GSO_Economy"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <!-- Flat File Source -->
+                <component
+                  refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy"
+                  name="Src_CSV_GSO_Economy"
+                  componentClassID="Microsoft.FlatFileSource"
+                  description="Flat File Source đọc file gso_provincial_economy.csv">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Connections[FlatFileConnection]"
+                      connectionManagerID="Package.ConnectionManagers[Conn_CSV_GSO_Economy]"
+                      connectionManagerRefId="Package.ConnectionManagers[Conn_CSV_GSO_Economy]"
+                      name="FlatFileConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output]"
+                      name="Flat File Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Year]"
+                          name="Year"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Year]"
+                          dataType="i4" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Province_Code]"
+                          name="Province_Code"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Province_Code]"
+                          dataType="str"
+                          length="10"
+                          codePage="65001" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Province_Name]"
+                          name="Province_Name"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Province_Name]"
+                          dataType="wstr"
+                          length="100" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[GRDP_Billion_VND]"
+                          name="GRDP_Billion_VND"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[GRDP_Billion_VND]"
+                          dataType="numeric"
+                          precision="18"
+                          scale="2" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Population]"
+                          name="Population"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Population]"
+                          dataType="i8" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Industrial_Output_Billion_VND]"
+                          name="Industrial_Output_Billion_VND"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Industrial_Output_Billion_VND]"
+                          dataType="numeric"
+                          precision="18"
+                          scale="2" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Forest_Coverage_Pct]"
+                          name="Forest_Coverage_Pct"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Forest_Coverage_Pct]"
+                          dataType="numeric"
+                          precision="5"
+                          scale="2" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Estimated_Carbon_Tonnes]"
+                          name="Estimated_Carbon_Tonnes"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Estimated_Carbon_Tonnes]"
+                          dataType="numeric"
+                          precision="18"
+                          scale="4" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Decoupling_Index]"
+                          name="Decoupling_Index"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Src_CSV_GSO_Economy.Outputs[Flat File Source Output].Columns[Decoupling_Index]"
+                          dataType="numeric"
+                          precision="18"
+                          scale="4" />
+                      </outputColumns>
+                    </output>
+                  </outputs>
+                </component>
+
+                <!-- OLE DB Destination Fast Load -->
+                <component
+                  refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Dst_OLEDB_Stg_GSO"
+                  name="Dst_OLEDB_Stg_GSO"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  description="Nạp dữ liệu vào bảng staging.stg_gso_provincial_economy">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy\Dst_OLEDB_Stg_GSO.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      connectionManagerRefId="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      name="OleDbConnection" />
+                  </connections>
+                  <properties>
+                    <property name="AccessMode" typeConverter="AccessMode">3</property>
+                    <property name="OpenRowset">[staging].[stg_gso_provincial_economy]</property>
+                    <property name="FastLoadKeepIdentity">false</property>
+                    <property name="FastLoadKeepNulls">true</property>
+                    <property name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                  </properties>
+                </component>
+              </components>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+
+        <!-- Data Flow 4: Dim Provinces Master -->
+        <DTS:Executable
+          DTS:refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Nạp file dim_provinces_master.csv vào staging.stg_dim_provinces"
+          DTS:DTSID="{C0BC5F7C-379F-4AE7-80FA-718C8675E992}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="DFT_Load_Stg_Dim_Provinces"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <!-- Flat File Source -->
+                <component
+                  refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces"
+                  name="Src_CSV_Dim_Provinces"
+                  componentClassID="Microsoft.FlatFileSource"
+                  description="Flat File Source đọc file dim_provinces_master.csv">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Connections[FlatFileConnection]"
+                      connectionManagerID="Package.ConnectionManagers[Conn_CSV_Dim_Provinces]"
+                      connectionManagerRefId="Package.ConnectionManagers[Conn_CSV_Dim_Provinces]"
+                      name="FlatFileConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output]"
+                      name="Flat File Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output].Columns[Province_Code]"
+                          name="Province_Code"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output].Columns[Province_Code]"
+                          dataType="str"
+                          length="10"
+                          codePage="65001" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output].Columns[Province_Name]"
+                          name="Province_Name"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output].Columns[Province_Name]"
+                          dataType="wstr"
+                          length="100" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output].Columns[Province_Name_Ascii]"
+                          name="Province_Name_Ascii"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output].Columns[Province_Name_Ascii]"
+                          dataType="str"
+                          length="100"
+                          codePage="65001" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output].Columns[Region]"
+                          name="Region"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output].Columns[Region]"
+                          dataType="wstr"
+                          length="50" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output].Columns[Economic_Zone]"
+                          name="Economic_Zone"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output].Columns[Economic_Zone]"
+                          dataType="wstr"
+                          length="100" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output].Columns[Area_Km2]"
+                          name="Area_Km2"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output].Columns[Area_Km2]"
+                          dataType="numeric"
+                          precision="10"
+                          scale="2" />
+                        <outputColumn
+                          refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output].Columns[Is_Industrial_Hub]"
+                          name="Is_Industrial_Hub"
+                          lineageId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Src_CSV_Dim_Provinces.Outputs[Flat File Source Output].Columns[Is_Industrial_Hub]"
+                          dataType="bool" />
+                      </outputColumns>
+                    </output>
+                  </outputs>
+                </component>
+
+                <!-- OLE DB Destination Fast Load -->
+                <component
+                  refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Dst_OLEDB_Stg_Prov"
+                  name="Dst_OLEDB_Stg_Prov"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  description="Nạp dữ liệu vào bảng staging.stg_dim_provinces">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces\Dst_OLEDB_Stg_Prov.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      connectionManagerRefId="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      name="OleDbConnection" />
+                  </connections>
+                  <properties>
+                    <property name="AccessMode" typeConverter="AccessMode">3</property>
+                    <property name="OpenRowset">[staging].[stg_dim_provinces]</property>
+                    <property name="FastLoadKeepIdentity">false</property>
+                    <property name="FastLoadKeepNulls">true</property>
+                    <property name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                  </properties>
+                </component>
+              </components>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+
+      <!-- Precedence Constraints inside Sequence Container -->
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Seq_Load_Staging_Tables.PrecedenceConstraints[Constraint_WB_to_CW]"
+          DTS:CreationName=""
+          DTS:DTSID="{60FA66BF-EC48-413D-80B9-4FB6DBBE605A}"
+          DTS:From="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_WB_Emissions"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint_WB_to_CW"
+          DTS:To="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Seq_Load_Staging_Tables.PrecedenceConstraints[Constraint_CW_to_GSO]"
+          DTS:CreationName=""
+          DTS:DTSID="{490E22C0-8F6A-42F1-BE20-9BDAD31320ED}"
+          DTS:From="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_CW_Sectors"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint_CW_to_GSO"
+          DTS:To="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Seq_Load_Staging_Tables.PrecedenceConstraints[Constraint_GSO_to_Prov]"
+          DTS:CreationName=""
+          DTS:DTSID="{F7DD8F83-061D-412E-A9B8-9A4BAB50BF04}"
+          DTS:From="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_GSO_Economy"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint_GSO_to_Prov"
+          DTS:To="Package\Seq_Load_Staging_Tables\DFT_Load_Stg_Dim_Provinces" />
+      </DTS:PrecedenceConstraints>
+    </DTS:Executable>
+  </DTS:Executables>
+
+  <!-- Precedence Constraint: Truncate Staging -> Load Staging Container -->
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint_Truncate_to_Load]"
+      DTS:CreationName=""
+      DTS:DTSID="{E892921D-D459-4583-9705-EC268E46C899}"
+      DTS:From="Package\SQL_Truncate_Staging"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint_Truncate_to_Load"
+      DTS:To="Package\Seq_Load_Staging_Tables" />
+  </DTS:PrecedenceConstraints>
+</DTS:Executable>
