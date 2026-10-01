@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
-  DTS:CreationDate="2026-09-30T21:30:00"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="NETZERO-DEV"
   DTS:CreatorName="NetZero_DWH_Team"

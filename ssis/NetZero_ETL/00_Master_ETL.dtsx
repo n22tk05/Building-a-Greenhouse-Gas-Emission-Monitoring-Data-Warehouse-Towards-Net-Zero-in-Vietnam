@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="NETZERO-DEV"
+  DTS:CreatorName="NetZero_DWH_Team"
+  DTS:DTSID="{DB5CEF76-1AE6-419A-9177-9BA9DFCA2C6C}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.180"
+  DTS:LocaleID="1066"
+  DTS:ObjectName="00_Master_ETL"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{AB68F98B-70A4-4B92-849E-629B5A1C1097}">
+  <DTS:Property DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[NetZero_VN_DWH]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{87E8D95B-BC9C-4662-BDA0-5FDEFF73B725}"
+      DTS:ObjectName="NetZero_VN_DWH">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=NetZero_VN_DWH;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{B089F936-F788-4139-940B-987E1B441649}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="AuditLogID">
+      <DTS:VariableValue
+        DTS:DataType="20">0</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <!-- Stage 0: Audit Start -->
+    <DTS:Executable
+      DTS:refId="Package\SQL_Audit_Start"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Ghi nhận thời điểm bắt đầu toàn bộ pipeline ETL vào staging.ETL_Audit_Log"
+      DTS:DTSID="{247C4B58-F700-498C-B63D-870ACA8F5174}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="SQL_Audit_Start"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{87E8D95B-BC9C-4662-BDA0-5FDEFF73B725}"
+          SQLTask:SqlStatementSource="EXEC [staging].[sp_Log_ETL_Event] @Package_Name='00_Master_ETL', @Task_Name='Pipeline_Start', @Status='RUNNING', @Log_ID=? OUTPUT;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="User::AuditLogID"
+            SQLTask:ParameterDirection="Output"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="-1" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+
+    <!-- Stage 1: Pre-execution Data Check -->
+    <DTS:Executable
+      DTS:refId="Package\SQL_Ingestion_Check"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Kiểm tra tính sẵn sàng của dữ liệu nguồn trước khi nạp"
+      DTS:DTSID="{DA652AD2-3A8F-4E2D-9C6F-C5408D65A049}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="SQL_Ingestion_Check"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{87E8D95B-BC9C-4662-BDA0-5FDEFF73B725}"
+          SQLTask:SqlStatementSource="PRINT N'[INFO] Dữ liệu nguồn CSV và tầng Staging đã sẵn sàng cho chu trình ETL.';" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+
+    <!-- Stage 2: Staging Load (01_Staging_Load.dtsx) -->
+    <DTS:Executable
+      DTS:refId="Package\EPT_Staging_Load"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Kích hoạt gói 01_Staging_Load.dtsx nạp 4 nguồn dữ liệu vào Staging"
+      DTS:DTSID="{C59E9E9F-A4CA-4199-AD39-0B03E99B85D9}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="EPT_Staging_Load"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Developer Edition; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>01_Staging_Load.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+
+    <!-- Stage 3: Dimension Load (02_Dimension_Load.dtsx) -->
+    <DTS:Executable
+      DTS:refId="Package\EPT_Dimension_Load"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Kích hoạt gói 02_Dimension_Load.dtsx nạp dải thời gian Dim_Date và đồng bộ Dim_Province, Dim_Sector"
+      DTS:DTSID="{7CFD04FC-F602-495B-A4D5-AA108E97CBD7}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="EPT_Dimension_Load"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Developer Edition; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>02_Dimension_Load.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+
+    <!-- Stage 4: Fact Load (03_Fact_Load.dtsx) -->
+    <DTS:Executable
+      DTS:refId="Package\EPT_Fact_Load"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Kích hoạt gói 03_Fact_Load.dtsx tra cứu khóa thay thế và nạp 2 bảng Fact"
+      DTS:DTSID="{58B20163-B64A-4527-82C8-95C5F17E3011}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="EPT_Fact_Load"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Developer Edition; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>03_Fact_Load.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+
+    <!-- Stage 5: Audit Complete & Summary -->
+    <DTS:Executable
+      DTS:refId="Package\SQL_Audit_Success"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Cập nhật trạng thái SUCCESS hoàn thành toàn bộ chu trình ETL vào staging.ETL_Audit_Log"
+      DTS:DTSID="{6E8E5F76-CEA6-4B04-9F63-8F22E0239443}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="SQL_Audit_Success"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{87E8D95B-BC9C-4662-BDA0-5FDEFF73B725}"
+          SQLTask:SqlStatementSource="EXEC [staging].[sp_Log_ETL_Event] @Package_Name='00_Master_ETL', @Task_Name='Pipeline_End', @Status='SUCCESS', @Log_ID=?;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="User::AuditLogID"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="-1" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+
+  <!-- Precedence Constraints: Sequential Master Pipeline Flow -->
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint_AuditStart_to_Ingestion]"
+      DTS:CreationName=""
+      DTS:DTSID="{6936F71E-76DC-4D28-BD39-ABDC65599CF9}"
+      DTS:From="Package\SQL_Audit_Start"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint_AuditStart_to_Ingestion"
+      DTS:To="Package\SQL_Ingestion_Check" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint_Ingestion_to_Staging]"
+      DTS:CreationName=""
+      DTS:DTSID="{C17CA753-B9BA-40A3-A424-3DFC3C143298}"
+      DTS:From="Package\SQL_Ingestion_Check"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint_Ingestion_to_Staging"
+      DTS:To="Package\EPT_Staging_Load" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint_Staging_to_Dim]"
+      DTS:CreationName=""
+      DTS:DTSID="{7E6B470E-15AF-4FDD-96D0-7F9528629D62}"
+      DTS:From="Package\EPT_Staging_Load"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint_Staging_to_Dim"
+      DTS:To="Package\EPT_Dimension_Load" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint_Dim_to_Fact]"
+      DTS:CreationName=""
+      DTS:DTSID="{B227FF65-3030-4D67-A7C7-E1DEA4B6835A}"
+      DTS:From="Package\EPT_Dimension_Load"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint_Dim_to_Fact"
+      DTS:To="Package\EPT_Fact_Load" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint_Fact_to_AuditSuccess]"
+      DTS:CreationName=""
+      DTS:DTSID="{899E0CD2-DC2C-425E-B16B-0435814BBCEF}"
+      DTS:From="Package\EPT_Fact_Load"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint_Fact_to_AuditSuccess"
+      DTS:To="Package\SQL_Audit_Success" />
+  </DTS:PrecedenceConstraints>
+
+  <!-- Event Handlers: Global OnError Catching -->
+  <DTS:EventHandlers>
+    <DTS:EventHandler
+      DTS:refId="Package.EventHandlers[OnError]"
+      DTS:CreationName="OnError"
+      DTS:DTSID="{DB7481CD-4D2A-4D5C-ACA6-AC62C8DC9791}"
+      DTS:EventID="0"
+      DTS:EventName="OnError"
+      DTS:LocaleID="-1">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package.EventHandlers[OnError]\SQL_Audit_Error"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Bắt lỗi thực thi và ghi nhận trạng thái FAILED vào staging.ETL_Audit_Log"
+          DTS:DTSID="{B6AB8812-50E5-4F2E-96A3-736478031C86}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="SQL_Audit_Error">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{87E8D95B-BC9C-4662-BDA0-5FDEFF73B725}"
+              SQLTask:SqlStatementSource="EXEC [staging].[sp_Log_ETL_Event] @Package_Name='00_Master_ETL', @Task_Name='Pipeline_Error', @Status='FAILED', @Error_Message='An error occurred during SSIS execution', @Log_ID=?;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+              <SQLTask:ParameterBinding
+                SQLTask:ParameterName="0"
+                SQLTask:DtsVariableName="User::AuditLogID"
+                SQLTask:ParameterDirection="Input"
+                SQLTask:DataType="3"
+                SQLTask:ParameterSize="-1" />
+            </SQLTask:SqlTaskData>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+    </DTS:EventHandler>
+  </DTS:EventHandlers>
+</DTS:Executable>

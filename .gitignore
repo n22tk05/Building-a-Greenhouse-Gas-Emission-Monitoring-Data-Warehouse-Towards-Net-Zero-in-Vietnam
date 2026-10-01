@@ -15,6 +15,7 @@ plans
 !PROJECT_BRIEF_NetZero_DWH.md
 !data/data_profiling_report.md
 !data/week2_schema_verification_report.md
+!data/week3_etl_verification_report.md
 !docs/*.md
 
 # Python

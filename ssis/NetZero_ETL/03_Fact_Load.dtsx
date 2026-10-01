@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="NETZERO-DEV"
+  DTS:CreatorName="NetZero_DWH_Team"
+  DTS:DTSID="{4AE1940C-0A68-4FD9-9AE7-DE70EE17665E}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.180"
+  DTS:LocaleID="1066"
+  DTS:ObjectName="03_Fact_Load"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{B3FE8545-659F-4C17-A0B9-7A6BAF14323C}">
+  <DTS:Property DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[NetZero_VN_DWH]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{87E8D95B-BC9C-4662-BDA0-5FDEFF73B725}"
+      DTS:ObjectName="NetZero_VN_DWH">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=NetZero_VN_DWH;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <!-- Sequence Container chứa 2 Data Flow Tasks nạp Fact -->
+    <DTS:Executable
+      DTS:refId="Package\Seq_Load_Fact_Tables"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Sequence Container điều phối luồng nạp dữ liệu vào 2 bảng Fact"
+      DTS:DTSID="{23C0DEE3-E312-4008-816A-D52A1B8D5B89}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Seq_Load_Fact_Tables">
+      <DTS:Variables />
+      <DTS:Executables>
+        <!-- Data Flow 1: Fact_National_Emissions -->
+        <DTS:Executable
+          DTS:refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_National_Emissions"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Tra cứu Surrogate Keys (Date, Sector), chống overcounting GDP và nạp Fact_National_Emissions"
+          DTS:DTSID="{6665D62D-72F8-4DB2-BA15-98C51EEB0C60}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="DFT_Load_Fact_National_Emissions"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <!-- OLE DB Source: Join Staging CW + WB with Overcounting Guard -->
+                <component
+                  refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_National_Emissions\Src_OLEDB_Staging_National"
+                  name="Src_OLEDB_Staging_National"
+                  componentClassID="Microsoft.OLEDBSource"
+                  description="Trích xuất dữ liệu phát thải ngành và bảo vệ overcounting GDP">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_National_Emissions\Src_OLEDB_Staging_National.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      connectionManagerRefId="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      name="OleDbConnection" />
+                  </connections>
+                  <properties>
+                    <property name="AccessMode" typeConverter="AccessMode">2</property>
+                    <property name="SqlCommand">
+                      SELECT 
+                          cw.[Year],
+                          cw.[Sector_Code],
+                          cw.[Gas],
+                          ISNULL(cw.[Emissions_MtCO2e], 0) AS [Emissions_MtCO2e],
+                          wb.[CO2_MtCO2e],
+                          wb.[Methane_MtCO2e],
+                          wb.[Renewable_Energy_Pct],
+                          CASE 
+                              WHEN cw.[Sector_Code] = 'TOT' THEN wb.[GDP_USD] 
+                              ELSE NULL 
+                          END AS [GDP_USD]
+                      FROM [staging].[stg_cw_sector_emissions] cw
+                      LEFT JOIN [staging].[stg_wb_national_emissions] wb 
+                          ON cw.[Year] = wb.[Year];
+                    </property>
+                  </properties>
+                </component>
+
+                <!-- Lookup 1: Dim_Date (Lookup Date_Key) -->
+                <component
+                  refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_National_Emissions\Lkp_Dim_Date_National"
+                  name="Lkp_Dim_Date_National"
+                  componentClassID="Microsoft.Lookup"
+                  description="Tra cứu Date_Key từ dwh.Dim_Date dựa vào Year">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_National_Emissions\Lkp_Dim_Date_National.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      connectionManagerRefId="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      name="OleDbConnection" />
+                  </connections>
+                  <properties>
+                    <property name="SqlCommand">SELECT [Date_Key], [Year] FROM [dwh].[Dim_Date]</property>
+                    <property name="CacheType" typeConverter="CacheType">0</property>
+                    <property name="NoMatchBehavior" typeConverter="NoMatchBehavior">0</property>
+                  </properties>
+                </component>
+
+                <!-- Lookup 2: Dim_Sector (Lookup Sector_Key) -->
+                <component
+                  refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_National_Emissions\Lkp_Dim_Sector_National"
+                  name="Lkp_Dim_Sector_National"
+                  componentClassID="Microsoft.Lookup"
+                  description="Tra cứu Sector_Key từ dwh.Dim_Sector dựa vào Sector_Code">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_National_Emissions\Lkp_Dim_Sector_National.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      connectionManagerRefId="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      name="OleDbConnection" />
+                  </connections>
+                  <properties>
+                    <property name="SqlCommand">SELECT [Sector_Key], [Sector_Code] FROM [dwh].[Dim_Sector]</property>
+                    <property name="CacheType" typeConverter="CacheType">0</property>
+                    <property name="NoMatchBehavior" typeConverter="NoMatchBehavior">0</property>
+                  </properties>
+                </component>
+
+                <!-- OLE DB Destination: Fact_National_Emissions -->
+                <component
+                  refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_National_Emissions\Dst_OLEDB_Fact_National"
+                  name="Dst_OLEDB_Fact_National"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  description="Nạp dữ liệu vào Fact_National_Emissions">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_National_Emissions\Dst_OLEDB_Fact_National.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      connectionManagerRefId="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      name="OleDbConnection" />
+                  </connections>
+                  <properties>
+                    <property name="AccessMode" typeConverter="AccessMode">3</property>
+                    <property name="OpenRowset">[dwh].[Fact_National_Emissions]</property>
+                    <property name="FastLoadKeepIdentity">false</property>
+                    <property name="FastLoadKeepNulls">true</property>
+                    <property name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                  </properties>
+                </component>
+              </components>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+
+        <!-- Data Flow 2: Fact_Provincial_Economy -->
+        <DTS:Executable
+          DTS:refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_Provincial_Economy"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Tra cứu Surrogate Keys (Date, Province) và nạp Fact_Provincial_Economy"
+          DTS:DTSID="{4816EB04-1888-4433-ABE6-D1F78DB66B55}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="DFT_Load_Fact_Provincial_Economy"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <!-- OLE DB Source: Staging GSO Provincial Economy -->
+                <component
+                  refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_Provincial_Economy\Src_OLEDB_Staging_Economy"
+                  name="Src_OLEDB_Staging_Economy"
+                  componentClassID="Microsoft.OLEDBSource"
+                  description="Trích xuất dữ liệu kinh tế cấp tỉnh từ staging">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_Provincial_Economy\Src_OLEDB_Staging_Economy.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      connectionManagerRefId="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      name="OleDbConnection" />
+                  </connections>
+                  <properties>
+                    <property name="AccessMode" typeConverter="AccessMode">2</property>
+                    <property name="SqlCommand">
+                      SELECT 
+                          [Year],
+                          [Province_Code],
+                          ISNULL([GRDP_Billion_VND], 0) AS [GRDP_Billion_VND],
+                          ISNULL([Population], 0) AS [Population],
+                          ISNULL([Industrial_Output_Billion_VND], 0) AS [Industrial_Output_Billion_VND],
+                          ISNULL([Forest_Coverage_Pct], 0) AS [Forest_Coverage_Pct],
+                          ISNULL([Estimated_Carbon_Tonnes], 0) AS [Estimated_Carbon_Tonnes],
+                          ISNULL([Decoupling_Index], 0) AS [Decoupling_Index]
+                      FROM [staging].[stg_gso_provincial_economy];
+                    </property>
+                  </properties>
+                </component>
+
+                <!-- Lookup 1: Dim_Date (Lookup Date_Key) -->
+                <component
+                  refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_Provincial_Economy\Lkp_Dim_Date_Economy"
+                  name="Lkp_Dim_Date_Economy"
+                  componentClassID="Microsoft.Lookup"
+                  description="Tra cứu Date_Key từ dwh.Dim_Date dựa vào Year">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_Provincial_Economy\Lkp_Dim_Date_Economy.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      connectionManagerRefId="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      name="OleDbConnection" />
+                  </connections>
+                  <properties>
+                    <property name="SqlCommand">SELECT [Date_Key], [Year] FROM [dwh].[Dim_Date]</property>
+                    <property name="CacheType" typeConverter="CacheType">0</property>
+                    <property name="NoMatchBehavior" typeConverter="NoMatchBehavior">0</property>
+                  </properties>
+                </component>
+
+                <!-- Lookup 2: Dim_Province (Lookup Province_Key) -->
+                <component
+                  refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_Provincial_Economy\Lkp_Dim_Province_Economy"
+                  name="Lkp_Dim_Province_Economy"
+                  componentClassID="Microsoft.Lookup"
+                  description="Tra cứu Province_Key từ dwh.Dim_Province dựa vào Province_Code">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_Provincial_Economy\Lkp_Dim_Province_Economy.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      connectionManagerRefId="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      name="OleDbConnection" />
+                  </connections>
+                  <properties>
+                    <property name="SqlCommand">SELECT [Province_Key], [Province_Code] FROM [dwh].[Dim_Province]</property>
+                    <property name="CacheType" typeConverter="CacheType">0</property>
+                    <property name="NoMatchBehavior" typeConverter="NoMatchBehavior">0</property>
+                  </properties>
+                </component>
+
+                <!-- OLE DB Destination: Fact_Provincial_Economy -->
+                <component
+                  refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_Provincial_Economy\Dst_OLEDB_Fact_Economy"
+                  name="Dst_OLEDB_Fact_Economy"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  description="Nạp dữ liệu vào Fact_Provincial_Economy">
+                  <connections>
+                    <connection
+                      refId="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_Provincial_Economy\Dst_OLEDB_Fact_Economy.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      connectionManagerRefId="Package.ConnectionManagers[NetZero_VN_DWH]"
+                      name="OleDbConnection" />
+                  </connections>
+                  <properties>
+                    <property name="AccessMode" typeConverter="AccessMode">3</property>
+                    <property name="OpenRowset">[dwh].[Fact_Provincial_Economy]</property>
+                    <property name="FastLoadKeepIdentity">false</property>
+                    <property name="FastLoadKeepNulls">true</property>
+                    <property name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                  </properties>
+                </component>
+              </components>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+
+      <!-- Precedence Constraints inside Sequence Container: National -> Provincial -->
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Seq_Load_Fact_Tables.PrecedenceConstraints[Constraint_National_to_Provincial]"
+          DTS:CreationName=""
+          DTS:DTSID="{4C9F6872-57C0-4231-8867-85A8FB7228B1}"
+          DTS:From="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_National_Emissions"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint_National_to_Provincial"
+          DTS:To="Package\Seq_Load_Fact_Tables\DFT_Load_Fact_Provincial_Economy" />
+      </DTS:PrecedenceConstraints>
+    </DTS:Executable>
+  </DTS:Executables>
+</DTS:Executable>

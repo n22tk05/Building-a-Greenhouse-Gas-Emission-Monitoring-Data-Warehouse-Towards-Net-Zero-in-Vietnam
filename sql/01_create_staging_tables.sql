@@ -145,5 +145,73 @@ BEGIN
 END;
 GO
 
-PRINT N'[COMPLETE] Tạo thành công 4 bảng Staging và Stored Procedure Truncate trong schema [staging].';
+-- ==============================================================================
+-- 6. Bảng Quản Trị Kiểm Toán ETL (staging.ETL_Audit_Log)
+-- ==============================================================================
+IF OBJECT_ID(N'staging.ETL_Audit_Log', N'U') IS NOT NULL
+BEGIN
+    DROP TABLE [staging].[ETL_Audit_Log];
+END
+GO
+
+PRINT N'[INFO] Đang tạo bảng staging.ETL_Audit_Log...';
+CREATE TABLE [staging].[ETL_Audit_Log] (
+    [Log_ID]          BIGINT IDENTITY(1,1) NOT NULL,
+    [Package_Name]    VARCHAR(100)         NOT NULL,
+    [Task_Name]       VARCHAR(150)         NULL,
+    [Start_Time]      DATETIME             NOT NULL DEFAULT GETDATE(),
+    [End_Time]        DATETIME             NULL,
+    [Status]          VARCHAR(20)          NOT NULL, -- 'RUNNING', 'SUCCESS', 'FAILED'
+    [Rows_Processed]  INT                  NULL,
+    [Error_Message]   NVARCHAR(MAX)        NULL,
+    CONSTRAINT [PK_ETL_Audit_Log] PRIMARY KEY CLUSTERED ([Log_ID])
+);
+GO
+
+-- ==============================================================================
+-- 7. Stored Procedure Ghi Vết Nhật Ký ETL (staging.sp_Log_ETL_Event)
+-- ==============================================================================
+IF OBJECT_ID(N'staging.sp_Log_ETL_Event', N'P') IS NOT NULL
+BEGIN
+    DROP PROCEDURE [staging].[sp_Log_ETL_Event];
+END
+GO
+
+PRINT N'[INFO] Đang tạo Stored Procedure staging.sp_Log_ETL_Event...';
+GO
+CREATE PROCEDURE [staging].[sp_Log_ETL_Event]
+    @Package_Name   VARCHAR(100),
+    @Task_Name      VARCHAR(150) = NULL,
+    @Status         VARCHAR(20),
+    @Rows_Processed INT = NULL,
+    @Error_Message  NVARCHAR(MAX) = NULL,
+    @Log_ID         BIGINT = NULL OUTPUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    IF @Status = 'RUNNING'
+    BEGIN
+        INSERT INTO [staging].[ETL_Audit_Log] ([Package_Name], [Task_Name], [Start_Time], [Status])
+        VALUES (@Package_Name, @Task_Name, GETDATE(), @Status);
+        SET @Log_ID = SCOPE_IDENTITY();
+    END
+    ELSE IF @Log_ID IS NOT NULL
+    BEGIN
+        UPDATE [staging].[ETL_Audit_Log]
+        SET [End_Time] = GETDATE(),
+            [Status] = @Status,
+            [Rows_Processed] = ISNULL(@Rows_Processed, [Rows_Processed]),
+            [Error_Message] = @Error_Message
+        WHERE [Log_ID] = @Log_ID;
+    END
+    ELSE
+    BEGIN
+        INSERT INTO [staging].[ETL_Audit_Log] ([Package_Name], [Task_Name], [Start_Time], [End_Time], [Status], [Rows_Processed], [Error_Message])
+        VALUES (@Package_Name, @Task_Name, GETDATE(), GETDATE(), @Status, @Rows_Processed, @Error_Message);
+        SET @Log_ID = SCOPE_IDENTITY();
+    END
+END;
+GO
+
+PRINT N'[COMPLETE] Tạo thành công 4 bảng Staging, bảng Audit Log và các Stored Procedures trong schema [staging].';
 GO

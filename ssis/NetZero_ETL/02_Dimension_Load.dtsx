@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="NETZERO-DEV"
+  DTS:CreatorName="NetZero_DWH_Team"
+  DTS:DTSID="{074D746B-DF88-44C6-81FD-2993F859766E}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.180"
+  DTS:LocaleID="1066"
+  DTS:ObjectName="02_Dimension_Load"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{365B16FA-BB8E-43FE-8F30-CB97306C58CD}">
+  <DTS:Property DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[NetZero_VN_DWH]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{87E8D95B-BC9C-4662-BDA0-5FDEFF73B725}"
+      DTS:ObjectName="NetZero_VN_DWH">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=NetZero_VN_DWH;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <!-- Task 1: Check and Seed Dim_Date (1970 - 2050) -->
+    <DTS:Executable
+      DTS:refId="Package\SQL_Seed_Dim_Date"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Kiểm tra và sinh dữ liệu 81 năm (1970-2050) cho chiều Dim_Date nếu chưa tồn tại"
+      DTS:DTSID="{A5B2FCFB-BD8C-4A8E-B477-FB24F457822C}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="SQL_Seed_Dim_Date"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{87E8D95B-BC9C-4662-BDA0-5FDEFF73B725}"
+          SQLTask:SqlStatementSource="IF NOT EXISTS (SELECT 1 FROM [dwh].[Dim_Date] WHERE [Year] = 2050)
+BEGIN
+    ;WITH YearSequence AS (
+        SELECT 1970 AS [Year]
+        UNION ALL
+        SELECT [Year] + 1 FROM YearSequence WHERE [Year] &lt; 2050
+    )
+    INSERT INTO [dwh].[Dim_Date] ([Date_Key], [Year], [Decade], [Five_Year_Plan_Phase], [Is_Target_Milestone])
+    SELECT 
+        [Year] AS [Date_Key],
+        [Year],
+        CAST(([Year] / 10) * 10 AS VARCHAR(4)) + 's' AS [Decade],
+        CASE 
+            WHEN [Year] BETWEEN 2011 AND 2015 THEN N'Kế hoạch 5 năm 2011-2015'
+            WHEN [Year] BETWEEN 2016 AND 2020 THEN N'Kế hoạch 5 năm 2016-2020'
+            WHEN [Year] BETWEEN 2021 AND 2025 THEN N'Kế hoạch 5 năm 2021-2025'
+            WHEN [Year] BETWEEN 2026 AND 2030 THEN N'Kế hoạch 5 năm 2026-2030'
+            WHEN [Year] BETWEEN 2031 AND 2035 THEN N'Kế hoạch 5 năm 2031-2035'
+            WHEN [Year] BETWEEN 2036 AND 2040 THEN N'Kế hoạch 5 năm 2036-2040'
+            WHEN [Year] BETWEEN 2041 AND 2045 THEN N'Kế hoạch 5 năm 2041-2045'
+            WHEN [Year] BETWEEN 2046 AND 2050 THEN N'Kế hoạch 5 năm 2046-2050'
+            ELSE N'Giai đoạn lịch sử trước 2011'
+        END AS [Five_Year_Plan_Phase],
+        CASE WHEN [Year] IN (2030, 2050) THEN 1 ELSE 0 END AS [Is_Target_Milestone]
+    FROM YearSequence
+    WHERE NOT EXISTS (SELECT 1 FROM [dwh].[Dim_Date] d WHERE d.[Year] = YearSequence.[Year])
+    OPTION (MAXRECURSION 100);
+END;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+
+    <!-- Task 2: Upsert Dim_Province and Dim_Sector from Staging -->
+    <DTS:Executable
+      DTS:refId="Package\SQL_Load_Staging_To_Dimensions"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Thực thi sp_Load_Staging_To_Dimensions để nạp/cập nhật Dim_Province và Dim_Sector (SCD Type 1 MERGE)"
+      DTS:DTSID="{AABA7FFB-C43E-4301-8071-52FB25CBFF24}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="SQL_Load_Staging_To_Dimensions"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{87E8D95B-BC9C-4662-BDA0-5FDEFF73B725}"
+          SQLTask:SqlStatementSource="EXEC [dwh].[sp_Load_Staging_To_Dimensions];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+
+  <!-- Precedence Constraint: Seed Date -> Load Dimensions -->
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint_Seed_to_LoadDim]"
+      DTS:CreationName=""
+      DTS:DTSID="{6A6898A1-CA30-4F1F-8506-C10186F9348F}"
+      DTS:From="Package\SQL_Seed_Dim_Date"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint_Seed_to_LoadDim"
+      DTS:To="Package\SQL_Load_Staging_To_Dimensions" />
+  </DTS:PrecedenceConstraints>
+</DTS:Executable>
