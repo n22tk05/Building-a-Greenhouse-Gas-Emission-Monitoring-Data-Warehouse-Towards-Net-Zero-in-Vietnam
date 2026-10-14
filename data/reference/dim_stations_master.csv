@@ -1,0 +1,190 @@
+﻿Station_Code,Station_Name,Province_Code,Province_Name,Station_Type,Latitude,Longitude,Is_Active
+ST-01-01,Trạm Khu Công Nghiệp Hà Nội (KCN-01),01,Hà Nội,Khu Công Nghiệp,20.586199,106.536928,1
+ST-01-02,Trạm Đô Thị Giao Thông Hà Nội (DT-01),01,Hà Nội,Đô Thị Giao Thông,20.494043,106.466102,1
+ST-01-03,Trạm Vùng Đệm Sinh Thái Hà Nội (ST-01),01,Hà Nội,Vùng Đệm Sinh Thái,20.478374,106.579731,1
+ST-26-01,Trạm Khu Công Nghiệp Vĩnh Phúc (KCN-26),26,Vĩnh Phúc,Khu Công Nghiệp,20.925524,106.208102,1
+ST-26-02,Trạm Đô Thị Giao Thông Vĩnh Phúc (DT-26),26,Vĩnh Phúc,Đô Thị Giao Thông,21.055421,106.08689,1
+ST-26-03,Trạm Vùng Đệm Sinh Thái Vĩnh Phúc (ST-26),26,Vĩnh Phúc,Vùng Đệm Sinh Thái,20.951322,106.082261,1
+ST-27-01,Trạm Khu Công Nghiệp Bắc Ninh (KCN-27),27,Bắc Ninh,Khu Công Nghiệp,20.397596,105.806207,1
+ST-27-02,Trạm Đô Thị Giao Thông Bắc Ninh (DT-27),27,Bắc Ninh,Đô Thị Giao Thông,20.426381,105.781929,1
+ST-27-03,Trạm Vùng Đệm Sinh Thái Bắc Ninh (ST-27),27,Bắc Ninh,Vùng Đệm Sinh Thái,20.375228,105.818228,1
+ST-22-01,Trạm Khu Công Nghiệp Quảng Ninh (KCN-22),22,Quảng Ninh,Khu Công Nghiệp,20.664088,106.258559,1
+ST-22-02,Trạm Đô Thị Giao Thông Quảng Ninh (DT-22),22,Quảng Ninh,Đô Thị Giao Thông,20.726926,106.183714,1
+ST-22-03,Trạm Vùng Đệm Sinh Thái Quảng Ninh (ST-22),22,Quảng Ninh,Vùng Đệm Sinh Thái,20.729347,106.203565,1
+ST-30-01,Trạm Khu Công Nghiệp Hải Dương (KCN-30),30,Hải Dương,Khu Công Nghiệp,20.004604,106.56756,1
+ST-30-02,Trạm Đô Thị Giao Thông Hải Dương (DT-30),30,Hải Dương,Đô Thị Giao Thông,19.898841,106.453844,1
+ST-30-03,Trạm Vùng Đệm Sinh Thái Hải Dương (ST-30),30,Hải Dương,Vùng Đệm Sinh Thái,19.95958,106.508641,1
+ST-31-01,Trạm Khu Công Nghiệp Hải Phòng (KCN-31),31,Hải Phòng,Khu Công Nghiệp,19.969579,105.857774,1
+ST-31-02,Trạm Đô Thị Giao Thông Hải Phòng (DT-31),31,Hải Phòng,Đô Thị Giao Thông,20.005481,105.818287,1
+ST-31-03,Trạm Vùng Đệm Sinh Thái Hải Phòng (ST-31),31,Hải Phòng,Vùng Đệm Sinh Thái,20.01395,105.795494,1
+ST-33-01,Trạm Khu Công Nghiệp Hưng Yên (KCN-33),33,Hưng Yên,Khu Công Nghiệp,20.968554,105.339788,1
+ST-33-02,Trạm Đô Thị Giao Thông Hưng Yên (DT-33),33,Hưng Yên,Đô Thị Giao Thông,20.96374,105.35894,1
+ST-33-03,Trạm Vùng Đệm Sinh Thái Hưng Yên (ST-33),33,Hưng Yên,Vùng Đệm Sinh Thái,20.909085,105.363267,1
+ST-34-01,Trạm Khu Công Nghiệp Thái Bình (KCN-34),34,Thái Bình,Khu Công Nghiệp,19.904221,105.285625,1
+ST-34-02,Trạm Đô Thị Giao Thông Thái Bình (DT-34),34,Thái Bình,Đô Thị Giao Thông,19.959173,105.276988,1
+ST-34-03,Trạm Vùng Đệm Sinh Thái Thái Bình (ST-34),34,Thái Bình,Vùng Đệm Sinh Thái,20.029583,105.290653,1
+ST-35-01,Trạm Khu Công Nghiệp Hà Nam (KCN-35),35,Hà Nam,Khu Công Nghiệp,20.304417,105.916665,1
+ST-35-02,Trạm Đô Thị Giao Thông Hà Nam (DT-35),35,Hà Nam,Đô Thị Giao Thông,20.293797,105.946216,1
+ST-35-03,Trạm Vùng Đệm Sinh Thái Hà Nam (ST-35),35,Hà Nam,Vùng Đệm Sinh Thái,20.405428,105.820108,1
+ST-36-01,Trạm Khu Công Nghiệp Nam Định (KCN-36),36,Nam Định,Khu Công Nghiệp,19.844141,106.341379,1
+ST-36-02,Trạm Đô Thị Giao Thông Nam Định (DT-36),36,Nam Định,Đô Thị Giao Thông,19.854447,106.236585,1
+ST-36-03,Trạm Vùng Đệm Sinh Thái Nam Định (ST-36),36,Nam Định,Vùng Đệm Sinh Thái,19.788399,106.243277,1
+ST-37-01,Trạm Khu Công Nghiệp Ninh Bình (KCN-37),37,Ninh Bình,Khu Công Nghiệp,21.499151,105.927446,1
+ST-37-02,Trạm Đô Thị Giao Thông Ninh Bình (DT-37),37,Ninh Bình,Đô Thị Giao Thông,21.495964,105.969306,1
+ST-37-03,Trạm Vùng Đệm Sinh Thái Ninh Bình (ST-37),37,Ninh Bình,Vùng Đệm Sinh Thái,21.562944,106.019286,1
+ST-02-01,Trạm Khu Công Nghiệp Hà Giang (KCN-02),02,Hà Giang,Khu Công Nghiệp,22.213561,104.489663,1
+ST-02-02,Trạm Đô Thị Giao Thông Hà Giang (DT-02),02,Hà Giang,Đô Thị Giao Thông,22.316151,104.465348,1
+ST-02-03,Trạm Vùng Đệm Sinh Thái Hà Giang (ST-02),02,Hà Giang,Vùng Đệm Sinh Thái,22.31778,104.454551,1
+ST-04-01,Trạm Khu Công Nghiệp Cao Bằng (KCN-04),04,Cao Bằng,Khu Công Nghiệp,21.469533,104.321328,1
+ST-04-02,Trạm Đô Thị Giao Thông Cao Bằng (DT-04),04,Cao Bằng,Đô Thị Giao Thông,21.470494,104.405891,1
+ST-04-03,Trạm Vùng Đệm Sinh Thái Cao Bằng (ST-04),04,Cao Bằng,Vùng Đệm Sinh Thái,21.515763,104.385437,1
+ST-06-01,Trạm Khu Công Nghiệp Bắc Kạn (KCN-06),06,Bắc Kạn,Khu Công Nghiệp,22.300794,104.139756,1
+ST-06-02,Trạm Đô Thị Giao Thông Bắc Kạn (DT-06),06,Bắc Kạn,Đô Thị Giao Thông,22.271741,104.031184,1
+ST-06-03,Trạm Vùng Đệm Sinh Thái Bắc Kạn (ST-06),06,Bắc Kạn,Vùng Đệm Sinh Thái,22.281493,104.044663,1
+ST-08-01,Trạm Khu Công Nghiệp Tuyên Quang (KCN-08),08,Tuyên Quang,Khu Công Nghiệp,22.38074,105.052426,1
+ST-08-02,Trạm Đô Thị Giao Thông Tuyên Quang (DT-08),08,Tuyên Quang,Đô Thị Giao Thông,22.407983,104.942844,1
+ST-08-03,Trạm Vùng Đệm Sinh Thái Tuyên Quang (ST-08),08,Tuyên Quang,Vùng Đệm Sinh Thái,22.422205,104.999287,1
+ST-10-01,Trạm Khu Công Nghiệp Lào Cai (KCN-10),10,Lào Cai,Khu Công Nghiệp,22.085761,105.071354,1
+ST-10-02,Trạm Đô Thị Giao Thông Lào Cai (DT-10),10,Lào Cai,Đô Thị Giao Thông,22.07135,105.122083,1
+ST-10-03,Trạm Vùng Đệm Sinh Thái Lào Cai (ST-10),10,Lào Cai,Vùng Đệm Sinh Thái,22.165763,105.191463,1
+ST-11-01,Trạm Khu Công Nghiệp Điện Biên (KCN-11),11,Điện Biên,Khu Công Nghiệp,20.50069,104.472733,1
+ST-11-02,Trạm Đô Thị Giao Thông Điện Biên (DT-11),11,Điện Biên,Đô Thị Giao Thông,20.453083,104.491214,1
+ST-11-03,Trạm Vùng Đệm Sinh Thái Điện Biên (ST-11),11,Điện Biên,Vùng Đệm Sinh Thái,20.58477,104.488908,1
+ST-12-01,Trạm Khu Công Nghiệp Lai Châu (KCN-12),12,Lai Châu,Khu Công Nghiệp,21.515762,104.900315,1
+ST-12-02,Trạm Đô Thị Giao Thông Lai Châu (DT-12),12,Lai Châu,Đô Thị Giao Thông,21.611573,104.785116,1
+ST-12-03,Trạm Vùng Đệm Sinh Thái Lai Châu (ST-12),12,Lai Châu,Vùng Đệm Sinh Thái,21.537141,104.792971,1
+ST-14-01,Trạm Khu Công Nghiệp Sơn La (KCN-14),14,Sơn La,Khu Công Nghiệp,21.087211,103.759448,1
+ST-14-02,Trạm Đô Thị Giao Thông Sơn La (DT-14),14,Sơn La,Đô Thị Giao Thông,20.997918,103.723603,1
+ST-14-03,Trạm Vùng Đệm Sinh Thái Sơn La (ST-14),14,Sơn La,Vùng Đệm Sinh Thái,21.135004,103.717349,1
+ST-15-01,Trạm Khu Công Nghiệp Yên Bái (KCN-15),15,Yên Bái,Khu Công Nghiệp,20.867494,104.441853,1
+ST-15-02,Trạm Đô Thị Giao Thông Yên Bái (DT-15),15,Yên Bái,Đô Thị Giao Thông,20.817331,104.524984,1
+ST-15-03,Trạm Vùng Đệm Sinh Thái Yên Bái (ST-15),15,Yên Bái,Vùng Đệm Sinh Thái,20.747812,104.519639,1
+ST-17-01,Trạm Khu Công Nghiệp Hoà Bình (KCN-17),17,Hoà Bình,Khu Công Nghiệp,21.256931,104.717413,1
+ST-17-02,Trạm Đô Thị Giao Thông Hoà Bình (DT-17),17,Hoà Bình,Đô Thị Giao Thông,21.170013,104.765338,1
+ST-17-03,Trạm Vùng Đệm Sinh Thái Hoà Bình (ST-17),17,Hoà Bình,Vùng Đệm Sinh Thái,21.206891,104.661532,1
+ST-19-01,Trạm Khu Công Nghiệp Thái Nguyên (KCN-19),19,Thái Nguyên,Khu Công Nghiệp,20.609961,104.568083,1
+ST-19-02,Trạm Đô Thị Giao Thông Thái Nguyên (DT-19),19,Thái Nguyên,Đô Thị Giao Thông,20.583485,104.601668,1
+ST-19-03,Trạm Vùng Đệm Sinh Thái Thái Nguyên (ST-19),19,Thái Nguyên,Vùng Đệm Sinh Thái,20.604778,104.593327,1
+ST-20-01,Trạm Khu Công Nghiệp Lạng Sơn (KCN-20),20,Lạng Sơn,Khu Công Nghiệp,21.951752,104.26078,1
+ST-20-02,Trạm Đô Thị Giao Thông Lạng Sơn (DT-20),20,Lạng Sơn,Đô Thị Giao Thông,21.856446,104.256932,1
+ST-20-03,Trạm Vùng Đệm Sinh Thái Lạng Sơn (ST-20),20,Lạng Sơn,Vùng Đệm Sinh Thái,21.949826,104.379151,1
+ST-24-01,Trạm Khu Công Nghiệp Bắc Giang (KCN-24),24,Bắc Giang,Khu Công Nghiệp,21.066639,104.764807,1
+ST-24-02,Trạm Đô Thị Giao Thông Bắc Giang (DT-24),24,Bắc Giang,Đô Thị Giao Thông,21.020627,104.714671,1
+ST-24-03,Trạm Vùng Đệm Sinh Thái Bắc Giang (ST-24),24,Bắc Giang,Vùng Đệm Sinh Thái,20.95078,104.819529,1
+ST-25-01,Trạm Khu Công Nghiệp Phú Thọ (KCN-25),25,Phú Thọ,Khu Công Nghiệp,22.275081,104.688836,1
+ST-25-02,Trạm Đô Thị Giao Thông Phú Thọ (DT-25),25,Phú Thọ,Đô Thị Giao Thông,22.336989,104.7765,1
+ST-25-03,Trạm Vùng Đệm Sinh Thái Phú Thọ (ST-25),25,Phú Thọ,Vùng Đệm Sinh Thái,22.36277,104.757742,1
+ST-38-01,Trạm Khu Công Nghiệp Thanh Hóa (KCN-38),38,Thanh Hóa,Khu Công Nghiệp,16.229924,107.598393,1
+ST-38-02,Trạm Đô Thị Giao Thông Thanh Hóa (DT-38),38,Thanh Hóa,Đô Thị Giao Thông,16.301092,107.456095,1
+ST-38-03,Trạm Vùng Đệm Sinh Thái Thanh Hóa (ST-38),38,Thanh Hóa,Vùng Đệm Sinh Thái,16.220299,107.560784,1
+ST-40-01,Trạm Khu Công Nghiệp Nghệ An (KCN-40),40,Nghệ An,Khu Công Nghiệp,15.017921,107.687996,1
+ST-40-02,Trạm Đô Thị Giao Thông Nghệ An (DT-40),40,Nghệ An,Đô Thị Giao Thông,15.034437,107.613176,1
+ST-40-03,Trạm Vùng Đệm Sinh Thái Nghệ An (ST-40),40,Nghệ An,Vùng Đệm Sinh Thái,15.044072,107.615253,1
+ST-42-01,Trạm Khu Công Nghiệp Hà Tĩnh (KCN-42),42,Hà Tĩnh,Khu Công Nghiệp,15.674741,108.650262,1
+ST-42-02,Trạm Đô Thị Giao Thông Hà Tĩnh (DT-42),42,Hà Tĩnh,Đô Thị Giao Thông,15.676017,108.605316,1
+ST-42-03,Trạm Vùng Đệm Sinh Thái Hà Tĩnh (ST-42),42,Hà Tĩnh,Vùng Đệm Sinh Thái,15.585787,108.573221,1
+ST-44-01,Trạm Khu Công Nghiệp Quảng Bình (KCN-44),44,Quảng Bình,Khu Công Nghiệp,15.606086,107.773279,1
+ST-44-02,Trạm Đô Thị Giao Thông Quảng Bình (DT-44),44,Quảng Bình,Đô Thị Giao Thông,15.593132,107.811366,1
+ST-44-03,Trạm Vùng Đệm Sinh Thái Quảng Bình (ST-44),44,Quảng Bình,Vùng Đệm Sinh Thái,15.577575,107.790805,1
+ST-45-01,Trạm Khu Công Nghiệp Quảng Trị (KCN-45),45,Quảng Trị,Khu Công Nghiệp,16.105047,108.223621,1
+ST-45-02,Trạm Đô Thị Giao Thông Quảng Trị (DT-45),45,Quảng Trị,Đô Thị Giao Thông,16.118731,108.111919,1
+ST-45-03,Trạm Vùng Đệm Sinh Thái Quảng Trị (ST-45),45,Quảng Trị,Vùng Đệm Sinh Thái,16.177083,108.136366,1
+ST-46-01,Trạm Khu Công Nghiệp Thừa Thiên Huế (KCN-46),46,Thừa Thiên Huế,Khu Công Nghiệp,16.947295,108.905511,1
+ST-46-02,Trạm Đô Thị Giao Thông Thừa Thiên Huế (DT-46),46,Thừa Thiên Huế,Đô Thị Giao Thông,16.80339,108.994817,1
+ST-46-03,Trạm Vùng Đệm Sinh Thái Thừa Thiên Huế (ST-46),46,Thừa Thiên Huế,Vùng Đệm Sinh Thái,16.869427,109.00095,1
+ST-48-01,Trạm Khu Công Nghiệp Đà Nẵng (KCN-48),48,Đà Nẵng,Khu Công Nghiệp,16.894352,108.746431,1
+ST-48-02,Trạm Đô Thị Giao Thông Đà Nẵng (DT-48),48,Đà Nẵng,Đô Thị Giao Thông,16.983422,108.735523,1
+ST-48-03,Trạm Vùng Đệm Sinh Thái Đà Nẵng (ST-48),48,Đà Nẵng,Vùng Đệm Sinh Thái,16.874359,108.773903,1
+ST-49-01,Trạm Khu Công Nghiệp Quảng Nam (KCN-49),49,Quảng Nam,Khu Công Nghiệp,16.883519,108.449196,1
+ST-49-02,Trạm Đô Thị Giao Thông Quảng Nam (DT-49),49,Quảng Nam,Đô Thị Giao Thông,16.890711,108.592056,1
+ST-49-03,Trạm Vùng Đệm Sinh Thái Quảng Nam (ST-49),49,Quảng Nam,Vùng Đệm Sinh Thái,16.814723,108.51658,1
+ST-51-01,Trạm Khu Công Nghiệp Quảng Ngãi (KCN-51),51,Quảng Ngãi,Khu Công Nghiệp,16.786269,108.617627,1
+ST-51-02,Trạm Đô Thị Giao Thông Quảng Ngãi (DT-51),51,Quảng Ngãi,Đô Thị Giao Thông,16.732265,108.552204,1
+ST-51-03,Trạm Vùng Đệm Sinh Thái Quảng Ngãi (ST-51),51,Quảng Ngãi,Vùng Đệm Sinh Thái,16.804244,108.634848,1
+ST-52-01,Trạm Khu Công Nghiệp Bình Định (KCN-52),52,Bình Định,Khu Công Nghiệp,16.735959,108.861427,1
+ST-52-02,Trạm Đô Thị Giao Thông Bình Định (DT-52),52,Bình Định,Đô Thị Giao Thông,16.781872,108.885179,1
+ST-52-03,Trạm Vùng Đệm Sinh Thái Bình Định (ST-52),52,Bình Định,Vùng Đệm Sinh Thái,16.766459,108.908512,1
+ST-54-01,Trạm Khu Công Nghiệp Phú Yên (KCN-54),54,Phú Yên,Khu Công Nghiệp,16.760104,107.875829,1
+ST-54-02,Trạm Đô Thị Giao Thông Phú Yên (DT-54),54,Phú Yên,Đô Thị Giao Thông,16.792536,107.866543,1
+ST-54-03,Trạm Vùng Đệm Sinh Thái Phú Yên (ST-54),54,Phú Yên,Vùng Đệm Sinh Thái,16.774506,107.947615,1
+ST-56-01,Trạm Khu Công Nghiệp Khánh Hòa (KCN-56),56,Khánh Hòa,Khu Công Nghiệp,15.497963,108.271309,1
+ST-56-02,Trạm Đô Thị Giao Thông Khánh Hòa (DT-56),56,Khánh Hòa,Đô Thị Giao Thông,15.624699,108.322964,1
+ST-56-03,Trạm Vùng Đệm Sinh Thái Khánh Hòa (ST-56),56,Khánh Hòa,Vùng Đệm Sinh Thái,15.513412,108.348892,1
+ST-58-01,Trạm Khu Công Nghiệp Ninh Thuận (KCN-58),58,Ninh Thuận,Khu Công Nghiệp,16.55965,107.678969,1
+ST-58-02,Trạm Đô Thị Giao Thông Ninh Thuận (DT-58),58,Ninh Thuận,Đô Thị Giao Thông,16.468256,107.75033,1
+ST-58-03,Trạm Vùng Đệm Sinh Thái Ninh Thuận (ST-58),58,Ninh Thuận,Vùng Đệm Sinh Thái,16.546489,107.767302,1
+ST-60-01,Trạm Khu Công Nghiệp Bình Thuận (KCN-60),60,Bình Thuận,Khu Công Nghiệp,16.454791,108.933036,1
+ST-60-02,Trạm Đô Thị Giao Thông Bình Thuận (DT-60),60,Bình Thuận,Đô Thị Giao Thông,16.499412,108.924696,1
+ST-60-03,Trạm Vùng Đệm Sinh Thái Bình Thuận (ST-60),60,Bình Thuận,Vùng Đệm Sinh Thái,16.442418,108.893916,1
+ST-62-01,Trạm Khu Công Nghiệp Kon Tum (KCN-62),62,Kon Tum,Khu Công Nghiệp,12.604458,108.771593,1
+ST-62-02,Trạm Đô Thị Giao Thông Kon Tum (DT-62),62,Kon Tum,Đô Thị Giao Thông,12.536134,108.687965,1
+ST-62-03,Trạm Vùng Đệm Sinh Thái Kon Tum (ST-62),62,Kon Tum,Vùng Đệm Sinh Thái,12.495731,108.700276,1
+ST-64-01,Trạm Khu Công Nghiệp Gia Lai (KCN-64),64,Gia Lai,Khu Công Nghiệp,13.624085,108.308143,1
+ST-64-02,Trạm Đô Thị Giao Thông Gia Lai (DT-64),64,Gia Lai,Đô Thị Giao Thông,13.671232,108.381417,1
+ST-64-03,Trạm Vùng Đệm Sinh Thái Gia Lai (ST-64),64,Gia Lai,Vùng Đệm Sinh Thái,13.60715,108.361229,1
+ST-66-01,Trạm Khu Công Nghiệp Đắk Lắk (KCN-66),66,Đắk Lắk,Khu Công Nghiệp,13.316156,107.637625,1
+ST-66-02,Trạm Đô Thị Giao Thông Đắk Lắk (DT-66),66,Đắk Lắk,Đô Thị Giao Thông,13.261503,107.534941,1
+ST-66-03,Trạm Vùng Đệm Sinh Thái Đắk Lắk (ST-66),66,Đắk Lắk,Vùng Đệm Sinh Thái,13.266561,107.522886,1
+ST-67-01,Trạm Khu Công Nghiệp Đắk Nông (KCN-67),67,Đắk Nông,Khu Công Nghiệp,14.206789,108.261506,1
+ST-67-02,Trạm Đô Thị Giao Thông Đắk Nông (DT-67),67,Đắk Nông,Đô Thị Giao Thông,14.20958,108.321608,1
+ST-67-03,Trạm Vùng Đệm Sinh Thái Đắk Nông (ST-67),67,Đắk Nông,Vùng Đệm Sinh Thái,14.158633,108.315269,1
+ST-68-01,Trạm Khu Công Nghiệp Lâm Đồng (KCN-68),68,Lâm Đồng,Khu Công Nghiệp,13.318624,108.112609,1
+ST-68-02,Trạm Đô Thị Giao Thông Lâm Đồng (DT-68),68,Lâm Đồng,Đô Thị Giao Thông,13.276947,108.205498,1
+ST-68-03,Trạm Vùng Đệm Sinh Thái Lâm Đồng (ST-68),68,Lâm Đồng,Vùng Đệm Sinh Thái,13.297511,108.242399,1
+ST-70-01,Trạm Khu Công Nghiệp Bình Phước (KCN-70),70,Bình Phước,Khu Công Nghiệp,11.048678,106.183482,1
+ST-70-02,Trạm Đô Thị Giao Thông Bình Phước (DT-70),70,Bình Phước,Đô Thị Giao Thông,11.041629,106.174419,1
+ST-70-03,Trạm Vùng Đệm Sinh Thái Bình Phước (ST-70),70,Bình Phước,Vùng Đệm Sinh Thái,11.187824,106.172771,1
+ST-72-01,Trạm Khu Công Nghiệp Tây Ninh (KCN-72),72,Tây Ninh,Khu Công Nghiệp,10.56966,106.93656,1
+ST-72-02,Trạm Đô Thị Giao Thông Tây Ninh (DT-72),72,Tây Ninh,Đô Thị Giao Thông,10.646974,106.911038,1
+ST-72-03,Trạm Vùng Đệm Sinh Thái Tây Ninh (ST-72),72,Tây Ninh,Vùng Đệm Sinh Thái,10.65013,106.994117,1
+ST-74-01,Trạm Khu Công Nghiệp Bình Dương (KCN-74),74,Bình Dương,Khu Công Nghiệp,10.127707,105.933894,1
+ST-74-02,Trạm Đô Thị Giao Thông Bình Dương (DT-74),74,Bình Dương,Đô Thị Giao Thông,10.126693,106.040259,1
+ST-74-03,Trạm Vùng Đệm Sinh Thái Bình Dương (ST-74),74,Bình Dương,Vùng Đệm Sinh Thái,10.122972,105.982014,1
+ST-75-01,Trạm Khu Công Nghiệp Đồng Nai (KCN-75),75,Đồng Nai,Khu Công Nghiệp,11.540066,105.902332,1
+ST-75-02,Trạm Đô Thị Giao Thông Đồng Nai (DT-75),75,Đồng Nai,Đô Thị Giao Thông,11.428657,105.968713,1
+ST-75-03,Trạm Vùng Đệm Sinh Thái Đồng Nai (ST-75),75,Đồng Nai,Vùng Đệm Sinh Thái,11.510381,105.997631,1
+ST-77-01,Trạm Khu Công Nghiệp Bà Rịa - Vũng Tàu (KCN-77),77,Bà Rịa - Vũng Tàu,Khu Công Nghiệp,11.235268,107.13396,1
+ST-77-02,Trạm Đô Thị Giao Thông Bà Rịa - Vũng Tàu (DT-77),77,Bà Rịa - Vũng Tàu,Đô Thị Giao Thông,11.31024,107.234663,1
+ST-77-03,Trạm Vùng Đệm Sinh Thái Bà Rịa - Vũng Tàu (ST-77),77,Bà Rịa - Vũng Tàu,Vùng Đệm Sinh Thái,11.348623,107.171588,1
+ST-79-01,Trạm Khu Công Nghiệp Hồ Chí Minh (KCN-79),79,Hồ Chí Minh,Khu Công Nghiệp,10.518565,107.211182,1
+ST-79-02,Trạm Đô Thị Giao Thông Hồ Chí Minh (DT-79),79,Hồ Chí Minh,Đô Thị Giao Thông,10.601382,107.1309,1
+ST-79-03,Trạm Vùng Đệm Sinh Thái Hồ Chí Minh (ST-79),79,Hồ Chí Minh,Vùng Đệm Sinh Thái,10.584176,107.182988,1
+ST-80-01,Trạm Khu Công Nghiệp Long An (KCN-80),80,Long An,Khu Công Nghiệp,9.207088,106.196318,1
+ST-80-02,Trạm Đô Thị Giao Thông Long An (DT-80),80,Long An,Đô Thị Giao Thông,9.177456,106.207368,1
+ST-80-03,Trạm Vùng Đệm Sinh Thái Long An (ST-80),80,Long An,Vùng Đệm Sinh Thái,9.18852,106.065819,1
+ST-82-01,Trạm Khu Công Nghiệp Tiền Giang (KCN-82),82,Tiền Giang,Khu Công Nghiệp,10.781854,104.918069,1
+ST-82-02,Trạm Đô Thị Giao Thông Tiền Giang (DT-82),82,Tiền Giang,Đô Thị Giao Thông,10.882861,104.857809,1
+ST-82-03,Trạm Vùng Đệm Sinh Thái Tiền Giang (ST-82),82,Tiền Giang,Vùng Đệm Sinh Thái,10.831858,104.83781,1
+ST-83-01,Trạm Khu Công Nghiệp Bến Tre (KCN-83),83,Bến Tre,Khu Công Nghiệp,9.614024,105.266243,1
+ST-83-02,Trạm Đô Thị Giao Thông Bến Tre (DT-83),83,Bến Tre,Đô Thị Giao Thông,9.633074,105.272202,1
+ST-83-03,Trạm Vùng Đệm Sinh Thái Bến Tre (ST-83),83,Bến Tre,Vùng Đệm Sinh Thái,9.521015,105.224971,1
+ST-84-01,Trạm Khu Công Nghiệp Trà Vinh (KCN-84),84,Trà Vinh,Khu Công Nghiệp,9.105762,105.641279,1
+ST-84-02,Trạm Đô Thị Giao Thông Trà Vinh (DT-84),84,Trà Vinh,Đô Thị Giao Thông,9.091264,105.517977,1
+ST-84-03,Trạm Vùng Đệm Sinh Thái Trà Vinh (ST-84),84,Trà Vinh,Vùng Đệm Sinh Thái,9.057996,105.621088,1
+ST-86-01,Trạm Khu Công Nghiệp Vĩnh Long (KCN-86),86,Vĩnh Long,Khu Công Nghiệp,10.169893,104.893951,1
+ST-86-02,Trạm Đô Thị Giao Thông Vĩnh Long (DT-86),86,Vĩnh Long,Đô Thị Giao Thông,10.168078,104.913294,1
+ST-86-03,Trạm Vùng Đệm Sinh Thái Vĩnh Long (ST-86),86,Vĩnh Long,Vùng Đệm Sinh Thái,10.269435,104.794812,1
+ST-87-01,Trạm Khu Công Nghiệp Đồng Tháp (KCN-87),87,Đồng Tháp,Khu Công Nghiệp,9.149559,106.257926,1
+ST-87-02,Trạm Đô Thị Giao Thông Đồng Tháp (DT-87),87,Đồng Tháp,Đô Thị Giao Thông,9.219723,106.350183,1
+ST-87-03,Trạm Vùng Đệm Sinh Thái Đồng Tháp (ST-87),87,Đồng Tháp,Vùng Đệm Sinh Thái,9.247436,106.319164,1
+ST-89-01,Trạm Khu Công Nghiệp An Giang (KCN-89),89,An Giang,Khu Công Nghiệp,9.796863,104.842946,1
+ST-89-02,Trạm Đô Thị Giao Thông An Giang (DT-89),89,An Giang,Đô Thị Giao Thông,9.740395,104.898618,1
+ST-89-03,Trạm Vùng Đệm Sinh Thái An Giang (ST-89),89,An Giang,Vùng Đệm Sinh Thái,9.690311,104.832421,1
+ST-91-01,Trạm Khu Công Nghiệp Kiên Giang (KCN-91),91,Kiên Giang,Khu Công Nghiệp,8.951716,105.388868,1
+ST-91-02,Trạm Đô Thị Giao Thông Kiên Giang (DT-91),91,Kiên Giang,Đô Thị Giao Thông,8.961511,105.473731,1
+ST-91-03,Trạm Vùng Đệm Sinh Thái Kiên Giang (ST-91),91,Kiên Giang,Vùng Đệm Sinh Thái,9.062074,105.463196,1
+ST-92-01,Trạm Khu Công Nghiệp Cần Thơ (KCN-92),92,Cần Thơ,Khu Công Nghiệp,10.890059,105.358769,1
+ST-92-02,Trạm Đô Thị Giao Thông Cần Thơ (DT-92),92,Cần Thơ,Đô Thị Giao Thông,10.88012,105.373909,1
+ST-92-03,Trạm Vùng Đệm Sinh Thái Cần Thơ (ST-92),92,Cần Thơ,Vùng Đệm Sinh Thái,10.84629,105.374974,1
+ST-93-01,Trạm Khu Công Nghiệp Hậu Giang (KCN-93),93,Hậu Giang,Khu Công Nghiệp,9.090752,106.204703,1
+ST-93-02,Trạm Đô Thị Giao Thông Hậu Giang (DT-93),93,Hậu Giang,Đô Thị Giao Thông,9.018127,106.134446,1
+ST-93-03,Trạm Vùng Đệm Sinh Thái Hậu Giang (ST-93),93,Hậu Giang,Vùng Đệm Sinh Thái,9.161408,106.129525,1
+ST-94-01,Trạm Khu Công Nghiệp Sóc Trăng (KCN-94),94,Sóc Trăng,Khu Công Nghiệp,10.251524,105.833607,1
+ST-94-02,Trạm Đô Thị Giao Thông Sóc Trăng (DT-94),94,Sóc Trăng,Đô Thị Giao Thông,10.272288,105.877383,1
+ST-94-03,Trạm Vùng Đệm Sinh Thái Sóc Trăng (ST-94),94,Sóc Trăng,Vùng Đệm Sinh Thái,10.186069,105.778152,1
+ST-95-01,Trạm Khu Công Nghiệp Bạc Liêu (KCN-95),95,Bạc Liêu,Khu Công Nghiệp,10.893728,106.143643,1
+ST-95-02,Trạm Đô Thị Giao Thông Bạc Liêu (DT-95),95,Bạc Liêu,Đô Thị Giao Thông,10.865204,106.074521,1
+ST-95-03,Trạm Vùng Đệm Sinh Thái Bạc Liêu (ST-95),95,Bạc Liêu,Vùng Đệm Sinh Thái,10.895015,106.100958,1
+ST-96-01,Trạm Khu Công Nghiệp Cà Mau (KCN-96),96,Cà Mau,Khu Công Nghiệp,10.243215,104.902169,1
+ST-96-02,Trạm Đô Thị Giao Thông Cà Mau (DT-96),96,Cà Mau,Đô Thị Giao Thông,10.199018,104.830151,1
+ST-96-03,Trạm Vùng Đệm Sinh Thái Cà Mau (ST-96),96,Cà Mau,Vùng Đệm Sinh Thái,10.136837,104.874583,1

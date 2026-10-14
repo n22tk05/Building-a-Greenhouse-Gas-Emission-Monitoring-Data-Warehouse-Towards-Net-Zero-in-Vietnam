@@ -24,4 +24,7 @@ __pycache__/
 *$py.class
 .venv/
 env/
-*.log
+*.log
+
+# Large staging datasets (>100MB)
+data/staging/hourly_air_monitoring_*.csv

@@ -56,7 +56,7 @@ CREATE TABLE [dwh].[Dim_Date] (
     [Date_Key]              INT             NOT NULL, -- Smart Surrogate Key (YYYY)
     [Year]                  INT             NOT NULL,
     [Decade]                VARCHAR(20)     NOT NULL, -- VD: '2020s'
-    [Five_Year_Plan_Phase]  NVARCHAR(50)    NOT NULL, -- VD: N'Kế hoạch 2021-2025'
+    [Five_Year_Plan_Phase]  NVARCHAR(100)   NOT NULL, -- VD: N'Kế hoạch 2021-2025'
     [Is_Target_Milestone]   BIT             NOT NULL DEFAULT 0, -- 1 cho năm 2030 (NDC) và 2050 (Net-Zero)
     CONSTRAINT [PK_Dim_Date] PRIMARY KEY CLUSTERED ([Date_Key]),
     CONSTRAINT [UQ_Dim_Date_Year] UNIQUE ([Year])
