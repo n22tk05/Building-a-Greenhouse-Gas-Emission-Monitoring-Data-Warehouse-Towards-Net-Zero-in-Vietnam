@@ -198,13 +198,23 @@ CALCULATE (
 
 /// <summary>
 /// Lượng phát thải khí nhà kính của năm trước liền kề (Prior Year).
+/// Tương thích 100% với cả lịch thường niên (Annual Year) và bảng ngày chuẩn tắc.
 /// Format: #,##0.00 "MtCO2e"
 /// </summary>
 Emissions Prior Year = 
-CALCULATE (
-    [Total GHG Emissions (MtCO2e)],
-    SAMEPERIODLASTYEAR ( vw_Dim_Date_BI[Year_Date] )
-)
+VAR _CurrentYear = SELECTEDVALUE ( vw_Dim_Date_BI[Year] )
+RETURN
+    IF (
+        NOT ( ISBLANK ( _CurrentYear ) ),
+        CALCULATE (
+            [Total GHG Emissions (MtCO2e)],
+            FILTER ( ALL ( vw_Dim_Date_BI ), vw_Dim_Date_BI[Year] = _CurrentYear - 1 )
+        ),
+        CALCULATE (
+            [Total GHG Emissions (MtCO2e)],
+            SAMEPERIODLASTYEAR ( vw_Dim_Date_BI[Year_Date] )
+        )
+    )
 
 /// <summary>
 /// Tốc độ tăng trưởng phát thải so với cùng kỳ năm trước (Year-over-Year %).
@@ -218,13 +228,23 @@ RETURN
 
 /// <summary>
 /// Tổng GRDP của tỉnh ở năm trước liền kề.
+/// Tương thích 100% với cả lịch thường niên (Annual Year) và bảng ngày chuẩn tắc.
 /// Format: #,##0.00 "Tỷ VNĐ"
 /// </summary>
 GRDP Prior Year = 
-CALCULATE (
-    [Provincial GRDP (Billion VND)],
-    SAMEPERIODLASTYEAR ( vw_Dim_Date_BI[Year_Date] )
-)
+VAR _CurrentYear = SELECTEDVALUE ( vw_Dim_Date_BI[Year] )
+RETURN
+    IF (
+        NOT ( ISBLANK ( _CurrentYear ) ),
+        CALCULATE (
+            [Provincial GRDP (Billion VND)],
+            FILTER ( ALL ( vw_Dim_Date_BI ), vw_Dim_Date_BI[Year] = _CurrentYear - 1 )
+        ),
+        CALCULATE (
+            [Provincial GRDP (Billion VND)],
+            SAMEPERIODLASTYEAR ( vw_Dim_Date_BI[Year_Date] )
+        )
+    )
 
 /// <summary>
 /// Tốc độ tăng trưởng kinh tế địa phương so với cùng kỳ năm trước (GRDP YoY %).

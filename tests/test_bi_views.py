@@ -58,6 +58,33 @@ class TestBiViewsSql(unittest.TestCase):
         self.assertIn("GDP OVERCOUNTING GUARD", content)
         self.assertIn("Sector_Code = 'TOT'", content)
 
+    def test_tapio_decoupling_classification_present(self):
+        with open(self.sql_file, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        self.assertIn("Decoupling_Status", content)
+        self.assertIn("Tách rời mạnh (Strong Decoupling)", content)
+        self.assertIn("Tách rời yếu (Weak Decoupling)", content)
+
+    def test_hourly_monitoring_view_joins_and_qcvn_flag(self):
+        with open(self.sql_file, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        self.assertIn("vw_Fact_Hourly_Air_Monitoring_BI", content)
+        self.assertIn("Is_Exceeding_QCVN", content)
+        self.assertIn("Is_Rush_Hour", content)
+        self.assertIn("Dim_Station", content)
+        self.assertIn("Dim_Time_Of_Day", content)
+
+    def test_province_geo_view_contains_ascii_and_codes(self):
+        with open(self.sql_file, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        self.assertIn("vw_Dim_Province_Geo_BI", content)
+        self.assertIn("Province_Code", content)
+        self.assertIn("Province_Name_Ascii", content)
+        self.assertIn("Macro_Region", content)
+
 
 if __name__ == "__main__":
     unittest.main()
