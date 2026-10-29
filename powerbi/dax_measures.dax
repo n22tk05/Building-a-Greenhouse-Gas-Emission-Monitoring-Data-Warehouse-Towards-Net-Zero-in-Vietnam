@@ -1,0 +1,388 @@
+// ==============================================================================
+// Project: Vietnam Greenhouse Gas Emission Monitoring Data Warehouse Towards Net-Zero
+// Phase: 2 (Week 4) - DAX Measures Library & Analytical Metrics Engine
+// File: powerbi/dax_measures.dax
+// Description: Bộ thư viện công thức DAX toàn diện cho Power BI Desktop.
+//              Bao gồm: Chỉ số Quốc gia (Protected GDP), Kinh tế Tỉnh & Decoupling,
+//              Chỉ số Giám sát Không khí Big Data (1.66M dòng), Time Intelligence,
+//              Lộ trình Net-Zero 2030/2050 và Dynamic Formatting.
+// ==============================================================================
+
+// ==============================================================================
+// 1. NHÓM CHỈ SỐ PHÁT THẢI QUỐC GIA (NATIONAL EMISSIONS METRICS)
+// ==============================================================================
+
+/// <summary>
+/// Tổng phát thải khí nhà kính toàn quốc quy đổi theo triệu tấn CO2 tương đương.
+/// Format: #,##0.00 "MtCO2e"
+/// </summary>
+Total GHG Emissions (MtCO2e) = 
+SUM ( vw_Fact_National_Emissions_BI[Emissions_MtCO2e] )
+
+/// <summary>
+/// Tổng lượng phát thải riêng khí CO2 toàn quốc.
+/// Format: #,##0.00 "MtCO2"
+/// </summary>
+Total CO2 Emissions (MtCO2e) = 
+SUM ( vw_Fact_National_Emissions_BI[CO2_MtCO2e] )
+
+/// <summary>
+/// Tổng lượng phát thải riêng khí Methane (CH4) quy đổi tương đương.
+/// Format: #,##0.00 "MtCH4e"
+/// </summary>
+Total Methane Emissions (MtCO2e) = 
+SUM ( vw_Fact_National_Emissions_BI[Methane_MtCO2e] )
+
+/// <summary>
+/// Tổng sản phẩm quốc nội hiện hành của Việt Nam (USD) từ World Bank.
+/// ĐÃ CÀI ĐẶT BẢO VỆ KÉP (OVERCOUNTING GUARD): 
+/// Chỉ lấy giá trị khi Sector_Code = 'TOT' để không bị nhân lên 9 lần khi lọc phân ngành.
+/// Format: $#,##0
+/// </summary>
+National GDP (USD) = 
+CALCULATE (
+    MAX ( vw_Fact_National_Emissions_BI[GDP_USD] ),
+    vw_Dim_Sector_Hierarchy_BI[Sector_Code] = "TOT"
+)
+
+/// <summary>
+/// Cường độ phát thải quốc gia: Số tấn CO2e phát thải trên 1 triệu USD GDP.
+/// Thước đo quan trọng phản ánh hiệu quả khử carbon của nền kinh tế.
+/// Format: #,##0.00 "Tấn/Triệu USD"
+/// </summary>
+National Emission Intensity = 
+VAR _TotalGHG_Tonnes = [Total GHG Emissions (MtCO2e)] * 1000000
+VAR _GDP_MillionUSD = DIVIDE ( [National GDP (USD)], 1000000, BLANK () )
+RETURN
+    DIVIDE ( _TotalGHG_Tonnes, _GDP_MillionUSD, BLANK () )
+
+/// <summary>
+/// Tỷ lệ đóng góp của năng lượng tái tạo trong cơ cấu năng lượng quốc gia.
+/// Format: 0.0%
+/// </summary>
+Renewable Energy Pct = 
+AVERAGE ( vw_Fact_National_Emissions_BI[Renewable_Energy_Pct] )
+
+
+// ==============================================================================
+// 2. NHÓM CHỈ SỐ KINH TẾ & MÔI TRƯỜNG TỈNH THÀNH (PROVINCIAL ECONOMY & DECOUPLING)
+// ==============================================================================
+
+/// <summary>
+/// Tổng lượng phát thải carbon ước tính của 63 tỉnh thành (Tấn CO2e).
+/// Format: #,##0.00 "Tấn"
+/// </summary>
+Provincial Carbon Tonnes = 
+SUM ( vw_Fact_Provincial_Economy_BI[Estimated_Carbon_Tonnes] )
+
+/// <summary>
+/// Tổng sản phẩm trên địa bàn (GRDP) tính theo tỷ đồng Việt Nam.
+/// Format: #,##0.00 "Tỷ VNĐ"
+/// </summary>
+Provincial GRDP (Billion VND) = 
+SUM ( vw_Fact_Provincial_Economy_BI[GRDP_Billion_VND] )
+
+/// <summary>
+/// Tổng dân số địa phương (Người).
+/// Format: #,##0 "Người"
+/// </summary>
+Provincial Population = 
+SUM ( vw_Fact_Provincial_Economy_BI[Population] )
+
+/// <summary>
+/// Chỉ số tách rời kinh tế - carbon Tapio trung bình.
+/// < 0: Tách rời mạnh; 0 - 0.8: Tách rời yếu; > 1.2: Chưa tách rời.
+/// Format: 0.0000
+/// </summary>
+Provincial Decoupling Index = 
+AVERAGE ( vw_Fact_Provincial_Economy_BI[Decoupling_Index] )
+
+/// <summary>
+/// Cường độ carbon địa phương: Tấn CO2e phát thải trên 1 tỷ đồng GRDP.
+/// Format: #,##0.00 "Tấn/Tỷ VNĐ"
+/// </summary>
+Carbon Intensity (Tonnes per Billion VND) = 
+DIVIDE (
+    [Provincial Carbon Tonnes],
+    [Provincial GRDP (Billion VND)],
+    BLANK ()
+)
+
+/// <summary>
+/// Lượng phát thải carbon bình quân đầu người của tỉnh (Tấn/người/năm).
+/// Format: #,##0.00 "Tấn/Người"
+/// </summary>
+Carbon Per Capita (Tonnes/Person) = 
+DIVIDE (
+    [Provincial Carbon Tonnes],
+    [Provincial Population],
+    BLANK ()
+)
+
+/// <summary>
+/// Mật độ phát thải carbon trên diện tích địa lý tự nhiên (Tấn/km2).
+/// Format: #,##0.00 "Tấn/Km²"
+/// </summary>
+Carbon Density (Tonnes/Km2) = 
+DIVIDE (
+    [Provincial Carbon Tonnes],
+    SUM ( vw_Dim_Province_Geo_BI[Area_Km2] ),
+    BLANK ()
+)
+
+/// <summary>
+/// Tỷ lệ che phủ rừng trung bình của tỉnh thành (%).
+/// Format: 0.0%
+/// </summary>
+Forest Coverage Pct = 
+AVERAGE ( vw_Fact_Provincial_Economy_BI[Forest_Coverage_Pct] )
+
+
+// ==============================================================================
+// 3. NHÓM GIÁM SÁT Ô NHIỄM KHÔNG KHÍ BIG DATA 2024 (1.66 TRIỆU DÒNG)
+// ==============================================================================
+
+/// <summary>
+/// Chỉ số chất lượng không khí trung bình (AQI).
+/// Format: #,##0
+/// </summary>
+Avg AQI Index = 
+AVERAGE ( vw_Fact_Hourly_Air_Monitoring_BI[AQI_Index] )
+
+/// <summary>
+/// Nồng độ bụi mịn PM2.5 trung bình (ug/m3). Chuẩn an toàn QCVN 24h là 50 ug/m3.
+/// Format: #,##0.0 "µg/m³"
+/// </summary>
+Avg PM2.5 (ug/m3) = 
+AVERAGE ( vw_Fact_Hourly_Air_Monitoring_BI[PM25_ug_m3] )
+
+/// <summary>
+/// Nồng độ khí CO2 tức thời tại các trạm quan trắc (ppm).
+/// Format: #,##0.0 "ppm"
+/// </summary>
+Avg CO2 Concentration (ppm) = 
+AVERAGE ( vw_Fact_Hourly_Air_Monitoring_BI[CO2_ppm] )
+
+/// <summary>
+/// Tổng số giờ quan trắc vi phạm vượt quy chuẩn chất lượng không khí QCVN 05:2023.
+/// Format: #,##0 "Giờ"
+/// </summary>
+Exceeding QCVN Hours = 
+SUM ( vw_Fact_Hourly_Air_Monitoring_BI[Is_Exceeding_QCVN] )
+
+/// <summary>
+/// Tỷ lệ % số giờ vi phạm quy chuẩn trên tổng số giờ quan trắc thực tế.
+/// Format: 0.0%
+/// </summary>
+Exceeding QCVN Rate % = 
+DIVIDE (
+    [Exceeding QCVN Hours],
+    COUNTROWS ( vw_Fact_Hourly_Air_Monitoring_BI ),
+    0
+)
+
+/// <summary>
+/// Số giờ vượt chuẩn không khí xảy ra trong các khung giờ cao điểm giao thông (7-9h & 17-19h).
+/// Format: #,##0 "Giờ"
+/// </summary>
+Rush Hour Exceeding Hours = 
+CALCULATE (
+    [Exceeding QCVN Hours],
+    vw_Dim_Time_Of_Day_BI[Is_Rush_Hour] = 1
+)
+
+
+// ==============================================================================
+// 4. NHÓM PHÂN TÍCH CHUỖI THỜI GIAN & TĂNG TRƯỞNG (TIME INTELLIGENCE & YoY)
+// ==============================================================================
+
+/// <summary>
+/// Lượng phát thải khí nhà kính của năm trước liền kề (Prior Year).
+/// Format: #,##0.00 "MtCO2e"
+/// </summary>
+Emissions Prior Year = 
+CALCULATE (
+    [Total GHG Emissions (MtCO2e)],
+    SAMEPERIODLASTYEAR ( vw_Dim_Date_BI[Year_Date] )
+)
+
+/// <summary>
+/// Tốc độ tăng trưởng phát thải so với cùng kỳ năm trước (Year-over-Year %).
+/// Format: +0.0%;-0.0%;0.0%
+/// </summary>
+Emissions YoY Growth % = 
+VAR _Current = [Total GHG Emissions (MtCO2e)]
+VAR _Prior = [Emissions Prior Year]
+RETURN
+    DIVIDE ( _Current - _Prior, _Prior, BLANK () )
+
+/// <summary>
+/// Tổng GRDP của tỉnh ở năm trước liền kề.
+/// Format: #,##0.00 "Tỷ VNĐ"
+/// </summary>
+GRDP Prior Year = 
+CALCULATE (
+    [Provincial GRDP (Billion VND)],
+    SAMEPERIODLASTYEAR ( vw_Dim_Date_BI[Year_Date] )
+)
+
+/// <summary>
+/// Tốc độ tăng trưởng kinh tế địa phương so với cùng kỳ năm trước (GRDP YoY %).
+/// Format: +0.0%;-0.0%;0.0%
+/// </summary>
+GRDP YoY Growth % = 
+VAR _Current = [Provincial GRDP (Billion VND)]
+VAR _Prior = [GRDP Prior Year]
+RETURN
+    DIVIDE ( _Current - _Prior, _Prior, BLANK () )
+
+/// <summary>
+/// Tốc độ tăng trưởng kép hàng năm của phát thải trong 5 năm gần nhất (5-Year CAGR %).
+/// Format: +0.0%;-0.0%;0.0%
+/// </summary>
+5-Year Emissions CAGR % = 
+VAR _CurrentYear = MAX ( vw_Dim_Date_BI[Year] )
+VAR _BaseYear = _CurrentYear - 5
+VAR _CurrentEmissions = [Total GHG Emissions (MtCO2e)]
+VAR _BaseEmissions = 
+    CALCULATE (
+        [Total GHG Emissions (MtCO2e)],
+        FILTER ( ALL ( vw_Dim_Date_BI ), vw_Dim_Date_BI[Year] = _BaseYear )
+    )
+RETURN
+    IF (
+        NOT ( ISBLANK ( _CurrentEmissions ) ) && NOT ( ISBLANK ( _BaseEmissions ) ) && _BaseEmissions > 0,
+        ( ( _CurrentEmissions / _BaseEmissions ) ^ ( 1.0 / 5 ) ) - 1,
+        BLANK ()
+    )
+
+
+// ==============================================================================
+// 5. NHÓM LỘ TRÌNH NET-ZERO 2030 / 2050 & CẢNH BÁO KHOẢNG CÁCH (GAP ANALYSIS)
+// ==============================================================================
+
+/// <summary>
+/// Mức phát thải cơ sở tại năm mốc 2020 của Việt Nam (MtCO2e).
+/// Format: #,##0.00 "MtCO2e"
+/// </summary>
+Baseline 2020 Emissions = 
+CALCULATE (
+    [Total GHG Emissions (MtCO2e)],
+    FILTER ( ALL ( vw_Dim_Date_BI ), vw_Dim_Date_BI[Year] = 2020 )
+)
+
+/// <summary>
+/// Mục tiêu phát thải tối đa vào năm 2030 theo cam kết Đóng góp do quốc gia tự quyết định (NDC)
+/// giảm 43.5% so với kịch bản phát triển thông thường với hỗ trợ quốc tế.
+/// Format: #,##0.00 "MtCO2e"
+/// </summary>
+Target Emission 2030 (NDC) = 
+[Baseline 2020 Emissions] * ( 1 - 0.435 )
+
+/// <summary>
+/// Khoảng cách phát thải so với mục tiêu Net-Zero 2030 (Emissions Gap).
+/// Giá trị dương phản ánh nguy cơ vượt trần phát thải cần cắt giảm thêm.
+/// Format: +#,##0.00;-#,##0.00;0.00 "MtCO2e"
+/// </summary>
+NetZero 2030 Target Gap (MtCO2e) = 
+[Total GHG Emissions (MtCO2e)] - [Target Emission 2030 (NDC)]
+
+/// <summary>
+/// Hạn ngạch phát thải phân bổ cho từng tỉnh năm 2030 dựa trên tỷ trọng đóng góp GRDP.
+/// Phục vụ cơ chế phân bổ tín chỉ carbon địa phương (ETS).
+/// Format: #,##0.00 "Tấn"
+/// </summary>
+Provincial Emission Quota 2030 = 
+VAR _TotalGRDP = CALCULATE ( [Provincial GRDP (Billion VND)], ALL ( vw_Dim_Province_Geo_BI ) )
+VAR _ProvinceShare = DIVIDE ( [Provincial GRDP (Billion VND)], _TotalGRDP, 0 )
+VAR _NationalTargetTonnes = [Target Emission 2030 (NDC)] * 1000000
+RETURN
+    _NationalTargetTonnes * _ProvinceShare
+
+/// <summary>
+/// Tỷ lệ tiêu hao hạn ngạch carbon phân bổ năm 2030 (%).
+/// > 100%: Tỉnh đã vượt trần hạn ngạch carbon.
+/// Format: 0.0%
+/// </summary>
+Quota Realization % = 
+DIVIDE (
+    [Provincial Carbon Tonnes],
+    [Provincial Emission Quota 2030],
+    BLANK ()
+)
+
+
+// ==============================================================================
+// 6. NHÓM TRỰC QUAN HÓA ĐỘNG & ĐỊNH DẠNG MÀU SẮC (DYNAMIC VISUAL ENGINE)
+// ==============================================================================
+
+/// <summary>
+/// Mã màu Hex phản ánh trạng thái Tách rời Kinh tế - Carbon (Tapio) phục vụ Conditional Formatting.
+/// Xanh lục (#10B981): Tách rời mạnh; Vàng cam (#F59E0B): Tách rời yếu; Đỏ (#EF4444): Chưa tách rời.
+/// </summary>
+Decoupling Color Hex = 
+VAR _Idx = [Provincial Decoupling Index]
+RETURN
+    SWITCH (
+        TRUE (),
+        ISBLANK ( _Idx ), "#9CA3AF",          // Xám (Không có số liệu)
+        _Idx < 0, "#10B981",                   // Xanh lục (Tách rời mạnh - Tốt)
+        _Idx >= 0 && _Idx <= 0.8, "#F59E0B",   // Vàng hổ phách (Tách rời yếu)
+        "#EF4444"                              // Đỏ đậm (Chưa tách rời / Thâm dụng carbon)
+    )
+
+/// <summary>
+/// Nhãn trạng thái tiếng Việt phục vụ hiển thị trên Card hoặc Tooltip trực quan.
+/// </summary>
+Decoupling Status Label = 
+VAR _Idx = [Provincial Decoupling Index]
+RETURN
+    SWITCH (
+        TRUE (),
+        ISBLANK ( _Idx ), N"Chưa có dữ liệu",
+        _Idx < 0, N"Tách rời mạnh (Strong Decoupling)",
+        _Idx >= 0 && _Idx <= 0.8, N"Tách rời yếu (Weak Decoupling)",
+        _Idx > 0.8 && _Idx <= 1.2, N"Mở rộng đồng tốc (Coupling)",
+        N"Tăng trưởng thâm dụng Carbon (Negative Decoupling)"
+    )
+
+/// <summary>
+/// Mã màu Hex phản ánh thang bậc chỉ số chất lượng không khí (VN AQI Standards).
+/// </summary>
+AQI Status Color Hex = 
+VAR _AQI = [Avg AQI Index]
+RETURN
+    SWITCH (
+        TRUE (),
+        ISBLANK ( _AQI ), "#9CA3AF",       // Không có trạm
+        _AQI <= 50, "#10B981",              // Xanh lá (Tốt: 0 - 50)
+        _AQI <= 100, "#F59E0B",             // Vàng (Trung bình: 51 - 100)
+        _AQI <= 150, "#F97316",             // Cam (Kém: 101 - 150)
+        _AQI <= 200, "#EF4444",             // Đỏ (Xấu: 151 - 200)
+        _AQI <= 300, "#8B5CF6",             // Tím (Rất xấu: 201 - 300)
+        "#7F1D1D"                           // Nâu tím đậm (Nguy hại: > 300)
+    )
+
+/// <summary>
+/// Tiêu đề động tự động cập nhật theo tỉnh thành đang được người dùng lựa chọn trên Slicer.
+/// </summary>
+Dynamic Card Title - Selected Province = 
+VAR _SelectedProvince = SELECTEDVALUE ( vw_Dim_Province_Geo_BI[Province_Name], N"Toàn quốc (63 Tỉnh thành)" )
+RETURN
+    N"Báo cáo Phát thải & Kinh tế Xanh: " & _SelectedProvince
+
+/// <summary>
+/// Phụ đề cảnh báo động về khoảng cách mục tiêu Net-Zero 2030.
+/// </summary>
+Dynamic KPI Subtitle - NetZero Status = 
+VAR _Gap = [NetZero 2030 Target Gap (MtCO2e)]
+RETURN
+    IF (
+        ISBLANK ( _Gap ),
+        N"Chưa có dữ liệu so sánh mục tiêu 2030",
+        IF (
+            _Gap <= 0,
+            N"Đạt ngưỡng an toàn cam kết NDC 2030 (Dư địa: " & FORMAT ( ABS ( _Gap ), "#,##0.0" ) & N" MtCO2e)",
+            N"Vượt trần mục tiêu phát thải NDC 2030 (+ " & FORMAT ( _Gap, "#,##0.0" ) & N" MtCO2e)"
+        )
+    )
