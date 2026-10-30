@@ -63,7 +63,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | `Baseline 2020 Emissions` | `CALCULATE(Total GHG, Year = 2020)` | Decimal (`#,##0.00 MtCO2e`) | Mức phát thải cơ sở năm 2020 | Target Reference Line |
 | `Target Emission 2030 (NDC)`| `Baseline 2020 * (1 - 0.435)` | Decimal (`#,##0.00 MtCO2e`) | Mục tiêu phát thải tối đa năm 2030 (NDC) | Target Reference Line |
-| `NetZero 2030 Target Gap` | `Total GHG - Target Emission 2030` | Decimal (`+#,##0.00;-#,##0.00`) | Khoảng cách cần cắt giảm để đạt NDC | Bullet Chart, Waterfall |
+| `NetZero 2030 Target Gap (MtCO2e)` | `Total GHG - Target Emission 2030` | Decimal (`+#,##0.00;-#,##0.00`) | Khoảng cách cần cắt giảm để đạt NDC | Bullet Chart, Waterfall |
 | `Provincial Quota 2030` | `Target National * (GRDP / Total GRDP)` | Decimal (`#,##0.00 Tấn`) | Hạn ngạch carbon phân bổ cho từng tỉnh | Bar Chart, Table |
 | `Quota Realization %` | `DIVIDE(Carbon Tonnes, Quota 2030)` | Percentage (`0.0%`) | Tỷ lệ sử dụng hạn ngạch phát thải (%) | Gauge, Heatmap |
 

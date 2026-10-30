@@ -16,6 +16,7 @@ plans
 !data/data_profiling_report.md
 !data/week2_schema_verification_report.md
 !data/week3_etl_verification_report.md
+!data/week4_powerbi_verification_report.md
 !docs/*.md
 !powerbi/*.md
 
@@ -28,4 +29,4 @@ env/
 *.log
 
 # Large staging datasets (>100MB)
-data/staging/hourly_air_monitoring_*.csv
+data/staging/hourly_air_monitoring_*.csv
