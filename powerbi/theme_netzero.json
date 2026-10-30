@@ -1,0 +1,118 @@
+{
+  "name": "NetZero_Emerald_DarkSlate",
+  "dataColors": [
+    "#10B981",
+    "#06B6D4",
+    "#3B82F6",
+    "#8B5CF6",
+    "#F59E0B",
+    "#EC4899",
+    "#14B8A6",
+    "#6366F1",
+    "#EF4444"
+  ],
+  "background": "#0F172A",
+  "foreground": "#1E293B",
+  "tableAccent": "#10B981",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "*": {
+          "fontFamily": "Segoe UI",
+          "color": {
+            "solid": {
+              "color": "#F8FAFC"
+            }
+          }
+        },
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#1E293B"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#334155"
+              }
+            },
+            "radius": 8
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#000000"
+              }
+            },
+            "position": "Outer",
+            "preset": "BottomRight",
+            "shadowBlur": 10,
+            "transparency": 50
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#F8FAFC"
+              }
+            },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0F172A"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#10B981"
+              }
+            },
+            "fontSize": 24,
+            "fontFamily": "Segoe UI Bold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#94A3B8"
+              }
+            },
+            "fontSize": 10
+          }
+        ]
+      }
+    }
+  }
+}
