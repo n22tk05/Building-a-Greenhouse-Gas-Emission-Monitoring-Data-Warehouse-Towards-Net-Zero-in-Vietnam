@@ -1,7 +1,7 @@
 # Báo Cáo Nghiệm Thu & Kiểm Định Toàn Diện Tuần 4 (Week 4 Power BI Capstone Quality Gate)
 
 **Dự án:** Vietnam Greenhouse Gas Emission Monitoring Data Warehouse Towards Net-Zero (`NetZero_VN_DWH`)  
-**Thời điểm tạo:** 2026-10-30 22:13:56  
+**Thời điểm tạo:** 2026-10-30 22:18:05  
 **Trạng thái nghiệm thu:** 🟢 **ALL QUALITY GATES PASSED (100% SẴN SÀNG BẢO VỆ ĐỒ ÁN)**
 
 ---

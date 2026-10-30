@@ -1,7 +1,7 @@
 # Báo Cáo Đánh Giá & Kiểm Định Chất Lượng Dữ Liệu (Data Profiling & Quality Gate)
 
 **Dự án:** Vietnam Greenhouse Gas Emission Monitoring Data Warehouse Towards Net-Zero  
-**Thời điểm tạo:** 2026-10-29 23:03:23  
+**Thời điểm tạo:** 2026-10-30 22:18:05  
 **Trạng thái kiểm định:** 🟢 **PASSED - READY FOR DWH STAGE 2**  
 
 ---

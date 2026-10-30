@@ -1,7 +1,7 @@
 # Báo Cáo Kiểm Định Mô Hình Dữ Liệu Star Schema & SQL Server (Week 2 Quality Gate)
 
 **Dự án:** Vietnam Greenhouse Gas Emission Monitoring Data Warehouse Towards Net-Zero  
-**Thời điểm kiểm định:** 2026-10-29 23:03:23  
+**Thời điểm kiểm định:** 2026-10-30 22:18:05  
 **Trạng thái kiểm định:** 🟢 **ALL QUALITY GATES PASSED (100% SẴN SÀNG CHO TUẦN 3 SSIS)**  
 
 ---
