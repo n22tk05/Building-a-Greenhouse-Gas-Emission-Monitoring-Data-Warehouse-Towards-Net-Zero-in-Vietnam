@@ -17,8 +17,10 @@ plans
 !data/week2_schema_verification_report.md
 !data/week3_etl_verification_report.md
 !data/week4_powerbi_verification_report.md
-!docs/*.md
 !powerbi/*.md
+
+# Ignore docs folder from git tracking
+docs/
 
 # Python
 __pycache__/
