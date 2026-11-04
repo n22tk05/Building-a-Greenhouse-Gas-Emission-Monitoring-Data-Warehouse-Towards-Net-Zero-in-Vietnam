@@ -84,6 +84,23 @@ class TestVietnamTopojson(unittest.TestCase):
             len(topo["objects"]["provinces"]["geometries"]), 63
         )
 
+    def test_wgs84_geographic_coordinates(self):
+        with open(self.topo_path, "r", encoding="utf-8") as f:
+            topo = json.load(f)
+
+        self.assertIn("bbox", topo, "TopoJSON must have a bbox for Power BI Shape Map")
+        min_lon, min_lat, max_lon, max_lat = topo["bbox"]
+
+        # Vietnam boundaries in WGS84
+        self.assertGreaterEqual(min_lon, 100.0)
+        self.assertLessEqual(min_lon, 104.0)
+        self.assertGreaterEqual(min_lat, 8.0)
+        self.assertLessEqual(min_lat, 10.0)
+        self.assertGreaterEqual(max_lon, 108.0)
+        self.assertLessEqual(max_lon, 120.0)
+        self.assertGreaterEqual(max_lat, 22.0)
+        self.assertLessEqual(max_lat, 25.0)
+
     def test_verify_script_executes_successfully(self):
         from scripts.verify_topojson import verify_topojson
         self.assertTrue(verify_topojson(), "Quality gate verification failed!")

@@ -1,16 +1,12 @@
 """Script to generate and standardize `data/reference/vietnam_provinces.topojson`
-for Microsoft Power BI Shape Map visual.
+for Microsoft Power BI Shape Map visual using genuine WGS84 geographic coordinates.
 
-It pulls the 63-province polygon topologies from verified open GIS data,
-aligns properties 100% with `data/reference/dim_provinces_master.csv`:
-- `id`: Province_Code ('01' to '96')
-- `Province_Code`: '01' to '96'
-- `Province_Name`: Vietnamese standard name (Unicode)
-- `Province_Name_Ascii`: ASCII name without diacritics
-- `Region`: Economic/Geographic Region
-- `Economic_Zone`: Economic zone
-- `Is_Industrial_Hub`: 1 or 0
-- Object layer name: `vietnam_provinces` and `provinces` (dual-compatibility)
+Features:
+1. Sourced from geoBoundaries VNM ADM1 (WGS84 EPSG:4326).
+2. Merges Côn Đảo and mainland Bà Rịa - Vũng Tàu into a single MultiPolygon.
+3. Produces exactly 63 provinces aligning 100% with `dim_provinces_master.csv`.
+4. Embeds WGS84 bounding box [102.145883, 8.439958, 114.996965, 23.390974].
+5. Dual layers: `vietnam_provinces` and `provinces`.
 """
 
 import csv
@@ -37,6 +33,7 @@ def build_vietnam_topojson():
     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     csv_path = os.path.join(project_root, "data", "reference", "dim_provinces_master.csv")
     output_topo_path = os.path.join(project_root, "data", "reference", "vietnam_provinces.topojson")
+    raw_cache_path = os.path.join(project_root, "data", "raw", "geoBoundaries-VNM-ADM1.topojson")
 
     print("[INFO] Loading master province metadata from CSV...")
     with open(csv_path, "r", encoding="utf-8-sig") as f:
@@ -58,104 +55,145 @@ def build_vietnam_topojson():
             "Is_Industrial_Hub": int(r["Is_Industrial_Hub"]),
         }
 
-    print(f"[INFO] Successfully indexed {len(dim_map)} provinces from metadata.")
+    print(f"[INFO] Successfully indexed {len(dim_map)} master provinces.")
 
-    # Source TopoJSON with local caching fallback
-    raw_cache_path = os.path.join(project_root, "data", "raw", "vn-simple-topo.json")
+    # Load source WGS84 TopoJSON
     if os.path.exists(raw_cache_path):
         print(f"[INFO] Loading cached geometry topology from: {raw_cache_path} ...")
         with open(raw_cache_path, "r", encoding="utf-8") as f:
             raw_topo = json.load(f)
     else:
-        source_url = "https://raw.githubusercontent.com/lebinh/vietnam-choropleth-map/master/vn-simple-topo.json"
-        print(f"[INFO] Fetching verified geometry topology from: {source_url} ...")
+        source_url = "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/VNM/ADM1/geoBoundaries-VNM-ADM1.topojson"
+        print(f"[INFO] Fetching genuine WGS84 geometry topology from: {source_url} ...")
         req = urllib.request.Request(source_url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
         with urllib.request.urlopen(req, timeout=15) as resp:
             raw_content = resp.read().decode("utf-8")
             raw_topo = json.loads(raw_content)
-        # Cache for offline builds
         os.makedirs(os.path.dirname(raw_cache_path), exist_ok=True)
         with open(raw_cache_path, "w", encoding="utf-8") as f:
             f.write(raw_content)
         print(f"[INFO] Cached source topology to: {raw_cache_path}")
 
-    source_geoms = raw_topo["objects"]["tracts"]["geometries"]
-    print(f"[INFO] Loaded {len(source_geoms)} geometries from source TopoJSON.")
+    # Inspect source objects
+    src_obj_key = list(raw_topo["objects"].keys())[0]
+    src_geoms = raw_topo["objects"][src_obj_key]["geometries"]
+    print(f"[INFO] Loaded {len(src_geoms)} raw geometries from '{src_obj_key}'.")
 
-    standardized_geoms = []
-    matched_codes = set()
-
-    for idx, g in enumerate(source_geoms):
-        source_name = g.get("properties", {}).get("ten_tinh", "")
-        k = to_key(source_name)
+    # Group geometries into 63 provinces
+    grouped = {}
+    for g in src_geoms:
+        name = g.get("properties", {}).get("shapeName", "").strip()
+        k = to_key(name)
+        if k == "condao":
+            k = to_key("Ba Ria - Vung Tau")
+        elif k == "hochiminh":
+            k = to_key("Ho Chi Minh")
+        elif k == "hanoit":
+            k = to_key("Ha Noi")
+        elif k == "thienthienhue":
+            k = to_key("Thua Thien Hue")
 
         if k not in dim_map:
-            raise KeyError(f"Geometry #{idx} '{source_name}' could not be matched to master provinces!")
+            raise KeyError(f"Raw geometry '{name}' (key: '{k}') could not be matched to master provinces!")
 
-        meta = dim_map[k]
+        if k not in grouped:
+            grouped[k] = []
+        grouped[k].append(g)
+
+    if len(grouped) != 63:
+        raise ValueError(f"Expected 63 grouped provinces, got {len(grouped)}")
+
+    # Sort standardized geometries by Province_Code ('01' to '96')
+    standardized_geoms = []
+    for k, meta in sorted(dim_map.items(), key=lambda item: item[1]["Province_Code"]):
+        g_list = grouped[k]
         code = meta["Province_Code"]
-        matched_codes.add(code)
 
-        # Standardize geometry properties for Power BI Shape Map
-        std_geom = {
-            "type": g["type"],
-            "arcs": g["arcs"],
-            "id": code,  # Primary key for Power BI Shape Map matching
-            "properties": {
-                "id": code,
-                "Province_Code": code,
-                "Province_Name": meta["Province_Name"],
-                "Province_Name_Ascii": meta["Province_Name_Ascii"],
-                "Region": meta["Region"],
-                "Economic_Zone": meta["Economic_Zone"],
-                "Area_Km2": meta["Area_Km2"],
-                "Is_Industrial_Hub": meta["Is_Industrial_Hub"],
-                "name": meta["Province_Name"],  # Standard fallback
-            },
+        # Merge arcs if multiple pieces (e.g. Ba Ria - Vung Tau + Con Dao)
+        all_polygon_rings = []
+        for g in g_list:
+            g_type = g.get("type")
+            if g_type == "Polygon":
+                all_polygon_rings.append(g.get("arcs", []))
+            elif g_type == "MultiPolygon":
+                all_polygon_rings.extend(g.get("arcs", []))
+            else:
+                raise ValueError(f"Unsupported geometry type: {g_type}")
+
+        if len(all_polygon_rings) == 1:
+            geom_type = "Polygon"
+            geom_arcs = all_polygon_rings[0]
+        else:
+            geom_type = "MultiPolygon"
+            geom_arcs = all_polygon_rings
+
+        props = {
+            "id": code,
+            "Province_Code": code,
+            "Province_Name": meta["Province_Name"],
+            "Province_Name_Ascii": meta["Province_Name_Ascii"],
+            "Region": meta["Region"],
+            "Economic_Zone": meta["Economic_Zone"],
+            "Area_Km2": meta["Area_Km2"],
+            "Is_Industrial_Hub": meta["Is_Industrial_Hub"],
+            "name": meta["Province_Name"],
         }
-        standardized_geoms.append(std_geom)
 
-    if len(matched_codes) != 63:
-        raise ValueError(f"Only matched {len(matched_codes)}/63 unique province codes!")
+        standardized_geoms.append({
+            "type": geom_type,
+            "arcs": geom_arcs,
+            "id": code,
+            "properties": props
+        })
 
-    # Sort geometries by Province_Code ('01' -> '96')
-    standardized_geoms.sort(key=lambda x: x["properties"]["Province_Code"])
+    # Compute bounding box in WGS84
+    scale = raw_topo["transform"]["scale"]
+    translate = raw_topo["transform"]["translate"]
+    min_x, max_x = float("inf"), float("-inf")
+    min_y, max_y = float("inf"), float("-inf")
 
-    # Construct final TopoJSON structure with dual object layers ('vietnam_provinces' & 'provinces')
+    for arc in raw_topo["arcs"]:
+        cur_x, cur_y = 0, 0
+        for dx, dy in arc:
+            cur_x += dx
+            cur_y += dy
+            lon = cur_x * scale[0] + translate[0]
+            lat = cur_y * scale[1] + translate[1]
+            if lon < min_x: min_x = lon
+            if lon > max_x: max_x = lon
+            if lat < min_y: min_y = lat
+            if lat > max_y: max_y = lat
+
+    bbox = [round(min_x, 6), round(min_y, 6), round(max_x, 6), round(max_y, 6)]
+    print(f"[INFO] Calculated WGS84 Bounding Box: {bbox}")
+
     final_topo = {
         "type": "Topology",
-        "bbox": raw_topo.get("bbox", [102.14, 8.56, 109.46, 23.39]),
+        "bbox": bbox,
+        "transform": raw_topo["transform"],
         "objects": {
             "vietnam_provinces": {
                 "type": "GeometryCollection",
-                "geometries": standardized_geoms,
+                "geometries": standardized_geoms
             },
             "provinces": {
                 "type": "GeometryCollection",
-                "geometries": standardized_geoms,
-            },
+                "geometries": standardized_geoms
+            }
         },
-        "arcs": raw_topo["arcs"],
+        "arcs": raw_topo["arcs"]
     }
 
-    if "transform" in raw_topo:
-        final_topo["transform"] = raw_topo["transform"]
+    os.makedirs(os.path.dirname(output_topo_path), exist_ok=True)
+    with open(output_topo_path, "w", encoding="utf-8") as f:
+        json.dump(final_topo, f, ensure_ascii=False, separators=(",", ":"))
 
-    print(f"[INFO] Writing standardized TopoJSON to: {output_topo_path} ...")
-    with open(output_topo_path, "w", encoding="utf-8") as out_f:
-        json.dump(final_topo, out_f, ensure_ascii=False, separators=(",", ":"))
-
-    file_size_kb = os.path.getsize(output_topo_path) / 1024
-    print(f"[SUCCESS] Created {output_topo_path} ({file_size_kb:.2f} KB) with all 63 provinces!")
-
-    # Verify upon generation to fulfill the "generate or verify" contract
-    try:
-        sys.path.insert(0, project_root)
-        from scripts.verify_topojson import verify_topojson
-        print("\n[INFO] Triggering automatic quality gate verification...")
-        verify_topojson()
-    except Exception as e:
-        print(f"[WARNING] Quality gate trigger error: {e}")
+    out_size_kb = os.path.getsize(output_topo_path) / 1024
+    print(f"[SUCCESS] Generated '{output_topo_path}':")
+    print(f"  - Size: {out_size_kb:.2f} KB (Optimized for Power BI)")
+    print(f"  - Layers: 'vietnam_provinces' & 'provinces'")
+    print(f"  - Total provinces: {len(standardized_geoms)}")
+    print(f"  - Coordinates: Genuine WGS84 (Lon: [{bbox[0]}, {bbox[2]}], Lat: [{bbox[1]}, {bbox[3]}])")
 
 
 if __name__ == "__main__":

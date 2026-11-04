@@ -1,7 +1,7 @@
 # Báo Cáo Kiểm Định Pipeline ETL & Gói SSIS (Week 3 Quality Gate)
 
 **Dự án:** Vietnam Greenhouse Gas Emission Monitoring Data Warehouse Towards Net-Zero  
-**Thời điểm kiểm định:** 2026-10-30 22:18:05  
+**Thời điểm kiểm định:** 2026-11-04 07:47:50  
 **Trạng thái kiểm định:** 🟢 **ALL QUALITY GATES PASSED (100% SẴN SÀNG CHO TUẦN 4 POWER BI)**  
 
 ---
