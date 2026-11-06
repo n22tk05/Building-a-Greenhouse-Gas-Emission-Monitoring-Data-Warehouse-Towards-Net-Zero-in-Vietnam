@@ -30,5 +30,15 @@ __pycache__/
 env/
 *.log
 
+# Visual Studio / SSIS artifacts
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+ssis/**/bin/
+ssis/**/obj/
+ssis/**/UpgradeLog*
+
 # Large staging datasets (>100MB)
 data/staging/hourly_air_monitoring_*.csv
