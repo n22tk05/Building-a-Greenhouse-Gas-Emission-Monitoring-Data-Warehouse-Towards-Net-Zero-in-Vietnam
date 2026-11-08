@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost"
+  DTS:DTSID="{305166C1-96F1-4242-A5AA-7D1FE26C6601}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-NetZero_ETL-{305166C1-96F1-4242-A5AA-7D1FE26C6601}localhost;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
