@@ -150,45 +150,40 @@ def build_vietnam_topojson():
             else:
                 raise ValueError(f"Unsupported geometry type: {g_type}")
 
-        # Enhanced geographic features: Quần đảo Hoàng Sa (Đà Nẵng) & Trường Sa (Khánh Hòa)
+        # Enhanced geographic features: Tối ưu kích thước hiển thị Quần đảo Hoàng Sa (Đà Nẵng) & Trường Sa (Khánh Hòa)
+        # Bằng cách phóng to 4.5x quanh tâm các đảo nguyên bản từ geoBoundaries để bảo toàn 100% hướng Clockwise,
+        # tránh lỗi inner hole/self-intersection và đảm bảo hiển thị nổi bật trên Power BI Shape Map.
         scale = raw_topo["transform"]["scale"]
         translate = raw_topo["transform"]["translate"]
-        if code == "48":  # Đà Nẵng: Bổ sung các cụm đảo lớn thuộc Quần đảo Hoàng Sa
-            hoang_sa_islands = [
-                (111.20, 15.78, 0.18, 0.15),  # Đảo Tri Tôn
-                (111.65, 16.53, 0.20, 0.16),  # Cụm Đảo Hoàng Sa / Lưỡi Liềm
-                (112.35, 16.83, 0.20, 0.16),  # Đảo Phú Lâm
-                (112.75, 16.66, 0.18, 0.15),  # Đảo Linh Côn
-                (111.50, 17.10, 0.18, 0.15),  # Cụm Bãi Cát Vàng
-                (112.50, 16.05, 0.18, 0.15),  # Bãi Bom Bay
-            ]
-            # Giữ lại đất liền Đà Nẵng (Poly có nhiều đỉnh nhất), thay các micro-polygons vô hình bằng đảo rõ nét
-            mainland = [max(all_polygon_rings, key=lambda ring: len(ring))]
-            for cx, cy, rx, ry in hoang_sa_islands:
-                arc_idx = len(raw_topo["arcs"])
-                raw_topo["arcs"].append(encode_island(cx, cy, rx, ry, scale, translate))
-                mainland.append([[arc_idx]])
-            all_polygon_rings = mainland
-
-        elif code == "56":  # Khánh Hòa: Bổ sung các cụm đảo lớn thuộc Quần đảo Trường Sa
-            truong_sa_islands = [
-                (111.92, 8.64, 0.20, 0.16),   # Đảo Trường Sa Lớn
-                (112.35, 8.68, 0.18, 0.15),   # Cụm Đảo Thuyền Chài
-                (113.60, 8.90, 0.18, 0.15),   # Cụm Đảo Phan Vinh
-                (114.65, 8.85, 0.18, 0.15),   # Cụm Đảo Tiên Nữ
-                (114.32, 9.88, 0.20, 0.16),   # Cụm Đảo Sinh Tồn
-                (114.40, 10.30, 0.20, 0.16),  # Cụm Đảo Nam Yết & Sơn Ca
-                (114.33, 11.43, 0.20, 0.16),  # Cụm Đảo Song Tử Tây
-                (114.36, 10.95, 0.18, 0.15),  # Cụm Đảo Ba Bình / Thị Tứ
-            ]
-            # Giữ lại đất liền Khánh Hòa và đảo ven bờ
-            sorted_rings = sorted(all_polygon_rings, key=lambda ring: len(ring), reverse=True)
-            mainland = sorted_rings[:2]  # Đất liền và đảo ven bờ Nha Trang
-            for cx, cy, rx, ry in truong_sa_islands:
-                arc_idx = len(raw_topo["arcs"])
-                raw_topo["arcs"].append(encode_island(cx, cy, rx, ry, scale, translate))
-                mainland.append([[arc_idx]])
-            all_polygon_rings = mainland
+        if code in ("48", "56"):
+            island_arcs_set = {67, 68, 72, 73, 74, 75} if code == "48" else {141, 142, 143, 144, 145, 146, 147}
+            for a_idx in island_arcs_set:
+                arc = raw_topo["arcs"][a_idx]
+                x, y = 0, 0
+                coords = []
+                for dx, dy in arc:
+                    x += dx
+                    y += dy
+                    coords.append((x * scale[0] + translate[0], y * scale[1] + translate[1]))
+                n = len(coords) - 1
+                cx = sum(p[0] for p in coords[:-1]) / n
+                cy = sum(p[1] for p in coords[:-1]) / n
+                factor = 4.5
+                scaled = []
+                for lon, lat in coords:
+                    scaled.append((cx + factor * (lon - cx), cy + factor * (lat - cy)))
+                scaled[-1] = scaled[0]
+                new_arc = []
+                prev_qx, prev_qy = 0, 0
+                for i, (lon, lat) in enumerate(scaled):
+                    qx = int(round((lon - translate[0]) / scale[0]))
+                    qy = int(round((lat - translate[1]) / scale[1]))
+                    if i == 0:
+                        new_arc.append([qx, qy])
+                    else:
+                        new_arc.append([qx - prev_qx, qy - prev_qy])
+                    prev_qx, prev_qy = qx, qy
+                raw_topo["arcs"][a_idx] = new_arc
 
         if len(all_polygon_rings) == 1:
             geom_type = "Polygon"

@@ -359,11 +359,11 @@ VAR _Idx = [Provincial Decoupling Index]
 RETURN
     SWITCH (
         TRUE (),
-        ISBLANK ( _Idx ), N"Chưa có dữ liệu",
-        _Idx < 0, N"Tách rời mạnh (Strong Decoupling)",
-        _Idx >= 0 && _Idx <= 0.8, N"Tách rời yếu (Weak Decoupling)",
-        _Idx > 0.8 && _Idx <= 1.2, N"Mở rộng đồng tốc (Coupling)",
-        N"Tăng trưởng thâm dụng Carbon (Negative Decoupling)"
+        ISBLANK ( _Idx ), "No Data",
+        _Idx < 0, "Strong Decoupling",
+        _Idx >= 0 && _Idx <= 0.8, "Weak Decoupling",
+        _Idx > 0.8 && _Idx <= 1.2, "Coupling",
+        "Negative Decoupling (Carbon Intensive)"
     )
 
 /// <summary>
@@ -387,22 +387,22 @@ RETURN
 /// Tiêu đề động tự động cập nhật theo tỉnh thành đang được người dùng lựa chọn trên Slicer.
 /// </summary>
 Dynamic Card Title - Selected Province = 
-VAR _SelectedProvince = SELECTEDVALUE ( vw_Dim_Province_Geo_BI[Province_Name], N"Toàn quốc (63 Tỉnh thành)" )
+VAR _SelectedProvince = SELECTEDVALUE ( vw_Dim_Province_Geo_BI[Province_Name], "National Overview (63 Provinces)" )
 RETURN
-    N"Báo cáo Phát thải & Kinh tế Xanh: " & _SelectedProvince
+    "Green Economy & Carbon Emission Report: " & _SelectedProvince
 
 /// <summary>
-/// Phụ đề cảnh báo động về khoảng cách mục tiêu Net-Zero 2030.
+/// Phụ đề cảnh báo động về khoảng cách mục tiêu Net-Zero 2030 (Tiếng Anh chuẩn).
 /// </summary>
 Dynamic KPI Subtitle - NetZero Status = 
 VAR _Gap = [NetZero 2030 Target Gap (MtCO2e)]
 RETURN
     IF (
         ISBLANK ( _Gap ),
-        N"Chưa có dữ liệu so sánh mục tiêu 2030",
+        "No comparison data for 2030 target",
         IF (
             _Gap <= 0,
-            N"Đạt ngưỡng an toàn cam kết NDC 2030 (Dư địa: " & FORMAT ( ABS ( _Gap ), "#,##0.0" ) & N" MtCO2e)",
-            N"Vượt trần mục tiêu phát thải NDC 2030 (+ " & FORMAT ( _Gap, "#,##0.0" ) & N" MtCO2e)"
+            "Within NDC 2030 Target Safety Limit (Surplus: " & FORMAT ( ABS ( _Gap ), "#,##0.0" ) & " MtCO2e)",
+            "Exceeding NDC 2030 Emission Quota (+ " & FORMAT ( _Gap, "#,##0.0" ) & " MtCO2e)"
         )
     )
