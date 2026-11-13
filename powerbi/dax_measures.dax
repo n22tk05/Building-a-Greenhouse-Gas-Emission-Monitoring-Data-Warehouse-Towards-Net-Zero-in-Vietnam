@@ -320,6 +320,13 @@ RETURN
     _NationalTargetTonnes * _ProvinceShare
 
 /// <summary>
+/// Hạn ngạch phát thải phân bổ cho từng tỉnh năm 2030 (Carbon Tonnes) - khớp tên đặc tả Dashboard.
+/// Format: #,##0.00 "Tấn"
+/// </summary>
+Provincial Quota 2030 (Carbon Tonnes) = 
+[Provincial Emission Quota 2030]
+
+/// <summary>
 /// Tỷ lệ tiêu hao hạn ngạch carbon phân bổ năm 2030 (%).
 /// > 100%: Tỉnh đã vượt trần hạn ngạch carbon.
 /// Format: 0.0%
@@ -406,3 +413,25 @@ RETURN
             "Exceeding NDC 2030 Emission Quota (+ " & FORMAT ( _Gap, "#,##0.0" ) & " MtCO2e)"
         )
     )
+
+/// <summary>
+/// Diễn giải thông minh & Khuyến nghị chính sách tự động sinh theo tỉnh thành được chọn (Smart Narrative Visual 2.5).
+/// </summary>
+Dynamic Provincial Smart Narrative = 
+VAR _SelectedProvince = SELECTEDVALUE ( vw_Dim_Province_Geo_BI[Province_Name], "National Overview (63 Provinces)" )
+VAR _GRDP = FORMAT ( [Provincial GRDP (Billion VND)], "#,##0.0" )
+VAR _Emissions = FORMAT ( DIVIDE ( [Provincial Carbon Tonnes], 1000000, 0 ), "#,##0.00" )
+VAR _Tapio = FORMAT ( [Provincial Decoupling Index], "0.00" )
+VAR _Status = [Decoupling Status Label]
+VAR _QuotaPct = FORMAT ( [Quota Realization %], "0.0%" )
+VAR _ExceedHours = FORMAT ( [Exceeding QCVN Hours], "#,##0" )
+RETURN
+    "📌 DETAILED PROVINCIAL ANALYSIS: " & UPPER ( _SelectedProvince ) & UNICHAR ( 10 ) &
+    "• Economic Scale: GRDP reached " & _GRDP & " Billion VND; Total GHG Emissions: " & _Emissions & " Million Tonnes CO2e." & UNICHAR ( 10 ) &
+    "• Tapio Decoupling Index: " & _Tapio & " pts — Classification: " & _Status & "." & UNICHAR ( 10 ) &
+    "• 2030 Quota Realization: Currently at " & _QuotaPct & " of allocated Net-Zero 2030 target quota." & UNICHAR ( 10 ) &
+    "• Micro Big Data Air Monitoring 2024: Recorded " & _ExceedHours & " hours exceeding QCVN 05:2023 safety thresholds." & UNICHAR ( 10 ) & UNICHAR ( 10 ) &
+    "💡 STRATEGIC GREEN TRANSITION RECOMMENDATIONS:" & UNICHAR ( 10 ) &
+    "1. Industrial Emission Cap: Enforce stricter carbon quotas across concentrated industrial parks during peak hours." & UNICHAR ( 10 ) &
+    "2. Clean Energy Transition: Accelerate DPPA mechanism for rooftop solar and wind energy adoption." & UNICHAR ( 10 ) &
+    "3. Ecological Carbon Sinks: Expand conservation forestry to monetize provincial forest carbon offsets."
